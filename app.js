@@ -91,6 +91,8 @@ function normalizeDeal(deal, index) {
     views,
     score,
     url: deal.url || "#",
+    purchase_url: deal.purchase_url || deal.url || "#",
+    purchase_domain: deal.purchase_domain || "",
     source: deal.source || "샘플",
     created_at: deal.created_at || new Date().toISOString()
   };
@@ -302,15 +304,19 @@ function renderDeals() {
       flagsWrap.appendChild(span);
     });
 
-    const link = node.querySelector(".primary-link");
-    link.href = deal.url;
-    link.textContent = "원문 보기";
+    const purchaseLink = node.querySelector(".primary-link");
+    purchaseLink.href = deal.purchase_url || deal.url;
+    purchaseLink.textContent = deal.purchase_url && deal.purchase_url !== deal.url ? "구매처 바로가기" : "원문 보기";
+
+    const sourceLink = node.querySelector(".source-link");
+    sourceLink.href = deal.url;
+    sourceLink.textContent = "원문";
 
     node.querySelector(".copy-btn").addEventListener("click", async () => {
-      await navigator.clipboard.writeText(deal.url);
+      await navigator.clipboard.writeText(deal.purchase_url || deal.url);
       const btn = node.querySelector(".copy-btn");
       btn.textContent = "복사됨";
-      setTimeout(() => btn.textContent = "링크 복사", 1200);
+      setTimeout(() => btn.textContent = "복사", 1200);
     });
 
     list.appendChild(node);

@@ -280,7 +280,7 @@ h1{margin:0;font-size:42px;letter-spacing:-.06em}
 .score-bar{height:8px;background:#e4e7ec;border-radius:99px;overflow:hidden;margin-top:9px}
 .score-bar i{display:block;height:100%;width:0%;background:linear-gradient(90deg,#60a5fa,#2563eb);border-radius:99px}
 .deal-actions{display:flex;gap:8px;margin-top:12px}
-.primary-link,.copy-btn{
+.primary-link,.source-link,.copy-btn{
   flex:1;
   min-height:42px;
   display:inline-flex;align-items:center;justify-content:center;
@@ -289,7 +289,8 @@ h1{margin:0;font-size:42px;letter-spacing:-.06em}
   text-decoration:none;
 }
 .primary-link{background:#101828;color:white}
-.copy-btn{border:1px solid var(--line);background:white;color:#344054}
+.source-link,.copy-btn{border:1px solid var(--line);background:white;color:#344054}
+.source-link{flex:.62}
 .empty-state{
   text-align:center;
   padding:56px 18px;
