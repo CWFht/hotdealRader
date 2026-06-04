@@ -3,7 +3,7 @@ name: Update hotdeal data
 on:
   workflow_dispatch:
   schedule:
-    # UTC 기준 매시간 7분, 37분 실행. 한국시간도 매시간 7분, 37분쯤 갱신됩니다.
+    # 30분 단위 자동 갱신: 매시간 7분, 37분 실행
     - cron: "7,37 * * * *"
 
 permissions:
@@ -18,8 +18,9 @@ jobs:
     runs-on: ubuntu-latest
     env:
       PYTHONUNBUFFERED: "1"
-      HOTDEAL_RADAR_DETAIL_LINKS: "true"
-      HOTDEAL_RADAR_DETAIL_LIMIT: "80"
+      HOTDEAL_RADAR_MAX_PER_SOURCE: "35"
+      HOTDEAL_RADAR_DETAIL_LIMIT: "25"
+      HOTDEAL_RADAR_DELAY: "1.1"
 
     steps:
       - name: Checkout
