@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <title>핫딜 레이더</title>
+  <meta name="description" content="일상생활 전반의 핫딜을 모아서 보는 개인용 핫딜 피드" />
+  <meta name="theme-color" content="#101828" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="hero">
+      <div class="hero__top">
+        <div>
+          <p class="eyebrow">HOTDEAL RADAR</p>
+          <h1>핫딜 레이더</h1>
+          <p class="hero__desc">생활·식품·육아·IT·가전·패션까지, 오늘 줍기 좋은 딜만 모아보는 개인용 피드</p>
+        </div>
+        <button class="icon-btn" id="refreshBtn" type="button" aria-label="데이터 새로고침">↻</button>
+      </div>
+
+      <section class="summary-grid" aria-label="오늘의 핫딜 요약">
+        <article class="summary-card">
+          <span>수집 딜</span>
+          <strong id="totalCount">0</strong>
+        </article>
+        <article class="summary-card">
+          <span>인기 급상승</span>
+          <strong id="hotCount">0</strong>
+        </article>
+        <article class="summary-card">
+          <span>만원 이하</span>
+          <strong id="underTenCount">0</strong>
+        </article>
+        <article class="summary-card">
+          <span>업데이트</span>
+          <strong id="updatedAt">-</strong>
+        </article>
+      </section>
+    </header>
+
+    <main>
+      <section class="control-panel">
+        <label class="search-box" for="searchInput">
+          <span>⌕</span>
+          <input id="searchInput" type="search" placeholder="예: 물티슈, 로보락, 간식, 충전기, 패딩" autocomplete="off" />
+        </label>
+
+        <div class="mode-tabs" role="tablist" aria-label="탐색 모드">
+          <button class="mode-tab active" data-mode="all" type="button">전체</button>
+          <button class="mode-tab" data-mode="discover" type="button">발견모드</button>
+          <button class="mode-tab" data-mode="under10000" type="button">만원 이하</button>
+          <button class="mode-tab" data-mode="daily" type="button">생활비 절약</button>
+          <button class="mode-tab" data-mode="baby" type="button">육아템</button>
+          <button class="mode-tab" data-mode="tech" type="button">IT·가전</button>
+          <button class="mode-tab" data-mode="ali" type="button">알리 탐험</button>
+        </div>
+
+        <div class="chip-row" id="categoryChips" aria-label="카테고리 필터"></div>
+
+        <div class="filters">
+          <label>
+            정렬
+            <select id="sortSelect">
+              <option value="score">레이더 점수순</option>
+              <option value="new">최신순</option>
+              <option value="priceLow">낮은 가격순</option>
+              <option value="random">랜덤 발견순</option>
+            </select>
+          </label>
+          <label>
+            가격대
+            <select id="priceSelect">
+              <option value="all">전체</option>
+              <option value="under10000">1만원 이하</option>
+              <option value="under30000">3만원 이하</option>
+              <option value="under100000">10만원 이하</option>
+              <option value="over100000">10만원 이상</option>
+            </select>
+          </label>
+          <label class="toggle-line">
+            <input id="hideEnded" type="checkbox" checked />
+            종료·품절 숨김
+          </label>
+        </div>
+      </section>
+
+      <section class="personal-box">
+        <div>
+          <strong>내 제외어</strong>
+          <p>보기 싫은 단어를 넣으면 해당 딜을 피드에서 숨겨요. 예: 리퍼, 중고, 해외배송</p>
+        </div>
+        <form id="blockForm">
+          <input id="blockInput" type="text" placeholder="제외어 추가" />
+          <button type="submit">추가</button>
+        </form>
+        <div class="block-list" id="blockList"></div>
+      </section>
+
+      <section class="deal-toolbar">
+        <div>
+          <strong id="resultCount">0개 딜</strong>
+          <span id="resultHint">찾는 재미를 위해 카테고리를 섞어 보여드려요.</span>
+        </div>
+        <button class="ghost-btn" id="clearFilters" type="button">필터 초기화</button>
+      </section>
+
+      <section class="deal-list" id="dealList" aria-live="polite"></section>
+
+      <section class="empty-state hidden" id="emptyState">
+        <div class="empty-emoji">🛰️</div>
+        <h2>조건에 맞는 딜이 없어요</h2>
+        <p>검색어를 줄이거나 제외어를 확인해보세요.</p>
+      </section>
+    </main>
+  </div>
+
+  <template id="dealCardTemplate">
+    <article class="deal-card">
+      <div class="deal-card__head">
+        <div>
+          <span class="deal-source"></span>
+          <span class="deal-category"></span>
+        </div>
+        <button class="favorite-btn" type="button" aria-label="관심 딜 저장">♡</button>
+      </div>
+      <h2 class="deal-title"></h2>
+      <div class="deal-meta">
+        <span class="deal-price"></span>
+        <span class="deal-shop"></span>
+        <span class="deal-time"></span>
+      </div>
+      <div class="deal-flags"></div>
+      <div class="deal-score-wrap">
+        <div>
+          <span>레이더 점수</span>
+          <strong class="deal-score"></strong>
+        </div>
+        <div class="score-bar"><i></i></div>
+      </div>
+      <div class="deal-actions">
+        <a class="primary-link" target="_blank" rel="noopener noreferrer">원문 보기</a>
+        <button class="copy-btn" type="button">링크 복사</button>
+      </div>
+    </article>
+  </template>
+
+  <script src="./app.js"></script>
+</body>
+</html>

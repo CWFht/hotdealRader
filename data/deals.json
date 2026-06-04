@@ -1,0 +1,215 @@
+{
+  "generated_at": "2026-06-04T01:31:05.139535+00:00",
+  "notice": "샘플 데이터입니다. GitHub Actions 크롤러를 연결하면 data/deals.json이 자동 갱신됩니다.",
+  "deals": [
+    {
+      "id": "demo-001",
+      "title": "[쿠팡] 왕뚜껑 컵라면 110g, 18개 와우 할인 14,130원 / 무료배송",
+      "url": "https://example.com/demo-001",
+      "source": "샘플",
+      "shop": "쿠팡",
+      "category": "식품",
+      "price_text": "14,130원",
+      "price_value": 14130,
+      "comments": 16,
+      "likes": 16,
+      "views": 19817,
+      "flags": [
+        "무료배송",
+        "인기"
+      ],
+      "created_at": "2026-06-04T01:03:05.140306+00:00"
+    },
+    {
+      "id": "demo-002",
+      "title": "[네이버페이] 일일적립 클릭 27원",
+      "url": "https://example.com/demo-002",
+      "source": "샘플",
+      "shop": "네이버페이",
+      "category": "상품권",
+      "price_text": "무료",
+      "price_value": 0,
+      "comments": 24,
+      "likes": 199,
+      "views": 44341,
+      "flags": [
+        "무료",
+        "급상승"
+      ],
+      "created_at": "2026-06-04T00:25:05.140336+00:00"
+    },
+    {
+      "id": "demo-003",
+      "title": "[알리익스프레스] USB-C 충전 케이블 100W 2개 세트 3,900원 / 무료배송",
+      "url": "https://example.com/demo-003",
+      "source": "샘플",
+      "shop": "알리",
+      "category": "IT",
+      "price_text": "3,900원",
+      "price_value": 3900,
+      "comments": 8,
+      "likes": 22,
+      "views": 9200,
+      "flags": [
+        "무료배송",
+        "신규"
+      ],
+      "created_at": "2026-06-03T23:31:05.140348+00:00"
+    },
+    {
+      "id": "demo-004",
+      "title": "[롯데온] 아몬드브리즈 190ml 48팩+증정 23,870원 / 무료배송",
+      "url": "https://example.com/demo-004",
+      "source": "샘플",
+      "shop": "롯데온",
+      "category": "식품",
+      "price_text": "23,870원",
+      "price_value": 23870,
+      "comments": 21,
+      "likes": 11,
+      "views": 20365,
+      "flags": [
+        "무료배송",
+        "인기"
+      ],
+      "created_at": "2026-06-03T22:11:05.140357+00:00"
+    },
+    {
+      "id": "demo-005",
+      "title": "[쿠팡] 물티슈 캡형 100매 20팩 18,900원",
+      "url": "https://example.com/demo-005",
+      "source": "샘플",
+      "shop": "쿠팡",
+      "category": "육아",
+      "price_text": "18,900원",
+      "price_value": 18900,
+      "comments": 14,
+      "likes": 18,
+      "views": 12040,
+      "flags": [
+        "신규"
+      ],
+      "created_at": "2026-06-03T21:26:05.140375+00:00"
+    },
+    {
+      "id": "demo-006",
+      "title": "[지마켓] 로봇청소기 소모품 브러시 필터 세트 9,900원",
+      "url": "https://example.com/demo-006",
+      "source": "샘플",
+      "shop": "지마켓",
+      "category": "가전",
+      "price_text": "9,900원",
+      "price_value": 9900,
+      "comments": 6,
+      "likes": 9,
+      "views": 5100,
+      "flags": [
+        "신규"
+      ],
+      "created_at": "2026-06-03T19:51:05.140381+00:00"
+    },
+    {
+      "id": "demo-007",
+      "title": "[무신사] 여름 반팔 티셔츠 2장 19,900원",
+      "url": "https://example.com/demo-007",
+      "source": "샘플",
+      "shop": "무신사",
+      "category": "패션",
+      "price_text": "19,900원",
+      "price_value": 19900,
+      "comments": 5,
+      "likes": 12,
+      "views": 6100,
+      "flags": [
+        "신규"
+      ],
+      "created_at": "2026-06-03T19:21:05.140386+00:00"
+    },
+    {
+      "id": "demo-008",
+      "title": "[홈플러스] 세탁세제 3L 2개 12,500원",
+      "url": "https://example.com/demo-008",
+      "source": "샘플",
+      "shop": "홈플러스",
+      "category": "생활",
+      "price_text": "12,500원",
+      "price_value": 12500,
+      "comments": 3,
+      "likes": 7,
+      "views": 3300,
+      "flags": [
+        "생활비 절약"
+      ],
+      "created_at": "2026-06-03T18:31:05.140391+00:00"
+    },
+    {
+      "id": "demo-009",
+      "title": "[11번가] 캠핑 접이식 의자 1+1 24,900원",
+      "url": "https://example.com/demo-009",
+      "source": "샘플",
+      "shop": "11번가",
+      "category": "캠핑",
+      "price_text": "24,900원",
+      "price_value": 24900,
+      "comments": 4,
+      "likes": 10,
+      "views": 4400,
+      "flags": [
+        "신규"
+      ],
+      "created_at": "2026-06-03T17:21:05.140397+00:00"
+    },
+    {
+      "id": "demo-010",
+      "title": "[이마트] 국내산 닭가슴살 1kg 4,900원",
+      "url": "https://example.com/demo-010",
+      "source": "샘플",
+      "shop": "이마트",
+      "category": "식품",
+      "price_text": "4,900원",
+      "price_value": 4900,
+      "comments": 13,
+      "likes": 2,
+      "views": 9694,
+      "flags": [
+        "만원 이하"
+      ],
+      "created_at": "2026-06-03T16:26:05.140402+00:00"
+    },
+    {
+      "id": "demo-011",
+      "title": "[쿠팡] 플스5 프로 969,570원",
+      "url": "https://example.com/demo-011",
+      "source": "샘플",
+      "shop": "쿠팡",
+      "category": "IT",
+      "price_text": "969,570원",
+      "price_value": 969570,
+      "comments": 50,
+      "likes": 22,
+      "views": 45200,
+      "flags": [
+        "인기"
+      ],
+      "created_at": "2026-06-03T15:16:05.140406+00:00"
+    },
+    {
+      "id": "demo-012",
+      "title": "[네이버] 주방 수납 정리함 5종 세트 8,800원 / 무료배송",
+      "url": "https://example.com/demo-012",
+      "source": "샘플",
+      "shop": "네이버",
+      "category": "생활",
+      "price_text": "8,800원",
+      "price_value": 8800,
+      "comments": 2,
+      "likes": 8,
+      "views": 2800,
+      "flags": [
+        "무료배송",
+        "만원 이하"
+      ],
+      "created_at": "2026-06-03T13:31:05.140413+00:00"
+    }
+  ]
+}
