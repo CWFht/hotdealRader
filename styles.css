@@ -102,6 +102,12 @@ h1{margin:0;font-size:42px;letter-spacing:-.06em}
   -webkit-overflow-scrolling:touch;
 }
 .mode-tabs::-webkit-scrollbar,.chip-row::-webkit-scrollbar{display:none}
+.source-title{
+  margin:14px 0 -4px;
+  color:var(--muted);
+  font-size:13px;
+  font-weight:900;
+}
 .mode-tab,.chip{
   border:1px solid var(--line);
   background:white;
@@ -311,3 +317,37 @@ h1{margin:0;font-size:42px;letter-spacing:-.06em}
   .deal-list{grid-template-columns:1fr}
   .deal-card{border-radius:22px}
 }
+
+
+.score-guide{
+  margin-top:14px;
+  background:rgba(255,255,255,.82);
+  backdrop-filter:blur(12px);
+  border:1px solid rgba(228,231,236,.9);
+  border-radius:var(--radius);
+  box-shadow:var(--shadow);
+  padding:14px 16px;
+}
+.score-guide summary{
+  cursor:pointer;
+  font-weight:900;
+  color:#101828;
+}
+.score-guide p{
+  margin:12px 0;
+  color:var(--muted);
+  line-height:1.55;
+  font-size:14px;
+}
+.score-guide__grid{
+  display:grid;
+  grid-template-columns:1fr auto;
+  gap:8px 12px;
+  background:#f9fafb;
+  border:1px solid #eef0f4;
+  border-radius:18px;
+  padding:12px;
+  font-size:13px;
+}
+.score-guide__grid span{color:#667085}
+.score-guide__grid strong{color:#101828}

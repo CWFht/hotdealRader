@@ -3,6 +3,7 @@ const state = {
   filtered: [],
   mode: "all",
   category: "전체",
+  source: "전체",
   query: "",
   sort: "score",
   price: "all",
@@ -13,24 +14,32 @@ const state = {
 
 const categoryMap = {
   "전체": [],
-  "식품": ["식품","음식","커피","간식","음료","라면","쌀","고기","닭가슴살"],
-  "생활": ["생활","세제","휴지","물티슈","청소","수납","욕실","주방"],
-  "육아": ["육아","기저귀","분유","이유식","아기","유아","장난감"],
-  "IT": ["IT","PC","노트북","태블릿","SSD","충전기","케이블","마우스","키보드","게임"],
-  "가전": ["가전","에어컨","냉장고","청소기","로봇청소기","TV","세탁기"],
-  "패션": ["패션","의류","신발","패딩","옷","가방"],
-  "캠핑": ["캠핑","레저","텐트","의자","랜턴"],
-  "상품권": ["상품권","네이버페이","페이","쿠폰"]
+  "식품·간식": ["식품","음식","커피","간식","음료","라면","쌀","고기","닭가슴살","과자","우유","냉동","밀키트"],
+  "생필품": ["생활","세제","휴지","물티슈","청소","욕실","샴푸","치약","세정제","건전지"],
+  "주방·수납": ["주방","수납","정리함","냄비","프라이팬","식기","텀블러","보관용기"],
+  "육아": ["육아","기저귀","분유","이유식","아기","유아","장난감","젖병","카시트","유모차","아기띠"],
+  "출산·임산부": ["출산","임산부","산모","수유","젖병","유축기","태교","신생아"],
+  "반려동물": ["반려","강아지","고양이","사료","간식","배변패드","모래","펫"],
+  "뷰티·건강": ["뷰티","화장품","선크림","마스크팩","영양제","건강","렌즈","향수","바디"],
+  "패션": ["패션","의류","신발","패딩","옷","가방","무신사","운동화"],
+  "캠핑·여행": ["캠핑","레저","텐트","의자","랜턴","여행","캐리어","숙박"],
+  "IT": ["IT","PC","노트북","태블릿","SSD","충전기","케이블","마우스","키보드","게임","플스"],
+  "가전": ["가전","에어컨","냉장고","청소기","로봇청소기","TV","세탁기","건조기","식기세척기"],
+  "상품권·포인트": ["상품권","네이버페이","페이","쿠폰","적립","해피머니","컬쳐랜드"],
+  "해외직구": ["알리","AliExpress","테무","아마존","직구","해외"]
 };
 
 const modeRules = {
   all: () => true,
   discover: () => true,
   under10000: d => d.price_value > 0 && d.price_value <= 10000,
-  daily: d => hasAny(d, ["생활","식품","세제","휴지","물티슈","주방","청소","간식","음료"]),
-  baby: d => hasAny(d, categoryMap["육아"]),
+  daily: d => hasAny(d, [...categoryMap["생필품"], ...categoryMap["식품·간식"], ...categoryMap["주방·수납"]]),
+  baby: d => hasAny(d, [...categoryMap["육아"], ...categoryMap["출산·임산부"]]),
+  mom: d => hasAny(d, ["맘스홀릭","맘카페","공구","공동구매","쇼핑할인","육아","출산","임산부","기저귀","분유","아기","젖병","카시트","유모차"]),
+  pet: d => hasAny(d, categoryMap["반려동물"]),
+  beauty: d => hasAny(d, categoryMap["뷰티·건강"]),
   tech: d => hasAny(d, [...categoryMap["IT"], ...categoryMap["가전"]]),
-  ali: d => hasAny(d, ["알리","aliexpress","ali"])
+  ali: d => hasAny(d, ["알리","aliexpress","ali","직구","해외"])
 };
 
 const $ = selector => document.querySelector(selector);
@@ -54,6 +63,7 @@ async function loadDeals() {
     state.deals = [];
     $("#updatedAt").textContent = "오류";
   }
+  renderSourceChips();
   applyFilters();
 }
 
@@ -134,6 +144,7 @@ function bindEvents() {
 function resetFilters() {
   state.mode = "all";
   state.category = "전체";
+  state.source = "전체";
   state.query = "";
   state.sort = "score";
   state.price = "all";
@@ -145,22 +156,45 @@ function resetFilters() {
   $("#hideEnded").checked = true;
 
   $$(".mode-tab").forEach(b => b.classList.toggle("active", b.dataset.mode === "all"));
-  $$(".chip").forEach(b => b.classList.toggle("active", b.dataset.category === "전체"));
+  $$(".category-chip").forEach(b => b.classList.toggle("active", b.dataset.category === "전체"));
+  $$(".source-chip").forEach(b => b.classList.toggle("active", b.dataset.source === "전체"));
   applyFilters();
 }
 
 function renderCategoryChips() {
   const wrap = $("#categoryChips");
+  wrap.innerHTML = "";
   Object.keys(categoryMap).forEach(category => {
     const btn = document.createElement("button");
     btn.type = "button";
-    btn.className = "chip" + (category === "전체" ? " active" : "");
+    btn.className = "chip category-chip" + (category === state.category ? " active" : "");
     btn.dataset.category = category;
     btn.textContent = category;
     btn.addEventListener("click", () => {
-      $$(".chip").forEach(b => b.classList.remove("active"));
+      $$(".category-chip").forEach(b => b.classList.remove("active"));
       btn.classList.add("active");
       state.category = category;
+      applyFilters();
+    });
+    wrap.appendChild(btn);
+  });
+}
+
+function renderSourceChips() {
+  const wrap = $("#sourceChips");
+  if (!wrap) return;
+  wrap.innerHTML = "";
+  const sources = ["전체", ...new Set(state.deals.map(d => d.source).filter(Boolean))];
+  sources.forEach(source => {
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "chip source-chip" + (source === state.source ? " active" : "");
+    btn.dataset.source = source;
+    btn.textContent = source;
+    btn.addEventListener("click", () => {
+      $$(".source-chip").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      state.source = source;
       applyFilters();
     });
     wrap.appendChild(btn);
@@ -176,8 +210,8 @@ function applyFilters() {
     if (state.hideEnded && deal.flags.some(f => ["종료","품절"].includes(f))) return false;
     if (state.blocks.some(word => text.includes(String(word).toLowerCase()))) return false;
     if (!modeRules[state.mode](deal)) return false;
-
     if (state.category !== "전체" && !hasAny(deal, categoryMap[state.category])) return false;
+    if (state.source !== "전체" && deal.source !== state.source) return false;
 
     if (state.price === "under10000" && !(deal.price_value > 0 && deal.price_value <= 10000)) return false;
     if (state.price === "under30000" && !(deal.price_value > 0 && deal.price_value <= 30000)) return false;
@@ -218,7 +252,10 @@ function renderSummary() {
     discover: "인기순만 보지 않고 카테고리를 섞어 보여드려요.",
     under10000: "가볍게 줍기 좋은 만원 이하 딜만 모았어요.",
     daily: "생필품·식품처럼 생활비 절약에 가까운 딜을 모았어요.",
-    baby: "육아용품 중심으로 골라봤어요.",
+    baby: "육아용품과 출산 관련 딜을 모았어요.",
+    mom: "맘카페에서 자주 찾는 육아·생활형 딜 위주로 보여드려요.",
+    pet: "반려동물 사료·간식·소모품 딜을 모았어요.",
+    beauty: "뷰티·건강 카테고리 딜을 모았어요.",
     tech: "IT·가전·주변기기 쪽 딜을 모았어요.",
     ali: "알리·해외 소품 탐험용 딜을 모았어요."
   };
@@ -258,7 +295,7 @@ function renderDeals() {
     deal.flags.forEach(flag => {
       const span = document.createElement("span");
       span.className = "flag";
-      if (["인기","급상승"].includes(flag)) span.classList.add("hot");
+      if (["인기","급상승","맘카페픽"].includes(flag)) span.classList.add("hot");
       if (["종료","품절"].includes(flag)) span.classList.add("end");
       if (["무료배송","무료"].includes(flag)) span.classList.add("free");
       span.textContent = flag;
@@ -319,11 +356,11 @@ function guessCategory(title) {
     if (category === "전체") continue;
     if (words.some(word => title.toLowerCase().includes(word.toLowerCase()))) return category;
   }
-  return "생활";
+  return "생필품";
 }
 
 function guessShop(title) {
-  const shops = ["쿠팡","네이버","지마켓","G마켓","옥션","11번가","롯데온","홈플러스","이마트","알리","AliExpress","SSG","티몬","위메프","무신사","컬리"];
+  const shops = ["쿠팡","네이버","네이버페이","지마켓","G마켓","옥션","11번가","롯데온","홈플러스","이마트","알리","AliExpress","SSG","티몬","위메프","무신사","컬리","올리브영","다이소","테무","아마존"];
   return shops.find(shop => title.toLowerCase().includes(shop.toLowerCase())) || "";
 }
 
@@ -332,6 +369,7 @@ function guessFlags(title) {
   if (/무료배송|무배|무료/.test(title)) flags.push("무료배송");
   if (/품절|종료|마감/.test(title)) flags.push(title.includes("품절") ? "품절" : "종료");
   if (/역대가|핫딜|특가|체감가|빅세일/.test(title)) flags.push("인기");
+  if (/맘스홀릭|맘카페|공구|공동구매/.test(title)) flags.push("맘카페픽");
   return flags.length ? flags : ["신규"];
 }
 
@@ -341,6 +379,7 @@ function calculateScore({ title, priceValue, flags, comments, likes, views, sour
   score += Math.min(18, comments * 0.6);
   score += Math.min(12, views / 2500);
   if (flags?.includes("무료배송")) score += 5;
+  if (flags?.includes("맘카페픽")) score += 5;
   if (/역대가|체감가|특가|핫딜|쿠폰|무료/.test(title)) score += 8;
   if (priceValue > 0 && priceValue <= 10000) score += 4;
   if (flags?.some(f => ["종료","품절"].includes(f))) score -= 28;

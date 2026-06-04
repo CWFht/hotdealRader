@@ -53,11 +53,17 @@
           <button class="mode-tab" data-mode="under10000" type="button">만원 이하</button>
           <button class="mode-tab" data-mode="daily" type="button">생활비 절약</button>
           <button class="mode-tab" data-mode="baby" type="button">육아템</button>
+          <button class="mode-tab" data-mode="mom" type="button">맘카페픽</button>
+          <button class="mode-tab" data-mode="pet" type="button">반려동물</button>
+          <button class="mode-tab" data-mode="beauty" type="button">뷰티·건강</button>
           <button class="mode-tab" data-mode="tech" type="button">IT·가전</button>
           <button class="mode-tab" data-mode="ali" type="button">알리 탐험</button>
         </div>
 
         <div class="chip-row" id="categoryChips" aria-label="카테고리 필터"></div>
+
+        <div class="source-title">수집처 필터</div>
+        <div class="chip-row" id="sourceChips" aria-label="수집처 필터"></div>
 
         <div class="filters">
           <label>
@@ -96,6 +102,24 @@
           <button type="submit">추가</button>
         </form>
         <div class="block-list" id="blockList"></div>
+      </section>
+
+
+      <section class="score-guide">
+        <details>
+          <summary>레이더 점수 기준 보기</summary>
+          <p>레이더 점수는 추천·댓글·조회 반응에 가격·무료배송·핫딜 키워드를 더해 계산합니다. 품절·종료 딜은 점수가 낮아집니다.</p>
+          <div class="score-guide__grid">
+            <span>추천/좋아요</span><strong>최대 +28점</strong>
+            <span>댓글 반응</span><strong>최대 +18점</strong>
+            <span>조회수</span><strong>최대 +12점</strong>
+            <span>무료배송</span><strong>+5점</strong>
+            <span>역대가·특가·체감가</span><strong>+8점</strong>
+            <span>1만원 이하</span><strong>+4점</strong>
+            <span>맘카페픽</span><strong>+5점</strong>
+            <span>품절·종료</span><strong>-28점</strong>
+          </div>
+        </details>
       </section>
 
       <section class="deal-toolbar">
