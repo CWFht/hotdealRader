@@ -1,68 +1,68 @@
 {
-  "generated_at": "2026-06-04T15:09:00.380288+00:00",
+  "generated_at": "2026-06-04T15:20:00.380722+00:00",
   "sources": [
     {
       "name": "루리웹",
       "url": "https://bbs.ruliweb.com/market/board/1020",
       "status": "ok",
-      "count": 1,
-      "purchase_count": 1,
-      "message": "샘플 상태",
-      "checked_at": "2026-06-04T15:09:00.380288+00:00"
+      "count": 35,
+      "purchase_count": 25,
+      "message": "수집 완료",
+      "checked_at": "2026-06-04T15:16:55.565734+00:00"
     },
     {
       "name": "뽐뿌",
       "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=ppomppu",
       "status": "ok",
-      "count": 1,
-      "purchase_count": 1,
-      "message": "샘플 상태",
-      "checked_at": "2026-06-04T15:09:00.380288+00:00"
+      "count": 24,
+      "purchase_count": 4,
+      "message": "수집 완료",
+      "checked_at": "2026-06-04T15:17:45.530934+00:00"
     },
     {
       "name": "뽐뿌_해외",
       "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=ppomppu4",
-      "status": "empty",
-      "count": 0,
-      "purchase_count": 0,
-      "message": "샘플 상태",
-      "checked_at": "2026-06-04T15:09:00.380288+00:00"
+      "status": "ok",
+      "count": 16,
+      "purchase_count": 2,
+      "message": "수집 완료",
+      "checked_at": "2026-06-04T15:18:17.866761+00:00"
     },
     {
       "name": "퀘이사존",
       "url": "https://quasarzone.com/bbs/qb_saleinfo",
-      "status": "empty",
+      "status": "failed",
       "count": 0,
       "purchase_count": 0,
-      "message": "샘플 상태",
-      "checked_at": "2026-06-04T15:09:00.380288+00:00"
+      "message": "HTTPError: 403 Client Error: Forbidden for url: https://quasarzone.com/bbs/qb_saleinfo",
+      "checked_at": "2026-06-04T15:18:19.211385+00:00"
     },
     {
       "name": "에펨코리아",
       "url": "https://www.fmkorea.com/hotdeal",
-      "status": "ok",
-      "count": 1,
+      "status": "failed",
+      "count": 0,
       "purchase_count": 0,
-      "message": "샘플 상태",
-      "checked_at": "2026-06-04T15:09:00.380288+00:00"
+      "message": "HTTPError: 430 Client Error: Unknown for url: https://www.fmkorea.com/hotdeal",
+      "checked_at": "2026-06-04T15:18:21.003518+00:00"
     },
     {
       "name": "클리앙_알뜰구매",
       "url": "https://www.clien.net/service/board/jirum",
       "status": "ok",
-      "count": 1,
-      "purchase_count": 1,
-      "message": "샘플 상태",
-      "checked_at": "2026-06-04T15:09:00.380288+00:00"
+      "count": 27,
+      "purchase_count": 25,
+      "message": "수집 완료",
+      "checked_at": "2026-06-04T15:19:10.904163+00:00"
     },
     {
       "name": "딜바다",
       "url": "https://www.dealbada.com/bbs/board.php?bo_table=deal_domestic",
       "status": "ok",
-      "count": 1,
-      "purchase_count": 1,
-      "message": "샘플 상태",
-      "checked_at": "2026-06-04T15:09:00.380288+00:00"
+      "count": 16,
+      "purchase_count": 16,
+      "message": "수집 완료",
+      "checked_at": "2026-06-04T15:19:59.244683+00:00"
     },
     {
       "name": "맘스홀릭",
@@ -71,7 +71,7 @@
       "count": 0,
       "purchase_count": 0,
       "message": "기본 비활성화",
-      "checked_at": "2026-06-04T15:09:00.380288+00:00"
+      "checked_at": "2026-06-04T15:20:00.379501+00:00"
     }
   ]
 }
