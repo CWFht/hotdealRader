@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>핫딜 레이더</title>
-  <link rel="stylesheet" href="./styles.css" />
+  <link rel="stylesheet" href="./styles.css?v=1.8.0" />
 </head>
 <body>
   <div class="app">
@@ -60,6 +60,7 @@
       <section class="toolbar"><div><strong id="resultCount">0개 딜</strong><span>구매처 바로가기를 우선 보여줍니다.</span></div><button id="clearFilters">필터 초기화</button></section>
       <section id="dealList" class="deal-list"></section>
       <section id="emptyState" class="empty hidden">조건에 맞는 딜이 없어요.</section>
+    <div id="appVersion" hidden>v1.8.0</div>
     </main>
   </div>
 
@@ -72,6 +73,6 @@
       <div class="actions"><a class="buy" target="_blank" rel="noreferrer">구매처 바로가기</a><a class="origin" target="_blank" rel="noreferrer">원문</a><button class="copy">복사</button></div>
     </article>
   </template>
-  <script src="./app.js"></script>
+  <script src="./app.js?v=1.8.0"></script>
 </body>
 </html>

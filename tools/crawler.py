@@ -43,7 +43,7 @@ SHOP_DOMAINS = [
     "gmarket.co.kr", "auction.co.kr", "11st.co.kr", "lotteon.com", "ssg.com",
     "wemakeprice.com", "tmon.co.kr", "aliexpress.com", "amazon.com", "amazon.co.jp",
     "musinsa.com", "oliveyoung.co.kr", "kurly.com", "costco.co.kr", "e-himart.co.kr",
-    "lotteimall.com", "homeplus.co.kr", "emart.ssg.com", "temu.com", "naver.com",
+    "lotteimall.com", "homeplus.co.kr", "emart.ssg.com", "temu.com", "naver.com", "store.kakao.com", "ohou.se", "29cm.co.kr", "zigzag.kr",
 ]
 SOURCE_DOMAINS = ["ruliweb.com", "ppomppu.co.kr", "quasarzone.com", "fmkorea.com", "clien.net", "dealbada.com", "cafe.naver.com"]
 BAD_EXT = (".jpg", ".jpeg", ".png", ".gif", ".webp", ".svg", ".css", ".js", ".ico")
@@ -77,12 +77,13 @@ def main() -> None:
             items = parse_listing(html, src)[:MAX_PER_SOURCE]
             purchase_count = 0
             for idx, item in enumerate(items):
-                if idx < DETAIL_LIMIT:
+                if idx < DETAIL_LIMIT and not item.get("purchase_url"):
                     purl = find_purchase_url(item["source_url"])
                     if purl:
                         item["purchase_url"] = purl
                         item["purchase_domain"] = short_domain(purl)
-                        purchase_count += 1
+                if item.get("purchase_url"):
+                    purchase_count += 1
                     time.sleep(DELAY + random.random() * 0.4)
                 item["score"] = calc_score(item)
                 deals.append(item)
@@ -111,12 +112,17 @@ def fetch(url: str) -> str:
         response.encoding = response.apparent_encoding
     return response.text
 
+def normalize_link(src: dict, href: str) -> str:
+    # 중요: 뽐뿌처럼 href가 view.php로 시작하는 경우
+    # root base가 아니라 현재 목록 URL 기준으로 합쳐야 /zboard/view.php가 됩니다.
+    return urljoin(src.get("url") or src.get("base") or "", href or "")
+
 def parse_listing(html: str, src: dict) -> list[dict]:
     soup = BeautifulSoup(html, "html.parser")
     out, seen = [], set()
     for a in soup.select("a[href]"):
         title = clean(a.get_text(" ", strip=True))
-        url = urljoin(src["base"], a.get("href") or "")
+        url = normalize_link(src, a.get("href") or "")
         if not valid_candidate(title, url):
             continue
         key = normalize(title, url)
@@ -125,14 +131,17 @@ def parse_listing(html: str, src: dict) -> list[dict]:
         seen.add(key)
         context = clean(parent_text(a))
         price = extract_price(title)
+        direct_purchase = ""
+        if is_good_external(url, src["url"]):
+            direct_purchase = unwrap_url(url)
         item = {
             "id": sha(src["name"] + title + url),
             "title": title,
             "source": src["name"],
             "source_url": url,
             "url": url,
-            "purchase_url": "",
-            "purchase_domain": "",
+            "purchase_url": direct_purchase,
+            "purchase_domain": short_domain(direct_purchase) if direct_purchase else "",
             "shop": guess_shop(title),
             "category": guess_category(title),
             "price_text": f"{price:,}원" if price else "가격 확인",
@@ -177,7 +186,11 @@ def find_purchase_url(source_url: str) -> str:
     return candidates[0]["url"]
 
 def add_candidate(candidates: list[dict], url: str, text: str, source_url: str) -> None:
-    if not url or not url.startswith("http"):
+    if not url:
+        return
+    if url.startswith("//"):
+        url = "https:" + url
+    if not url.startswith("http"):
         return
     if urlparse(url).path.lower().endswith(BAD_EXT):
         return
@@ -207,7 +220,7 @@ def unwrap_url(url: str) -> str:
     url = url.replace("&amp;", "&")
     parsed = urlparse(url)
     qs = parse_qs(parsed.query)
-    for key in ["url", "u", "target", "to", "link", "redirect", "redirect_url", "returnUrl", "return_url"]:
+    for key in ["url", "u", "target", "to", "link", "redirect", "redirect_url", "returnUrl", "return_url", "r", "dest", "destination"]:
         if key in qs and qs[key]:
             inner = unquote(qs[key][0])
             if inner.startswith("http"):
