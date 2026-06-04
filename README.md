@@ -1,66 +1,25 @@
-# 핫딜 레이더 v1.4
+# 핫딜 레이더 v1.7
 
-일상생활 전반의 핫딜을 한 화면에서 탐색하는 개인용 핫딜 피드입니다.
+## 이번 버전 핵심
 
-## v1.4 변경점
+- 30분 자동 갱신: `.github/workflows/update-deals.yml`에 `cron: "7,37 * * * *"` 반영
+- 수동 재수집: 화면 상단 `재수집` 버튼으로 GitHub Actions 화면 이동
+- 구매처 바로가기 우선: 원문 상세 페이지 안의 외부 쇼핑몰 링크를 `purchase_url`로 저장
+- 다양한 수집처 시도: 루리웹, 뽐뿌, 뽐뿌_해외, 퀘이사존, 에펨코리아, 클리앙_알뜰구매, 딜바다
+- 수집처 상태 표시: 각 수집처의 성공/실패/0건/구매처 링크 수를 `data/sources.json`으로 표시
 
-- 핫딜 원문 안의 실제 구매처 링크를 추가 추출합니다.
-- 화면의 메인 버튼을 `구매처 바로가기`로 변경했습니다.
-- 기존 핫딜 게시글은 보조 버튼 `원문`으로 따로 남겼습니다.
-- 링크 복사는 원문이 아니라 구매처 링크를 우선 복사합니다.
-- `data/deals.json`에 아래 필드가 추가됩니다.
-  - `purchase_url`
-  - `purchase_domain`
-- GitHub Actions 자동 갱신 주기는 30분입니다.
-  - `cron: "7,37 * * * *"`
-- Node.js 20 경고를 줄이기 위해 외부 auto-commit 액션을 제거하고, git commit/push를 셸 명령으로 직접 처리했습니다.
+## 업로드 핵심
 
-## 파일 구성
+GitHub 웹에서 `.github` 폴더가 안 보이거나 업로드가 꼬이면, 아래 파일명을 `Create new file`에 직접 입력하세요.
 
-```text
-index.html
-styles.css
-app.js
-data/deals.json
-data/sources.json
-tools/crawler.py
-.github/workflows/update-deals.yml
-requirements.txt
-README.md
-```
+`.github/workflows/update-deals.yml`
 
-## 사용 흐름
+내용은 `_workflow_update-deals.yml_복사용.txt`에도 똑같이 넣어두었습니다.
 
-1. GitHub Pages 주소에서 핫딜 레이더 화면을 봅니다.
-2. `구매처 바로가기`를 누르면 크롤러가 찾은 실제 쇼핑몰 링크로 이동합니다.
-3. `원문`을 누르면 루리웹/뽐뿌 같은 핫딜 게시글로 이동합니다.
-4. `복사`를 누르면 구매처 링크가 우선 복사됩니다.
+## 테스트 순서
 
-## 재수집 방법
-
-GitHub 저장소에서:
-
-```text
-Actions → Update hotdeal data → Run workflow
-```
-
-자동 재수집은 매시간 7분, 37분에 실행됩니다.
-
-## 구매처 링크 추출 방식
-
-크롤러가 목록에서 핫딜글을 찾은 뒤, 각 핫딜글 상세 페이지를 한 번 더 열어 외부 링크를 찾습니다.
-
-우선순위는 대략 아래와 같습니다.
-
-1. 쿠팡, 네이버, 11번가, G마켓, 롯데온, SSG, 알리, 테무, 아마존 등 쇼핑몰 도메인
-2. 링크 텍스트에 `구매`, `바로가기`, `상품`, `쿠폰`, `product`, `goods`, `item` 등이 있는 링크
-3. 게시판 내부 링크, 댓글 링크, 로그인 링크, SNS 링크는 제외
-
-구매처 링크를 찾지 못하면 기존 원문 링크를 대신 사용합니다.
-
-## 주의
-
-- 공개 게시글만 수집합니다.
-- 로그인, CAPTCHA, 차단 우회는 하지 않습니다.
-- 원문 전체를 복제하지 않습니다.
-- 실제 구매 전 가격, 배송비, 품절 여부는 반드시 쇼핑몰에서 다시 확인하세요.
+1. 파일 업로드 후 Commit
+2. Actions 탭에서 `Update hotdeal data` 확인
+3. `Run workflow` 실행
+4. 실행 완료 후 `data/deals.json`, `data/sources.json`의 시간이 바뀌었는지 확인
+5. GitHub Pages 화면에서 새로고침 버튼 클릭
