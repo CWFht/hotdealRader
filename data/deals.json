@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-14T19:31:49.639383+00:00",
+  "generated_at": "2026-06-14T20:51:55.365295+00:00",
   "count": 100,
   "deals": [
     {
-      "id": "6612ef4f2ccdf30b",
-      "title": "[네이버] 크리에이티브 PEBBLE V2 스피커 (26,900원/무료배송... (30)",
+      "id": "c28608feb61ebedc",
+      "title": "[네이버] 크리에이티브 PEBBLE V2 스피커 (26,900원/무료배송... (31)",
       "source": "루리웹",
       "source_url": "https://bbs.ruliweb.com/market/board/1020/read/104809",
       "url": "https://bbs.ruliweb.com/market/board/1020/read/104809",
@@ -14,14 +14,14 @@
       "category": "생필품",
       "price_text": "26,900원",
       "price_value": 26900,
-      "comments": 30,
+      "comments": 31,
       "likes": 0,
       "views": 0,
       "flags": [
         "무료배송",
         "인기"
       ],
-      "created_at": "2026-06-14T19:28:14.673658+00:00",
+      "created_at": "2026-06-14T20:47:52.512291+00:00",
       "score": 72
     },
     {
@@ -43,8 +43,29 @@
         "무료배송",
         "만원 이하"
       ],
-      "created_at": "2026-06-14T19:28:14.674212+00:00",
+      "created_at": "2026-06-14T20:47:52.512755+00:00",
       "score": 60
+    },
+    {
+      "id": "b2fe1427ece396a8",
+      "title": "[네이버페이] 일일적립, 클릭 186원, 라이브예고 11원 (20)",
+      "source": "루리웹",
+      "source_url": "https://bbs.ruliweb.com/market/board/1020/read/104814",
+      "url": "https://bbs.ruliweb.com/market/board/1020/read/104814",
+      "purchase_url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_20260615_2606_1_1629",
+      "purchase_domain": "campaign2.naver.com",
+      "shop": "네이버",
+      "category": "상품권·포인트",
+      "price_text": "186원",
+      "price_value": 186,
+      "comments": 20,
+      "likes": 0,
+      "views": 0,
+      "flags": [
+        "만원 이하"
+      ],
+      "created_at": "2026-06-14T20:47:52.511579+00:00",
+      "score": 57
     },
     {
       "id": "042422e73f850bdc",
@@ -64,7 +85,7 @@
       "flags": [
         "신규"
       ],
-      "created_at": "2026-06-14T19:28:14.675107+00:00",
+      "created_at": "2026-06-14T20:47:52.513480+00:00",
       "score": 57
     },
     {
@@ -85,28 +106,28 @@
       "flags": [
         "만원 이하"
       ],
-      "created_at": "2026-06-14T19:28:14.675561+00:00",
+      "created_at": "2026-06-14T20:47:52.513831+00:00",
       "score": 57
     },
     {
-      "id": "abc71538ff44c659",
-      "title": "[네이버페이] 일일적립, 클릭 186원, 라이브예고 11원 (18)",
+      "id": "2457feffd2b40e37",
+      "title": "[스팀] 성녀전기 80% 할인 (11)",
       "source": "루리웹",
-      "source_url": "https://bbs.ruliweb.com/market/board/1020/read/104814",
-      "url": "https://bbs.ruliweb.com/market/board/1020/read/104814",
-      "purchase_url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_20260615_2606_1_1629",
-      "purchase_domain": "campaign2.naver.com",
-      "shop": "네이버",
-      "category": "상품권·포인트",
-      "price_text": "186원",
-      "price_value": 186,
-      "comments": 18,
+      "source_url": "https://bbs.ruliweb.com/market/board/1020/read/104810",
+      "url": "https://bbs.ruliweb.com/market/board/1020/read/104810",
+      "purchase_url": "https://store.steampowered.com/app/994730/Banner_of_the_Maid/",
+      "purchase_domain": "store.steampowered.com",
+      "shop": "스팀",
+      "category": "IT·가전",
+      "price_text": "가격 확인",
+      "price_value": 0,
+      "comments": 11,
       "likes": 0,
       "views": 0,
       "flags": [
-        "만원 이하"
+        "인기"
       ],
-      "created_at": "2026-06-14T19:28:14.672135+00:00",
+      "created_at": "2026-06-14T20:47:52.512158+00:00",
       "score": 56
     },
     {
@@ -128,28 +149,7 @@
         "인기",
         "만원 이하"
       ],
-      "created_at": "2026-06-14T19:28:14.673039+00:00",
-      "score": 55
-    },
-    {
-      "id": "3ef4978c324f306b",
-      "title": "[스팀] 성녀전기 80% 할인 (10)",
-      "source": "루리웹",
-      "source_url": "https://bbs.ruliweb.com/market/board/1020/read/104810",
-      "url": "https://bbs.ruliweb.com/market/board/1020/read/104810",
-      "purchase_url": "https://store.steampowered.com/app/994730/Banner_of_the_Maid/",
-      "purchase_domain": "store.steampowered.com",
-      "shop": "스팀",
-      "category": "IT·가전",
-      "price_text": "가격 확인",
-      "price_value": 0,
-      "comments": 10,
-      "likes": 0,
-      "views": 0,
-      "flags": [
-        "인기"
-      ],
-      "created_at": "2026-06-14T19:28:14.673500+00:00",
+      "created_at": "2026-06-14T20:47:52.510219+00:00",
       "score": 55
     },
     {
@@ -170,7 +170,7 @@
       "flags": [
         "신규"
       ],
-      "created_at": "2026-06-14T19:28:14.674842+00:00",
+      "created_at": "2026-06-14T20:47:52.513262+00:00",
       "score": 55
     },
     {
@@ -191,7 +191,28 @@
       "flags": [
         "신규"
       ],
-      "created_at": "2026-06-14T19:28:14.674973+00:00",
+      "created_at": "2026-06-14T20:47:52.513370+00:00",
+      "score": 54
+    },
+    {
+      "id": "1faf7e49ec61bf7d",
+      "title": "[롯데온] 세븐일레븐 금액권 10%+카드할인5% 5만원권 42750원 (9)",
+      "source": "루리웹",
+      "source_url": "https://bbs.ruliweb.com/market/board/1020/read/104795",
+      "url": "https://bbs.ruliweb.com/market/board/1020/read/104795",
+      "purchase_url": "https://www.lotteon.com/m/product/LO2694905965\\n선착순",
+      "purchase_domain": "lotteon.com",
+      "shop": "롯데온",
+      "category": "생필품",
+      "price_text": "50,000원",
+      "price_value": 50000,
+      "comments": 9,
+      "likes": 0,
+      "views": 0,
+      "flags": [
+        "인기"
+      ],
+      "created_at": "2026-06-14T20:47:52.513586+00:00",
       "score": 54
     },
     {
@@ -213,7 +234,7 @@
         "무료배송",
         "인기"
       ],
-      "created_at": "2026-06-14T19:29:06.968057+00:00",
+      "created_at": "2026-06-14T20:48:52.155366+00:00",
       "score": 54
     },
     {
@@ -235,7 +256,7 @@
         "무료배송",
         "인기"
       ],
-      "created_at": "2026-06-14T19:30:03.904068+00:00",
+      "created_at": "2026-06-14T20:49:57.775894+00:00",
       "score": 54
     },
     {
@@ -256,7 +277,7 @@
       "flags": [
         "신규"
       ],
-      "created_at": "2026-06-14T19:28:14.675996+00:00",
+      "created_at": "2026-06-14T20:47:52.514192+00:00",
       "score": 53
     },
     {
@@ -277,7 +298,29 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-06-14T19:28:14.676126+00:00",
+      "created_at": "2026-06-14T20:47:52.514297+00:00",
+      "score": 53
+    },
+    {
+      "id": "50c152326032237c",
+      "title": "[11번가] 제주 미니단호박 특품 1kg (7,940원/무료)",
+      "source": "뽐뿌",
+      "source_url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=711883",
+      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=711883",
+      "purchase_url": "https://www.11st.co.kr/products/2967965044",
+      "purchase_domain": "11st.co.kr",
+      "shop": "11번가",
+      "category": "생필품",
+      "price_text": "7,940원",
+      "price_value": 7940,
+      "comments": 0,
+      "likes": 0,
+      "views": 0,
+      "flags": [
+        "인기",
+        "만원 이하"
+      ],
+      "created_at": "2026-06-14T20:48:52.152369+00:00",
       "score": 53
     },
     {
@@ -299,7 +342,7 @@
         "인기",
         "만원 이하"
       ],
-      "created_at": "2026-06-14T19:29:06.965154+00:00",
+      "created_at": "2026-06-14T20:48:52.152931+00:00",
       "score": 53
     },
     {
@@ -321,7 +364,7 @@
         "인기",
         "만원 이하"
       ],
-      "created_at": "2026-06-14T19:29:06.966677+00:00",
+      "created_at": "2026-06-14T20:48:52.154229+00:00",
       "score": 53
     },
     {
@@ -343,7 +386,7 @@
         "인기",
         "만원 이하"
       ],
-      "created_at": "2026-06-14T19:29:06.967112+00:00",
+      "created_at": "2026-06-14T20:48:52.154586+00:00",
       "score": 53
     },
     {
@@ -365,7 +408,7 @@
         "인기",
         "만원 이하"
       ],
-      "created_at": "2026-06-14T19:30:38.420188+00:00",
+      "created_at": "2026-06-14T20:50:37.020612+00:00",
       "score": 53
     },
     {
@@ -386,7 +429,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-06-14T19:28:14.666693+00:00",
+      "created_at": "2026-06-14T20:47:52.505410+00:00",
       "score": 52
     },
     {
@@ -407,7 +450,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-06-14T19:28:14.670134+00:00",
+      "created_at": "2026-06-14T20:47:52.508775+00:00",
       "score": 52
     },
     {
@@ -428,7 +471,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-06-14T19:28:14.670802+00:00",
+      "created_at": "2026-06-14T20:47:52.509523+00:00",
       "score": 52
     },
     {
@@ -449,7 +492,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-06-14T19:28:14.671478+00:00",
+      "created_at": "2026-06-14T20:47:52.510906+00:00",
       "score": 52
     },
     {
@@ -470,7 +513,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-06-14T19:28:14.673806+00:00",
+      "created_at": "2026-06-14T20:47:52.512414+00:00",
       "score": 52
     },
     {
@@ -491,7 +534,7 @@
       "flags": [
         "신규"
       ],
-      "created_at": "2026-06-14T19:28:14.675401+00:00",
+      "created_at": "2026-06-14T20:47:52.513707+00:00",
       "score": 52
     },
     {
@@ -506,56 +549,35 @@
       "category": "상품권·포인트",
       "price_text": "186원",
       "price_value": 186,
-      "comments": 18,
+      "comments": 20,
       "likes": 0,
       "views": 0,
       "flags": [
         "만원 이하"
       ],
-      "created_at": "2026-06-14T19:28:14.678136+00:00",
-      "score": 50
+      "created_at": "2026-06-14T20:47:52.516095+00:00",
+      "score": 51
     },
     {
-      "id": "2317f0bce5e55293",
-      "title": "커피 무료 쿠폰",
+      "id": "2294a040dfe47ac0",
+      "title": "[네이버페이] 카페 2천원 이상 결제시 500원 적립 (6/15~21)",
       "source": "루리웹",
-      "source_url": "https://bbs.ruliweb.com/event/rulicoffee",
-      "url": "https://bbs.ruliweb.com/event/rulicoffee",
-      "purchase_url": "https://www.dajooda.kr/01/",
-      "purchase_domain": "dajooda.kr",
-      "shop": "",
-      "category": "식품·간식",
-      "price_text": "가격 확인",
-      "price_value": 0,
-      "comments": 0,
+      "source_url": "https://bbs.ruliweb.com/market/board/1020/read/104812",
+      "url": "https://bbs.ruliweb.com/market/board/1020/read/104812",
+      "purchase_url": "",
+      "purchase_domain": "",
+      "shop": "네이버",
+      "category": "상품권·포인트",
+      "price_text": "500원",
+      "price_value": 500,
+      "comments": 20,
       "likes": 0,
       "views": 0,
       "flags": [
-        "인기"
+        "만원 이하"
       ],
-      "created_at": "2026-06-14T19:28:14.664834+00:00",
-      "score": 49
-    },
-    {
-      "id": "11c35bf3921c3581",
-      "title": "유저 예판 핫딜 뽐뿌 게시판",
-      "source": "루리웹",
-      "source_url": "https://bbs.ruliweb.com//market/board/1020",
-      "url": "https://bbs.ruliweb.com//market/board/1020",
-      "purchase_url": "https://click.linkprice.com/click.php?m=11st&a=A100217094&l=0000",
-      "purchase_domain": "click.linkprice.com",
-      "shop": "",
-      "category": "생필품",
-      "price_text": "가격 확인",
-      "price_value": 0,
-      "comments": 0,
-      "likes": 0,
-      "views": 0,
-      "flags": [
-        "인기"
-      ],
-      "created_at": "2026-06-14T19:28:14.665584+00:00",
-      "score": 49
+      "created_at": "2026-06-14T20:47:52.516228+00:00",
+      "score": 51
     },
     {
       "id": "f54482db373d17e9",
@@ -575,7 +597,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-06-14T19:28:14.666814+00:00",
+      "created_at": "2026-06-14T20:47:52.505558+00:00",
       "score": 49
     },
     {
@@ -596,7 +618,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-06-14T19:28:14.666942+00:00",
+      "created_at": "2026-06-14T20:47:52.505681+00:00",
       "score": 49
     },
     {
@@ -617,7 +639,28 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-06-14T19:28:14.667212+00:00",
+      "created_at": "2026-06-14T20:47:52.505933+00:00",
+      "score": 49
+    },
+    {
+      "id": "3ff1efd1849b5bc3",
+      "title": "유저 예판 핫딜 뽐뿌 게시판",
+      "source": "루리웹",
+      "source_url": "https://bbs.ruliweb.com/market/board/1020",
+      "url": "https://bbs.ruliweb.com/market/board/1020",
+      "purchase_url": "https://click.linkprice.com/click.php?m=11st&a=A100217094&l=0000",
+      "purchase_domain": "click.linkprice.com",
+      "shop": "",
+      "category": "생필품",
+      "price_text": "가격 확인",
+      "price_value": 0,
+      "comments": 0,
+      "likes": 0,
+      "views": 0,
+      "flags": [
+        "인기"
+      ],
+      "created_at": "2026-06-14T20:47:52.506485+00:00",
       "score": 49
     },
     {
@@ -638,28 +681,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-06-14T19:29:06.962852+00:00",
-      "score": 49
-    },
-    {
-      "id": "b809a3fed1a3d659",
-      "title": "[G마켓] CERINI by PAT 라이크라 여름 청바지(19,700원/무료)",
-      "source": "뽐뿌",
-      "source_url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=711902",
-      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=711902",
-      "purchase_url": "https://item.gmarket.co.kr/Item?goodscode=4776940484",
-      "purchase_domain": "item.gmarket.co.kr",
-      "shop": "G마켓",
-      "category": "생필품",
-      "price_text": "19,700원",
-      "price_value": 19700,
-      "comments": 0,
-      "likes": 0,
-      "views": 0,
-      "flags": [
-        "인기"
-      ],
-      "created_at": "2026-06-14T19:29:06.964529+00:00",
+      "created_at": "2026-06-14T20:48:52.150837+00:00",
       "score": 49
     },
     {
@@ -680,7 +702,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-06-14T19:29:06.964687+00:00",
+      "created_at": "2026-06-14T20:48:52.152507+00:00",
       "score": 49
     },
     {
@@ -701,7 +723,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-06-14T19:29:06.964846+00:00",
+      "created_at": "2026-06-14T20:48:52.152647+00:00",
       "score": 49
     },
     {
@@ -722,7 +744,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-06-14T19:29:06.964989+00:00",
+      "created_at": "2026-06-14T20:48:52.152769+00:00",
       "score": 49
     },
     {
@@ -743,7 +765,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-06-14T19:29:06.965469+00:00",
+      "created_at": "2026-06-14T20:48:52.153189+00:00",
       "score": 49
     },
     {
@@ -764,7 +786,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-06-14T19:29:06.965920+00:00",
+      "created_at": "2026-06-14T20:48:52.153567+00:00",
       "score": 49
     },
     {
@@ -785,7 +807,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-06-14T19:29:06.966081+00:00",
+      "created_at": "2026-06-14T20:48:52.153706+00:00",
       "score": 49
     },
     {
@@ -806,7 +828,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-06-14T19:29:06.966224+00:00",
+      "created_at": "2026-06-14T20:48:52.153829+00:00",
       "score": 49
     },
     {
@@ -827,7 +849,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-06-14T19:29:06.966528+00:00",
+      "created_at": "2026-06-14T20:48:52.154106+00:00",
       "score": 49
     },
     {
@@ -848,7 +870,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-06-14T19:29:06.966810+00:00",
+      "created_at": "2026-06-14T20:48:52.154339+00:00",
       "score": 49
     },
     {
@@ -869,7 +891,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-06-14T19:29:06.966962+00:00",
+      "created_at": "2026-06-14T20:48:52.154466+00:00",
       "score": 49
     },
     {
@@ -890,7 +912,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-06-14T19:29:06.967424+00:00",
+      "created_at": "2026-06-14T20:48:52.154830+00:00",
       "score": 49
     },
     {
@@ -911,7 +933,28 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-06-14T19:29:06.967911+00:00",
+      "created_at": "2026-06-14T20:48:52.155245+00:00",
+      "score": 49
+    },
+    {
+      "id": "cda47d8c683ad17f",
+      "title": "[역대가] JONR P20 Pro 올인원 로봇청소기($101.50/무료)",
+      "source": "뽐뿌_해외",
+      "source_url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu8&page=1&divpage=23&no=90558",
+      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu8&page=1&divpage=23&no=90558",
+      "purchase_url": "https://ko.aliexpress.com/item/1005010045126058.html",
+      "purchase_domain": "ko.aliexpress.com",
+      "shop": "역대가",
+      "category": "생필품",
+      "price_text": "가격 확인",
+      "price_value": 0,
+      "comments": 0,
+      "likes": 0,
+      "views": 0,
+      "flags": [
+        "인기"
+      ],
+      "created_at": "2026-06-14T20:49:57.774365+00:00",
       "score": 49
     },
     {
@@ -932,7 +975,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-06-14T19:30:03.903052+00:00",
+      "created_at": "2026-06-14T20:49:57.775043+00:00",
       "score": 49
     },
     {
@@ -953,7 +996,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-06-14T19:30:03.903375+00:00",
+      "created_at": "2026-06-14T20:49:57.775321+00:00",
       "score": 49
     },
     {
@@ -974,7 +1017,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-06-14T19:30:03.903577+00:00",
+      "created_at": "2026-06-14T20:49:57.775469+00:00",
       "score": 49
     },
     {
@@ -995,7 +1038,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-06-14T19:30:03.903734+00:00",
+      "created_at": "2026-06-14T20:49:57.775600+00:00",
       "score": 49
     },
     {
@@ -1016,7 +1059,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-06-14T19:30:03.903908+00:00",
+      "created_at": "2026-06-14T20:49:57.775748+00:00",
       "score": 49
     },
     {
@@ -1037,7 +1080,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-06-14T19:30:03.904290+00:00",
+      "created_at": "2026-06-14T20:49:57.776088+00:00",
       "score": 49
     },
     {
@@ -1058,7 +1101,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-06-14T19:30:03.904464+00:00",
+      "created_at": "2026-06-14T20:49:57.776217+00:00",
       "score": 49
     },
     {
@@ -1079,7 +1122,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-06-14T19:30:03.904839+00:00",
+      "created_at": "2026-06-14T20:49:57.776535+00:00",
       "score": 49
     },
     {
@@ -1100,7 +1143,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-06-14T19:30:38.419603+00:00",
+      "created_at": "2026-06-14T20:50:37.020096+00:00",
       "score": 49
     },
     {
@@ -1121,7 +1164,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-06-14T19:30:38.419988+00:00",
+      "created_at": "2026-06-14T20:50:37.020441+00:00",
       "score": 49
     },
     {
@@ -1142,7 +1185,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-06-14T19:30:38.420555+00:00",
+      "created_at": "2026-06-14T20:50:37.020914+00:00",
       "score": 49
     },
     {
@@ -1163,7 +1206,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-06-14T19:30:38.420919+00:00",
+      "created_at": "2026-06-14T20:50:37.021221+00:00",
       "score": 49
     },
     {
@@ -1184,7 +1227,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-06-14T19:30:38.421089+00:00",
+      "created_at": "2026-06-14T20:50:37.021365+00:00",
       "score": 49
     },
     {
@@ -1205,7 +1248,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-06-14T19:30:38.421648+00:00",
+      "created_at": "2026-06-14T20:50:37.021809+00:00",
       "score": 49
     },
     {
@@ -1226,7 +1269,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-06-14T19:30:38.421856+00:00",
+      "created_at": "2026-06-14T20:50:37.021990+00:00",
       "score": 49
     },
     {
@@ -1247,7 +1290,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-06-14T19:30:38.422054+00:00",
+      "created_at": "2026-06-14T20:50:37.022154+00:00",
       "score": 49
     },
     {
@@ -1268,7 +1311,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-06-14T19:30:38.422532+00:00",
+      "created_at": "2026-06-14T20:50:37.022531+00:00",
       "score": 49
     },
     {
@@ -1289,7 +1332,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-06-14T19:30:38.422902+00:00",
+      "created_at": "2026-06-14T20:50:37.022834+00:00",
       "score": 49
     },
     {
@@ -1310,7 +1353,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-06-14T19:30:38.423252+00:00",
+      "created_at": "2026-06-14T20:50:37.023147+00:00",
       "score": 49
     },
     {
@@ -1331,7 +1374,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-06-14T19:30:38.423472+00:00",
+      "created_at": "2026-06-14T20:50:37.023311+00:00",
       "score": 49
     },
     {
@@ -1352,7 +1395,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-06-14T19:30:38.423725+00:00",
+      "created_at": "2026-06-14T20:50:37.023514+00:00",
       "score": 49
     },
     {
@@ -1373,29 +1416,8 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-06-14T19:30:38.424322+00:00",
+      "created_at": "2026-06-14T20:50:37.024020+00:00",
       "score": 49
-    },
-    {
-      "id": "1faf7e49ec61bf7d",
-      "title": "[롯데온] 세븐일레븐 금액권 10%+카드할인5% 5만원권 42750원 (9)",
-      "source": "루리웹",
-      "source_url": "https://bbs.ruliweb.com/market/board/1020/read/104795",
-      "url": "https://bbs.ruliweb.com/market/board/1020/read/104795",
-      "purchase_url": "",
-      "purchase_domain": "",
-      "shop": "롯데온",
-      "category": "생필품",
-      "price_text": "50,000원",
-      "price_value": 50000,
-      "comments": 9,
-      "likes": 0,
-      "views": 0,
-      "flags": [
-        "인기"
-      ],
-      "created_at": "2026-06-14T19:28:14.675236+00:00",
-      "score": 48
     },
     {
       "id": "461a967ff3d87c42",
@@ -1415,7 +1437,7 @@
       "flags": [
         "신규"
       ],
-      "created_at": "2026-06-14T19:28:14.675842+00:00",
+      "created_at": "2026-06-14T20:47:52.514067+00:00",
       "score": 48
     },
     {
@@ -1436,7 +1458,7 @@
       "flags": [
         "만원 이하"
       ],
-      "created_at": "2026-06-14T19:28:14.673336+00:00",
+      "created_at": "2026-06-14T20:47:52.512042+00:00",
       "score": 47
     },
     {
@@ -1457,7 +1479,7 @@
       "flags": [
         "만원 이하"
       ],
-      "created_at": "2026-06-14T19:28:14.672831+00:00",
+      "created_at": "2026-06-14T20:47:52.511912+00:00",
       "score": 46
     },
     {
@@ -1478,7 +1500,7 @@
       "flags": [
         "신규"
       ],
-      "created_at": "2026-06-14T19:28:14.673943+00:00",
+      "created_at": "2026-06-14T20:47:52.512527+00:00",
       "score": 46
     },
     {
@@ -1499,7 +1521,7 @@
       "flags": [
         "신규"
       ],
-      "created_at": "2026-06-14T19:28:14.674644+00:00",
+      "created_at": "2026-06-14T20:47:52.513102+00:00",
       "score": 46
     },
     {
@@ -1520,7 +1542,7 @@
       "flags": [
         "무료배송"
       ],
-      "created_at": "2026-06-14T19:29:06.965299+00:00",
+      "created_at": "2026-06-14T20:48:52.153063+00:00",
       "score": 46
     },
     {
@@ -1541,7 +1563,7 @@
       "flags": [
         "무료배송"
       ],
-      "created_at": "2026-06-14T19:29:06.965614+00:00",
+      "created_at": "2026-06-14T20:48:52.153307+00:00",
       "score": 46
     },
     {
@@ -1562,7 +1584,7 @@
       "flags": [
         "무료배송"
       ],
-      "created_at": "2026-06-14T19:29:06.965759+00:00",
+      "created_at": "2026-06-14T20:48:52.153430+00:00",
       "score": 46
     },
     {
@@ -1583,7 +1605,7 @@
       "flags": [
         "무료배송"
       ],
-      "created_at": "2026-06-14T19:29:06.966368+00:00",
+      "created_at": "2026-06-14T20:48:52.153966+00:00",
       "score": 46
     },
     {
@@ -1604,7 +1626,7 @@
       "flags": [
         "무료배송"
       ],
-      "created_at": "2026-06-14T19:29:06.967257+00:00",
+      "created_at": "2026-06-14T20:48:52.154707+00:00",
       "score": 46
     },
     {
@@ -1625,7 +1647,7 @@
       "flags": [
         "무료배송"
       ],
-      "created_at": "2026-06-14T19:29:06.967580+00:00",
+      "created_at": "2026-06-14T20:48:52.154967+00:00",
       "score": 46
     },
     {
@@ -1646,7 +1668,7 @@
       "flags": [
         "무료배송"
       ],
-      "created_at": "2026-06-14T19:30:03.902481+00:00",
+      "created_at": "2026-06-14T20:49:57.774527+00:00",
       "score": 46
     },
     {
@@ -1667,7 +1689,7 @@
       "flags": [
         "무료배송"
       ],
-      "created_at": "2026-06-14T19:30:03.903220+00:00",
+      "created_at": "2026-06-14T20:49:57.775189+00:00",
       "score": 46
     },
     {
@@ -1688,7 +1710,7 @@
       "flags": [
         "무료배송"
       ],
-      "created_at": "2026-06-14T19:30:38.422247+00:00",
+      "created_at": "2026-06-14T20:50:37.022316+00:00",
       "score": 46
     },
     {
@@ -1709,7 +1731,7 @@
       "flags": [
         "무료배송"
       ],
-      "created_at": "2026-06-14T19:30:38.423915+00:00",
+      "created_at": "2026-06-14T20:50:37.023669+00:00",
       "score": 46
     },
     {
@@ -1730,7 +1752,7 @@
       "flags": [
         "신규"
       ],
-      "created_at": "2026-06-14T19:28:14.674338+00:00",
+      "created_at": "2026-06-14T20:47:52.512857+00:00",
       "score": 45
     },
     {
@@ -1751,28 +1773,7 @@
       "flags": [
         "만원 이하"
       ],
-      "created_at": "2026-06-14T19:29:06.967787+00:00",
-      "score": 45
-    },
-    {
-      "id": "bb9aaa576af3e6b3",
-      "title": "초콜릿 브라우니 크리스프 5개(6,363원), 피시스낵 바베큐 24입(5,625원), TNI 킹커피 블랙 15개(2,403원), 헤이즐넛 피넛버터 비스킷(5,673원)...",
-      "source": "뽐뿌_해외",
-      "source_url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu8&page=1&divpage=23&no=90496",
-      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu8&page=1&divpage=23&no=90496",
-      "purchase_url": "https://ko.aliexpress.com/item/1005009585527219.html",
-      "purchase_domain": "ko.aliexpress.com",
-      "shop": "",
-      "category": "식품·간식",
-      "price_text": "6,363원",
-      "price_value": 6363,
-      "comments": 0,
-      "likes": 0,
-      "views": 0,
-      "flags": [
-        "만원 이하"
-      ],
-      "created_at": "2026-06-14T19:30:03.902271+00:00",
+      "created_at": "2026-06-14T20:48:52.155141+00:00",
       "score": 45
     },
     {
@@ -1793,7 +1794,7 @@
       "flags": [
         "만원 이하"
       ],
-      "created_at": "2026-06-14T19:30:03.902717+00:00",
+      "created_at": "2026-06-14T20:49:57.774732+00:00",
       "score": 45
     },
     {
@@ -1814,7 +1815,7 @@
       "flags": [
         "만원 이하"
       ],
-      "created_at": "2026-06-14T19:30:38.419786+00:00",
+      "created_at": "2026-06-14T20:50:37.020263+00:00",
       "score": 45
     },
     {
@@ -1835,7 +1836,7 @@
       "flags": [
         "만원 이하"
       ],
-      "created_at": "2026-06-14T19:30:38.420355+00:00",
+      "created_at": "2026-06-14T20:50:37.020751+00:00",
       "score": 45
     },
     {
@@ -1856,7 +1857,7 @@
       "flags": [
         "만원 이하"
       ],
-      "created_at": "2026-06-14T19:30:38.420734+00:00",
+      "created_at": "2026-06-14T20:50:37.021065+00:00",
       "score": 45
     },
     {
@@ -1877,7 +1878,7 @@
       "flags": [
         "신규"
       ],
-      "created_at": "2026-06-14T19:28:14.669432+00:00",
+      "created_at": "2026-06-14T20:47:52.508064+00:00",
       "score": 44
     },
     {
@@ -1898,7 +1899,7 @@
       "flags": [
         "신규"
       ],
-      "created_at": "2026-06-14T19:28:14.674498+00:00",
+      "created_at": "2026-06-14T20:47:52.512981+00:00",
       "score": 42
     },
     {
@@ -1919,7 +1920,7 @@
       "flags": [
         "신규"
       ],
-      "created_at": "2026-06-14T19:30:38.419369+00:00",
+      "created_at": "2026-06-14T20:50:37.019881+00:00",
       "score": 41
     },
     {
@@ -1940,7 +1941,7 @@
       "flags": [
         "신규"
       ],
-      "created_at": "2026-06-14T19:30:38.421268+00:00",
+      "created_at": "2026-06-14T20:50:37.021516+00:00",
       "score": 41
     },
     {
@@ -1961,7 +1962,7 @@
       "flags": [
         "신규"
       ],
-      "created_at": "2026-06-14T19:30:38.422720+00:00",
+      "created_at": "2026-06-14T20:50:37.022682+00:00",
       "score": 41
     },
     {
@@ -1982,7 +1983,7 @@
       "flags": [
         "신규"
       ],
-      "created_at": "2026-06-14T19:30:38.423080+00:00",
+      "created_at": "2026-06-14T20:50:37.022998+00:00",
       "score": 41
     },
     {
@@ -2003,7 +2004,7 @@
       "flags": [
         "신규"
       ],
-      "created_at": "2026-06-14T19:30:38.424139+00:00",
+      "created_at": "2026-06-14T20:50:37.023855+00:00",
       "score": 41
     },
     {
@@ -2024,7 +2025,7 @@
       "flags": [
         "신규"
       ],
-      "created_at": "2026-06-14T19:28:14.676269+00:00",
+      "created_at": "2026-06-14T20:47:52.514416+00:00",
       "score": 40
     },
     {
@@ -2045,7 +2046,7 @@
       "flags": [
         "신규"
       ],
-      "created_at": "2026-06-14T19:28:14.675699+00:00",
+      "created_at": "2026-06-14T20:47:52.513954+00:00",
       "score": 38
     },
     {
@@ -2066,7 +2067,7 @@
       "flags": [
         "신규"
       ],
-      "created_at": "2026-06-14T19:28:14.677413+00:00",
+      "created_at": "2026-06-14T20:47:52.515441+00:00",
       "score": 35
     },
     {
@@ -2087,7 +2088,7 @@
       "flags": [
         "신규"
       ],
-      "created_at": "2026-06-14T19:30:38.424522+00:00",
+      "created_at": "2026-06-14T20:50:37.024172+00:00",
       "score": 35
     },
     {
@@ -2109,7 +2110,7 @@
         "종료",
         "인기"
       ],
-      "created_at": "2026-06-14T19:30:38.424696+00:00",
+      "created_at": "2026-06-14T20:50:37.024316+00:00",
       "score": 15
     }
   ]
