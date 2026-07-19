@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T22:31:21.455013+00:00",
+  "generated_at": "2026-07-19T23:34:49.464425+00:00",
   "sources": [
     {
       "name": "루리웹",
@@ -8,7 +8,7 @@
       "count": 35,
       "purchase_count": 25,
       "message": "수집 완료",
-      "checked_at": "2026-07-19T22:27:15.983297+00:00"
+      "checked_at": "2026-07-19T23:30:27.540581+00:00"
     },
     {
       "name": "뽐뿌",
@@ -17,7 +17,7 @@
       "count": 28,
       "purchase_count": 25,
       "message": "수집 완료",
-      "checked_at": "2026-07-19T22:28:20.843258+00:00"
+      "checked_at": "2026-07-19T23:31:33.623097+00:00"
     },
     {
       "name": "뽐뿌_해외",
@@ -26,7 +26,7 @@
       "count": 16,
       "purchase_count": 16,
       "message": "수집 완료",
-      "checked_at": "2026-07-19T22:29:02.255597+00:00"
+      "checked_at": "2026-07-19T23:32:15.815791+00:00"
     },
     {
       "name": "퀘이사존",
@@ -35,7 +35,7 @@
       "count": 0,
       "purchase_count": 0,
       "message": "HTTPError: 403 Client Error: Forbidden for url: https://quasarzone.com/bbs/qb_saleinfo",
-      "checked_at": "2026-07-19T22:29:03.691988+00:00"
+      "checked_at": "2026-07-19T23:32:17.308011+00:00"
     },
     {
       "name": "에펨코리아",
@@ -44,7 +44,7 @@
       "count": 0,
       "purchase_count": 0,
       "message": "HTTPError: 430 Client Error: Unknown for url: https://www.fmkorea.com/hotdeal",
-      "checked_at": "2026-07-19T22:29:05.509563+00:00"
+      "checked_at": "2026-07-19T23:32:19.639066+00:00"
     },
     {
       "name": "클리앙_알뜰구매",
@@ -53,16 +53,16 @@
       "count": 30,
       "purchase_count": 25,
       "message": "수집 완료",
-      "checked_at": "2026-07-19T22:30:05.267698+00:00"
+      "checked_at": "2026-07-19T23:33:19.343693+00:00"
     },
     {
       "name": "딜바다",
       "url": "https://www.dealbada.com/bbs/board.php?bo_table=deal_domestic",
       "status": "ok",
-      "count": 21,
-      "purchase_count": 21,
+      "count": 22,
+      "purchase_count": 22,
       "message": "수집 완료",
-      "checked_at": "2026-07-19T22:31:20.239011+00:00"
+      "checked_at": "2026-07-19T23:34:47.989429+00:00"
     },
     {
       "name": "맘스홀릭",
@@ -71,7 +71,7 @@
       "count": 0,
       "purchase_count": 0,
       "message": "기본 비활성화",
-      "checked_at": "2026-07-19T22:31:21.453259+00:00"
+      "checked_at": "2026-07-19T23:34:49.462915+00:00"
     }
   ]
 }
