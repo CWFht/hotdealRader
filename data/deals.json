@@ -1,14 +1,36 @@
 {
-  "generated_at": "2026-08-07T07:56:35.830193+00:00",
-  "count": 123,
+  "generated_at": "2026-08-07T09:04:06.459731+00:00",
+  "count": 122,
   "deals": [
+    {
+      "id": "0c3091e70e6aeeea",
+      "title": "[네이버] 정통 이탈리아식 파누오쪼 토마토 치즈 샌드위치 3개입 (9900원/무료)",
+      "source": "딜바다",
+      "source_url": "https://www.dealbada.com/bbs/board.php?bo_table=deal_domestic&wr_id=570894&page=1",
+      "url": "https://www.dealbada.com/bbs/board.php?bo_table=deal_domestic&wr_id=570894&page=1",
+      "purchase_url": "https://nid.naver.com/oauth2.0/authorize?client_id=Lwj2yX91T75T3qxEfEjn&response_type=code&redirect_uri=http://www.dealbada.com&state=528992d6cdbfd207f77ad93746fd8f56",
+      "purchase_domain": "nid.naver.com",
+      "shop": "네이버",
+      "category": "생필품",
+      "price_text": "9,900원",
+      "price_value": 9900,
+      "comments": 1375,
+      "likes": 0,
+      "views": 0,
+      "flags": [
+        "인기",
+        "만원 이하"
+      ],
+      "created_at": "2026-08-07T09:02:55.500513+00:00",
+      "score": 71
+    },
     {
       "id": "9326591061058dd3",
       "title": "[네이버] 밀크씨슬 30캡슐 2개 20포 (7,990원/네멤무료)",
       "source": "딜바다",
       "source_url": "https://www.dealbada.com/bbs/board.php?bo_table=deal_domestic&wr_id=570885&page=1",
       "url": "https://www.dealbada.com/bbs/board.php?bo_table=deal_domestic&wr_id=570885&page=1",
-      "purchase_url": "https://nid.naver.com/oauth2.0/authorize?client_id=Lwj2yX91T75T3qxEfEjn&response_type=code&redirect_uri=http://www.dealbada.com&state=1fdba3a21e74e076eb89822e0ecfaded",
+      "purchase_url": "https://nid.naver.com/oauth2.0/authorize?client_id=Lwj2yX91T75T3qxEfEjn&response_type=code&redirect_uri=http://www.dealbada.com&state=f851e893000f6b1703e4c58ed5e211ca",
       "purchase_domain": "nid.naver.com",
       "shop": "네이버",
       "category": "생필품",
@@ -21,29 +43,7 @@
         "인기",
         "만원 이하"
       ],
-      "created_at": "2026-08-07T07:55:29.831754+00:00",
-      "score": 71
-    },
-    {
-      "id": "8d25f7aeb5bf9a78",
-      "title": "[지마켓] 토트넘,멘시티 티셔츠/팬츠/가방/신발 (8,780원/무료)",
-      "source": "딜바다",
-      "source_url": "https://www.dealbada.com/bbs/board.php?bo_table=deal_domestic&wr_id=570875&page=1",
-      "url": "https://www.dealbada.com/bbs/board.php?bo_table=deal_domestic&wr_id=570875&page=1",
-      "purchase_url": "https://nid.naver.com/oauth2.0/authorize?client_id=Lwj2yX91T75T3qxEfEjn&response_type=code&redirect_uri=http://www.dealbada.com&state=24b40803edd773685bed8312910bb3d3",
-      "purchase_domain": "nid.naver.com",
-      "shop": "지마켓",
-      "category": "패션",
-      "price_text": "8,780원",
-      "price_value": 8780,
-      "comments": 1375,
-      "likes": 0,
-      "views": 0,
-      "flags": [
-        "인기",
-        "만원 이하"
-      ],
-      "created_at": "2026-08-07T07:55:29.837901+00:00",
+      "created_at": "2026-08-07T09:02:55.505503+00:00",
       "score": 71
     },
     {
@@ -64,7 +64,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-08-07T07:52:15.995786+00:00",
+      "created_at": "2026-08-07T08:59:19.022287+00:00",
       "score": 67
     },
     {
@@ -73,7 +73,7 @@
       "source": "딜바다",
       "source_url": "https://www.dealbada.com/bbs/board.php?bo_table=deal_domestic&wr_id=5976&page=1",
       "url": "https://www.dealbada.com/bbs/board.php?bo_table=deal_domestic&wr_id=5976&page=1",
-      "purchase_url": "https://nid.naver.com/oauth2.0/authorize?client_id=Lwj2yX91T75T3qxEfEjn&response_type=code&redirect_uri=http://www.dealbada.com&state=5a3c96c781b916460fb7dd77402fc0c9",
+      "purchase_url": "https://nid.naver.com/oauth2.0/authorize?client_id=Lwj2yX91T75T3qxEfEjn&response_type=code&redirect_uri=http://www.dealbada.com&state=1f30c8c79365a564be46d9aca01260ff",
       "purchase_domain": "nid.naver.com",
       "shop": "",
       "category": "생필품",
@@ -85,7 +85,91 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-08-07T07:55:29.830287+00:00",
+      "created_at": "2026-08-07T09:02:55.499252+00:00",
+      "score": 67
+    },
+    {
+      "id": "2c696d5728e7bd59",
+      "title": "[카카오] 비엔룸 아이스 쿨 냉감 침대패드 Q-MAX 0.4 (16,900원/무료)",
+      "source": "딜바다",
+      "source_url": "https://www.dealbada.com/bbs/board.php?bo_table=deal_domestic&wr_id=570893&page=1",
+      "url": "https://www.dealbada.com/bbs/board.php?bo_table=deal_domestic&wr_id=570893&page=1",
+      "purchase_url": "https://nid.naver.com/oauth2.0/authorize?client_id=Lwj2yX91T75T3qxEfEjn&response_type=code&redirect_uri=http://www.dealbada.com&state=c16ff2fd51abdaf3a4657c1e6c5349d7",
+      "purchase_domain": "nid.naver.com",
+      "shop": "카카오",
+      "category": "생필품",
+      "price_text": "16,900원",
+      "price_value": 16900,
+      "comments": 1375,
+      "likes": 0,
+      "views": 0,
+      "flags": [
+        "인기"
+      ],
+      "created_at": "2026-08-07T09:02:55.501149+00:00",
+      "score": 67
+    },
+    {
+      "id": "480c66939d6da7cd",
+      "title": "[쿠팡] 초특가 산지직송 해남 꿀고구마 1박스 3kg(중) (16,920원/무료)",
+      "source": "딜바다",
+      "source_url": "https://www.dealbada.com/bbs/board.php?bo_table=deal_domestic&wr_id=570892&page=1",
+      "url": "https://www.dealbada.com/bbs/board.php?bo_table=deal_domestic&wr_id=570892&page=1",
+      "purchase_url": "https://nid.naver.com/oauth2.0/authorize?client_id=Lwj2yX91T75T3qxEfEjn&response_type=code&redirect_uri=http://www.dealbada.com&state=5a6ed82b978b1070b48105f5cb8b6ce3",
+      "purchase_domain": "nid.naver.com",
+      "shop": "쿠팡",
+      "category": "생필품",
+      "price_text": "16,920원",
+      "price_value": 16920,
+      "comments": 1375,
+      "likes": 0,
+      "views": 0,
+      "flags": [
+        "인기"
+      ],
+      "created_at": "2026-08-07T09:02:55.501801+00:00",
+      "score": 67
+    },
+    {
+      "id": "2ff0391a6038005b",
+      "title": "[카카오] 도브 대용량 바디워시 1L 3개 + 샤워볼 (16,920원/무료)",
+      "source": "딜바다",
+      "source_url": "https://www.dealbada.com/bbs/board.php?bo_table=deal_domestic&wr_id=570889&page=1",
+      "url": "https://www.dealbada.com/bbs/board.php?bo_table=deal_domestic&wr_id=570889&page=1",
+      "purchase_url": "https://nid.naver.com/oauth2.0/authorize?client_id=Lwj2yX91T75T3qxEfEjn&response_type=code&redirect_uri=http://www.dealbada.com&state=6c1d67548009f90d0b8e95254864ca18",
+      "purchase_domain": "nid.naver.com",
+      "shop": "카카오",
+      "category": "뷰티·건강",
+      "price_text": "16,920원",
+      "price_value": 16920,
+      "comments": 1375,
+      "likes": 0,
+      "views": 0,
+      "flags": [
+        "인기"
+      ],
+      "created_at": "2026-08-07T09:02:55.503033+00:00",
+      "score": 67
+    },
+    {
+      "id": "7b4c16aedc476bbb",
+      "title": "[카카오] 쿠쿠 에코 웨일 큐브 음식물 처리기 2L (379,819원/무료)",
+      "source": "딜바다",
+      "source_url": "https://www.dealbada.com/bbs/board.php?bo_table=deal_domestic&wr_id=570888&page=1",
+      "url": "https://www.dealbada.com/bbs/board.php?bo_table=deal_domestic&wr_id=570888&page=1",
+      "purchase_url": "https://nid.naver.com/oauth2.0/authorize?client_id=Lwj2yX91T75T3qxEfEjn&response_type=code&redirect_uri=http://www.dealbada.com&state=45dc7157d2f60a950ddda07c3d6c99b0",
+      "purchase_domain": "nid.naver.com",
+      "shop": "카카오",
+      "category": "생필품",
+      "price_text": "379,819원",
+      "price_value": 379819,
+      "comments": 1375,
+      "likes": 0,
+      "views": 0,
+      "flags": [
+        "인기"
+      ],
+      "created_at": "2026-08-07T09:02:55.503656+00:00",
       "score": 67
     },
     {
@@ -94,7 +178,7 @@
       "source": "딜바다",
       "source_url": "https://www.dealbada.com/bbs/board.php?bo_table=deal_domestic&wr_id=570886&page=1",
       "url": "https://www.dealbada.com/bbs/board.php?bo_table=deal_domestic&wr_id=570886&page=1",
-      "purchase_url": "https://nid.naver.com/oauth2.0/authorize?client_id=Lwj2yX91T75T3qxEfEjn&response_type=code&redirect_uri=http://www.dealbada.com&state=9a06b849bf13de429798cee5a3593a1b",
+      "purchase_url": "https://nid.naver.com/oauth2.0/authorize?client_id=Lwj2yX91T75T3qxEfEjn&response_type=code&redirect_uri=http://www.dealbada.com&state=21714acea90ceb44f67cfa215491680d",
       "purchase_domain": "nid.naver.com",
       "shop": "지마켓",
       "category": "생필품",
@@ -106,7 +190,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-08-07T07:55:29.831089+00:00",
+      "created_at": "2026-08-07T09:02:55.504920+00:00",
       "score": 67
     },
     {
@@ -115,7 +199,7 @@
       "source": "딜바다",
       "source_url": "https://www.dealbada.com/bbs/board.php?bo_table=deal_domestic&wr_id=570882&page=1",
       "url": "https://www.dealbada.com/bbs/board.php?bo_table=deal_domestic&wr_id=570882&page=1",
-      "purchase_url": "https://nid.naver.com/oauth2.0/authorize?client_id=Lwj2yX91T75T3qxEfEjn&response_type=code&redirect_uri=http://www.dealbada.com&state=0a46df15a85698d9eb81a7d0708389e5",
+      "purchase_url": "https://nid.naver.com/oauth2.0/authorize?client_id=Lwj2yX91T75T3qxEfEjn&response_type=code&redirect_uri=http://www.dealbada.com&state=81ee5a458d58a571ee3cbe5b09bd9c20",
       "purchase_domain": "nid.naver.com",
       "shop": "네이버",
       "category": "생필품",
@@ -127,7 +211,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-08-07T07:55:29.833262+00:00",
+      "created_at": "2026-08-07T09:02:55.506853+00:00",
       "score": 67
     },
     {
@@ -136,7 +220,7 @@
       "source": "딜바다",
       "source_url": "https://www.dealbada.com/bbs/board.php?bo_table=deal_domestic&wr_id=570881&page=1",
       "url": "https://www.dealbada.com/bbs/board.php?bo_table=deal_domestic&wr_id=570881&page=1",
-      "purchase_url": "https://nid.naver.com/oauth2.0/authorize?client_id=Lwj2yX91T75T3qxEfEjn&response_type=code&redirect_uri=http://www.dealbada.com&state=3d17206ee9628be57d5ae3a204e1a792",
+      "purchase_url": "https://nid.naver.com/oauth2.0/authorize?client_id=Lwj2yX91T75T3qxEfEjn&response_type=code&redirect_uri=http://www.dealbada.com&state=0cc0f60882df264685a00feed11b135d",
       "purchase_domain": "nid.naver.com",
       "shop": "아시아모바일",
       "category": "생필품",
@@ -148,92 +232,29 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-08-07T07:55:29.833929+00:00",
+      "created_at": "2026-08-07T09:02:55.507510+00:00",
       "score": 67
     },
     {
-      "id": "1af9c3e7731fec92",
-      "title": "[토스쇼핑] 디센느 듀라맥스 냉감 패드 쿨매트 화이트 (21,681원/무료)",
+      "id": "cc52b4ebe67e3b06",
+      "title": "[CJ온스타일] 오덴세 OD 레고트 투웨이 루프 텀블러 720ml (18,900원 / 무배)",
       "source": "딜바다",
-      "source_url": "https://www.dealbada.com/bbs/board.php?bo_table=deal_domestic&wr_id=570880&page=1",
-      "url": "https://www.dealbada.com/bbs/board.php?bo_table=deal_domestic&wr_id=570880&page=1",
-      "purchase_url": "https://nid.naver.com/oauth2.0/authorize?client_id=Lwj2yX91T75T3qxEfEjn&response_type=code&redirect_uri=http://www.dealbada.com&state=328a8b6872cc41092e502967d8982e31",
+      "source_url": "https://www.dealbada.com/bbs/board.php?bo_table=deal_domestic&wr_id=570895&page=1",
+      "url": "https://www.dealbada.com/bbs/board.php?bo_table=deal_domestic&wr_id=570895&page=1",
+      "purchase_url": "https://nid.naver.com/oauth2.0/authorize?client_id=Lwj2yX91T75T3qxEfEjn&response_type=code&redirect_uri=http://www.dealbada.com&state=02d24088badc554a4389b8406c5d1778",
       "purchase_domain": "nid.naver.com",
-      "shop": "토스쇼핑",
-      "category": "생필품",
-      "price_text": "21,681원",
-      "price_value": 21681,
+      "shop": "CJ온스타일",
+      "category": "주방·수납",
+      "price_text": "18,900원",
+      "price_value": 18900,
       "comments": 1375,
       "likes": 0,
       "views": 0,
       "flags": [
-        "인기"
+        "무료배송"
       ],
-      "created_at": "2026-08-07T07:55:29.834593+00:00",
-      "score": 67
-    },
-    {
-      "id": "e7850b3480a09e69",
-      "title": "[트립스토어] 오키나와 2박3일 패키지 (선착순특가) (613,000원부터/무료)",
-      "source": "딜바다",
-      "source_url": "https://www.dealbada.com/bbs/board.php?bo_table=deal_domestic&wr_id=570878&page=1",
-      "url": "https://www.dealbada.com/bbs/board.php?bo_table=deal_domestic&wr_id=570878&page=1",
-      "purchase_url": "https://nid.naver.com/oauth2.0/authorize?client_id=Lwj2yX91T75T3qxEfEjn&response_type=code&redirect_uri=http://www.dealbada.com&state=5ef4dc57771bd770a47e4672d294ff62",
-      "purchase_domain": "nid.naver.com",
-      "shop": "트립스토어",
-      "category": "생필품",
-      "price_text": "613,000원",
-      "price_value": 613000,
-      "comments": 1375,
-      "likes": 0,
-      "views": 0,
-      "flags": [
-        "인기"
-      ],
-      "created_at": "2026-08-07T07:55:29.835913+00:00",
-      "score": 67
-    },
-    {
-      "id": "f951d98cc855e668",
-      "title": "[토스] 질경이 에코아 워시 골드 폼 150g 3개 (27,360원/무료)",
-      "source": "딜바다",
-      "source_url": "https://www.dealbada.com/bbs/board.php?bo_table=deal_domestic&wr_id=570877&page=1",
-      "url": "https://www.dealbada.com/bbs/board.php?bo_table=deal_domestic&wr_id=570877&page=1",
-      "purchase_url": "https://nid.naver.com/oauth2.0/authorize?client_id=Lwj2yX91T75T3qxEfEjn&response_type=code&redirect_uri=http://www.dealbada.com&state=33fe36a3715287d1ad3048956432e7f4",
-      "purchase_domain": "nid.naver.com",
-      "shop": "토스",
-      "category": "생필품",
-      "price_text": "27,360원",
-      "price_value": 27360,
-      "comments": 1375,
-      "likes": 0,
-      "views": 0,
-      "flags": [
-        "인기"
-      ],
-      "created_at": "2026-08-07T07:55:29.836586+00:00",
-      "score": 67
-    },
-    {
-      "id": "f2969a59876e4a43",
-      "title": "[11번가] 닥터브라이언 비타민C&D 복숭아맛 100구미 2통 (21,900원/무료)",
-      "source": "딜바다",
-      "source_url": "https://www.dealbada.com/bbs/board.php?bo_table=deal_domestic&wr_id=570874&page=1",
-      "url": "https://www.dealbada.com/bbs/board.php?bo_table=deal_domestic&wr_id=570874&page=1",
-      "purchase_url": "https://nid.naver.com/oauth2.0/authorize?client_id=Lwj2yX91T75T3qxEfEjn&response_type=code&redirect_uri=http://www.dealbada.com&state=992b4b56acf66d49e7b80d2ffc11df13",
-      "purchase_domain": "nid.naver.com",
-      "shop": "11번가",
-      "category": "생필품",
-      "price_text": "21,900원",
-      "price_value": 21900,
-      "comments": 1375,
-      "likes": 0,
-      "views": 0,
-      "flags": [
-        "인기"
-      ],
-      "created_at": "2026-08-07T07:55:29.838577+00:00",
-      "score": 67
+      "created_at": "2026-08-07T09:02:55.499888+00:00",
+      "score": 64
     },
     {
       "id": "f8dee5d7a9e4be0d",
@@ -241,7 +262,7 @@
       "source": "딜바다",
       "source_url": "https://www.dealbada.com/bbs/board.php?bo_table=deal_domestic&wr_id=570883&page=1",
       "url": "https://www.dealbada.com/bbs/board.php?bo_table=deal_domestic&wr_id=570883&page=1",
-      "purchase_url": "https://nid.naver.com/oauth2.0/authorize?client_id=Lwj2yX91T75T3qxEfEjn&response_type=code&redirect_uri=http://www.dealbada.com&state=74bd92582f825b3e1a700d61429eb063",
+      "purchase_url": "https://nid.naver.com/oauth2.0/authorize?client_id=Lwj2yX91T75T3qxEfEjn&response_type=code&redirect_uri=http://www.dealbada.com&state=e969ed544ee5aab7240a221ab38bcc7b",
       "purchase_domain": "nid.naver.com",
       "shop": "톡딜",
       "category": "생필품",
@@ -253,49 +274,7 @@
       "flags": [
         "무료배송"
       ],
-      "created_at": "2026-08-07T07:55:29.832587+00:00",
-      "score": 64
-    },
-    {
-      "id": "eef7cdbc830c7e50",
-      "title": "[신세계] 헤드스파7 트리트먼트 1+1 18,910원/무배",
-      "source": "딜바다",
-      "source_url": "https://www.dealbada.com/bbs/board.php?bo_table=deal_domestic&wr_id=570879&page=1",
-      "url": "https://www.dealbada.com/bbs/board.php?bo_table=deal_domestic&wr_id=570879&page=1",
-      "purchase_url": "https://nid.naver.com/oauth2.0/authorize?client_id=Lwj2yX91T75T3qxEfEjn&response_type=code&redirect_uri=http://www.dealbada.com&state=4bc2153457f455011072468921f1b09d",
-      "purchase_domain": "nid.naver.com",
-      "shop": "신세계",
-      "category": "생필품",
-      "price_text": "18,910원",
-      "price_value": 18910,
-      "comments": 1375,
-      "likes": 0,
-      "views": 0,
-      "flags": [
-        "무료배송"
-      ],
-      "created_at": "2026-08-07T07:55:29.835261+00:00",
-      "score": 64
-    },
-    {
-      "id": "fa04fcd68dc9ce11",
-      "title": "[지마켓] MSI MAG 322URDF800 E16 듀얼모드 게이밍 4K AI Vision 무결점 (543,890원/무배)",
-      "source": "딜바다",
-      "source_url": "https://www.dealbada.com/bbs/board.php?bo_table=deal_domestic&wr_id=570876&page=1",
-      "url": "https://www.dealbada.com/bbs/board.php?bo_table=deal_domestic&wr_id=570876&page=1",
-      "purchase_url": "https://nid.naver.com/oauth2.0/authorize?client_id=Lwj2yX91T75T3qxEfEjn&response_type=code&redirect_uri=http://www.dealbada.com&state=250329f6b888708efdb6522834e5d2ed",
-      "purchase_domain": "nid.naver.com",
-      "shop": "지마켓",
-      "category": "생필품",
-      "price_text": "543,890원",
-      "price_value": 543890,
-      "comments": 1375,
-      "likes": 0,
-      "views": 0,
-      "flags": [
-        "무료배송"
-      ],
-      "created_at": "2026-08-07T07:55:29.837276+00:00",
+      "created_at": "2026-08-07T09:02:55.506252+00:00",
       "score": 64
     },
     {
@@ -316,8 +295,50 @@
       "flags": [
         "만원 이하"
       ],
-      "created_at": "2026-08-07T07:52:15.994254+00:00",
+      "created_at": "2026-08-07T08:59:19.020948+00:00",
       "score": 63
+    },
+    {
+      "id": "302035b08c0532d5",
+      "title": "[SSG] 과일 푸딩젤리 믹스 3가지맛 (망고, 리치, 파인애플) 480g (80g x 6cups) 3760원",
+      "source": "딜바다",
+      "source_url": "https://www.dealbada.com/bbs/board.php?bo_table=deal_domestic&wr_id=570887&page=1",
+      "url": "https://www.dealbada.com/bbs/board.php?bo_table=deal_domestic&wr_id=570887&page=1",
+      "purchase_url": "https://nid.naver.com/oauth2.0/authorize?client_id=Lwj2yX91T75T3qxEfEjn&response_type=code&redirect_uri=http://www.dealbada.com&state=cbc85bcd07adf031a90bbd9441d8fb8b",
+      "purchase_domain": "nid.naver.com",
+      "shop": "SSG",
+      "category": "생필품",
+      "price_text": "3,760원",
+      "price_value": 3760,
+      "comments": 1375,
+      "likes": 0,
+      "views": 0,
+      "flags": [
+        "만원 이하"
+      ],
+      "created_at": "2026-08-07T09:02:55.504294+00:00",
+      "score": 63
+    },
+    {
+      "id": "d270682d847846c7",
+      "title": "[지마켓] 쌀로별 오리지널 62g 16입 (13,230원/무료) (18)",
+      "source": "루리웹",
+      "source_url": "https://bbs.ruliweb.com/market/board/1020/read/106197",
+      "url": "https://bbs.ruliweb.com/market/board/1020/read/106197",
+      "purchase_url": "https://m.gmarket.co.kr/vi/product/2941517691",
+      "purchase_domain": "m.gmarket.co.kr",
+      "shop": "지마켓",
+      "category": "식품·간식",
+      "price_text": "13,230원",
+      "price_value": 13230,
+      "comments": 18,
+      "likes": 0,
+      "views": 0,
+      "flags": [
+        "인기"
+      ],
+      "created_at": "2026-08-07T08:59:19.022117+00:00",
+      "score": 60
     },
     {
       "id": "d57187df64225d15",
@@ -337,7 +358,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-08-07T07:52:15.988104+00:00",
+      "created_at": "2026-08-07T08:59:19.015075+00:00",
       "score": 59
     },
     {
@@ -358,7 +379,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-08-07T07:52:15.990761+00:00",
+      "created_at": "2026-08-07T08:59:19.017578+00:00",
       "score": 59
     },
     {
@@ -379,28 +400,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-08-07T07:52:15.991489+00:00",
-      "score": 59
-    },
-    {
-      "id": "b4f1b98389171e3d",
-      "title": "[지마켓] 쌀로별 오리지널 62g 16입 (13,230원/무료) (17)",
-      "source": "루리웹",
-      "source_url": "https://bbs.ruliweb.com/market/board/1020/read/106197",
-      "url": "https://bbs.ruliweb.com/market/board/1020/read/106197",
-      "purchase_url": "https://m.gmarket.co.kr/vi/product/2941517691",
-      "purchase_domain": "m.gmarket.co.kr",
-      "shop": "지마켓",
-      "category": "식품·간식",
-      "price_text": "13,230원",
-      "price_value": 13230,
-      "comments": 17,
-      "likes": 0,
-      "views": 0,
-      "flags": [
-        "인기"
-      ],
-      "created_at": "2026-08-07T07:52:15.995590+00:00",
+      "created_at": "2026-08-07T08:59:19.018254+00:00",
       "score": 59
     },
     {
@@ -422,56 +422,55 @@
         "무료배송",
         "인기"
       ],
-      "created_at": "2026-08-07T07:52:15.997178+00:00",
+      "created_at": "2026-08-07T08:59:19.023440+00:00",
       "score": 59
     },
     {
-      "id": "68b66951998a7f31",
-      "title": "[쿠팡 골드박스]슬라이딩 철제 주방 선반 34,900원",
+      "id": "b13df294efacede0",
+      "title": "[GS25] 아삭복숭아 대과3kg 한정수량 (21,900원/사전예약)",
       "source": "딜바다",
-      "source_url": "https://www.dealbada.com/bbs/board.php?bo_table=deal_domestic&wr_id=570873&page=1",
-      "url": "https://www.dealbada.com/bbs/board.php?bo_table=deal_domestic&wr_id=570873&page=1",
-      "purchase_url": "https://nid.naver.com/oauth2.0/authorize?client_id=Lwj2yX91T75T3qxEfEjn&response_type=code&redirect_uri=http://www.dealbada.com&state=d0bc8f6adf4ee4a4c123bcc553de2168",
+      "source_url": "https://www.dealbada.com/bbs/board.php?bo_table=deal_domestic&wr_id=570890&page=1",
+      "url": "https://www.dealbada.com/bbs/board.php?bo_table=deal_domestic&wr_id=570890&page=1",
+      "purchase_url": "https://nid.naver.com/oauth2.0/authorize?client_id=Lwj2yX91T75T3qxEfEjn&response_type=code&redirect_uri=http://www.dealbada.com&state=a6c71e183d0d1d98bc1abc6fd9a160b6",
       "purchase_domain": "nid.naver.com",
-      "shop": "쿠팡",
-      "category": "주방·수납",
-      "price_text": "34,900원",
-      "price_value": 34900,
+      "shop": "GS25",
+      "category": "생필품",
+      "price_text": "21,900원",
+      "price_value": 21900,
       "comments": 1375,
       "likes": 0,
       "views": 0,
       "flags": [
         "신규"
       ],
-      "created_at": "2026-08-07T07:55:29.839207+00:00",
+      "created_at": "2026-08-07T09:02:55.502430+00:00",
       "score": 59
     },
     {
-      "id": "d3f9df09be8403c6",
-      "title": "[토스] 역대급특가 동구밭 올인원 식기세척기세제 타블렛 40정 X 2개 ( 8,000원/무료배송 )",
-      "source": "뽐뿌",
-      "source_url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725499",
-      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725499",
-      "purchase_url": "https://toss.shopping/t/2300237943?k=bbe9ffea-2105-493c-832c-d0bd72a39e41",
-      "purchase_domain": "toss.shopping",
-      "shop": "토스",
+      "id": "c6cf06905b29fac5",
+      "title": "[쿠팡] 짜파게티 사천 137g 8봉 (7,520원/무료) (7)",
+      "source": "루리웹",
+      "source_url": "https://bbs.ruliweb.com/market/board/1020/read/106212",
+      "url": "https://bbs.ruliweb.com/market/board/1020/read/106212",
+      "purchase_url": "https://www.coupang.com/vp/products/6162108553?itemId=17909999849",
+      "purchase_domain": "coupang.com",
+      "shop": "쿠팡",
       "category": "생필품",
-      "price_text": "8,000원",
-      "price_value": 8000,
-      "comments": 0,
+      "price_text": "7,520원",
+      "price_value": 7520,
+      "comments": 7,
       "likes": 0,
       "views": 0,
       "flags": [
-        "무료배송",
         "인기",
         "만원 이하"
       ],
-      "created_at": "2026-08-07T07:53:09.205822+00:00",
-      "score": 58
+      "created_at": "2026-08-07T08:59:19.021108+00:00",
+      "score": 57
     },
     {
-      "id": "0678b60313371383",
-      "title": "[CJONE] 메가커피 아이스아메리카노 50% 할인 쿠폰 (10)",
+      "id": "0bbe68cf0dc57a9f",
+      "title": "[CJONE] 메가커피 아이스아메리카노 50% 할인 쿠폰 (11)",
       "source": "루리웹",
       "source_url": "https://bbs.ruliweb.com/market/board/1020/read/106204",
       "url": "https://bbs.ruliweb.com/market/board/1020/read/106204",
@@ -481,14 +480,14 @@
       "category": "식품·간식",
       "price_text": "가격 확인",
       "price_value": 0,
-      "comments": 10,
+      "comments": 11,
       "likes": 0,
       "views": 0,
       "flags": [
         "인기"
       ],
-      "created_at": "2026-08-07T07:52:15.992177+00:00",
-      "score": 55
+      "created_at": "2026-08-07T08:59:19.018908+00:00",
+      "score": 56
     },
     {
       "id": "97e38496d41f2dad",
@@ -508,34 +507,33 @@
       "flags": [
         "만원 이하"
       ],
-      "created_at": "2026-08-07T07:52:15.996713+00:00",
+      "created_at": "2026-08-07T08:59:19.023065+00:00",
       "score": 55
     },
     {
-      "id": "cc5a481d3f05be5e",
-      "title": "[쿠팡] 짜파게티 사천 137g 8봉 (7,520원/무료)",
+      "id": "af540c135a694049",
+      "title": "[SSG] 닌텐도 스위치2 오비탈스 사전예약 (56,000원/무료) (9)",
       "source": "루리웹",
-      "source_url": "https://bbs.ruliweb.com/market/board/1020/read/106212",
-      "url": "https://bbs.ruliweb.com/market/board/1020/read/106212",
-      "purchase_url": "https://www.coupang.com/vp/products/6162108553?itemId=17909999849",
-      "purchase_domain": "coupang.com",
-      "shop": "쿠팡",
+      "source_url": "https://bbs.ruliweb.com/market/board/1020/read/106211",
+      "url": "https://bbs.ruliweb.com/market/board/1020/read/106211",
+      "purchase_url": "https://m.ssg.com/item/itemView.ssg?itemId=1000862505234",
+      "purchase_domain": "m.ssg.com",
+      "shop": "SSG",
       "category": "생필품",
-      "price_text": "7,520원",
-      "price_value": 7520,
-      "comments": 0,
+      "price_text": "56,000원",
+      "price_value": 56000,
+      "comments": 9,
       "likes": 0,
       "views": 0,
       "flags": [
-        "인기",
-        "만원 이하"
+        "인기"
       ],
-      "created_at": "2026-08-07T07:52:15.994418+00:00",
-      "score": 53
+      "created_at": "2026-08-07T08:59:19.021240+00:00",
+      "score": 54
     },
     {
-      "id": "495385b217a82642",
-      "title": "[네이버페이] 일일적립, 클릭 38원, 라이브예고 2원 (20)",
+      "id": "66672326e630617c",
+      "title": "[네이버페이] 일일적립, 클릭 38원, 라이브예고 2원 (21)",
       "source": "루리웹",
       "source_url": "https://bbs.ruliweb.com/market/board/1020/read/106191",
       "url": "https://bbs.ruliweb.com/market/board/1020/read/106191",
@@ -545,13 +543,34 @@
       "category": "상품권·포인트",
       "price_text": "가격 확인",
       "price_value": 0,
-      "comments": 20,
+      "comments": 21,
       "likes": 0,
       "views": 0,
       "flags": [
         "신규"
       ],
-      "created_at": "2026-08-07T07:52:15.996386+00:00",
+      "created_at": "2026-08-07T08:59:19.022778+00:00",
+      "score": 54
+    },
+    {
+      "id": "77630267a950d041",
+      "title": "[롯데온] 오리온 단짠밸런스팩 20봉 (18,480원/무료) (7)",
+      "source": "루리웹",
+      "source_url": "https://bbs.ruliweb.com/market/board/1020/read/106209",
+      "url": "https://bbs.ruliweb.com/market/board/1020/read/106209",
+      "purchase_url": "https://www.lotteon.com/p/product/LO2677662772",
+      "purchase_domain": "lotteon.com",
+      "shop": "롯데온",
+      "category": "생필품",
+      "price_text": "18,480원",
+      "price_value": 18480,
+      "comments": 7,
+      "likes": 0,
+      "views": 0,
+      "flags": [
+        "인기"
+      ],
+      "created_at": "2026-08-07T08:59:19.021484+00:00",
       "score": 53
     },
     {
@@ -573,7 +592,7 @@
         "무료배송",
         "인기"
       ],
-      "created_at": "2026-08-07T07:52:15.996855+00:00",
+      "created_at": "2026-08-07T08:59:19.023190+00:00",
       "score": 53
     },
     {
@@ -594,54 +613,56 @@
       "flags": [
         "신규"
       ],
-      "created_at": "2026-08-07T07:52:15.997455+00:00",
+      "created_at": "2026-08-07T08:59:19.023685+00:00",
       "score": 53
     },
     {
-      "id": "0cdd46f94c2beb6c",
-      "title": "[SSG] 닌텐도 스위치2 오비탈스 사전예약 (56,000원/무료) (5)",
-      "source": "루리웹",
-      "source_url": "https://bbs.ruliweb.com/market/board/1020/read/106211",
-      "url": "https://bbs.ruliweb.com/market/board/1020/read/106211",
-      "purchase_url": "https://m.ssg.com/item/itemView.ssg?itemId=1000862505234",
-      "purchase_domain": "m.ssg.com",
-      "shop": "SSG",
-      "category": "생필품",
-      "price_text": "56,000원",
-      "price_value": 56000,
-      "comments": 5,
+      "id": "339f98098599a39b",
+      "title": "[11번가] 메가MGC커피 복숭아 퐁당 요거트 스무디 (3,120원/무료)",
+      "source": "뽐뿌",
+      "source_url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725372",
+      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725372",
+      "purchase_url": "https://www.11st.co.kr/products/9524705431",
+      "purchase_domain": "11st.co.kr",
+      "shop": "11번가",
+      "category": "식품·간식",
+      "price_text": "3,120원",
+      "price_value": 3120,
+      "comments": 0,
       "likes": 0,
       "views": 0,
       "flags": [
-        "인기"
+        "인기",
+        "만원 이하"
       ],
-      "created_at": "2026-08-07T07:52:15.994570+00:00",
-      "score": 52
+      "created_at": "2026-08-07T09:00:20.327095+00:00",
+      "score": 53
     },
     {
-      "id": "3c4b7260bed63814",
-      "title": "[롯데온] 오리온 단짠밸런스팩 20봉 (18,480원/무료) (5)",
-      "source": "루리웹",
-      "source_url": "https://bbs.ruliweb.com/market/board/1020/read/106209",
-      "url": "https://bbs.ruliweb.com/market/board/1020/read/106209",
-      "purchase_url": "https://www.lotteon.com/p/product/LO2677662772",
-      "purchase_domain": "lotteon.com",
-      "shop": "롯데온",
+      "id": "d16250e3563390af",
+      "title": "[카카오톡] 배수구세척제 드릴펑 1L X 3개 + 2L (9,900원/무료)",
+      "source": "뽐뿌",
+      "source_url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725533",
+      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725533",
+      "purchase_url": "https://st.kakaocdn.net/thumb/C375x375.fjpg/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fproduct%2F20260625133150_0dfe871891954a7eaf3cd7db8f4720b9.jpg",
+      "purchase_domain": "st.kakaocdn.net",
+      "shop": "카카오톡",
       "category": "생필품",
-      "price_text": "18,480원",
-      "price_value": 18480,
-      "comments": 5,
+      "price_text": "9,900원",
+      "price_value": 9900,
+      "comments": 0,
       "likes": 0,
       "views": 0,
       "flags": [
-        "인기"
+        "인기",
+        "만원 이하"
       ],
-      "created_at": "2026-08-07T07:52:15.994852+00:00",
-      "score": 52
+      "created_at": "2026-08-07T09:00:20.329099+00:00",
+      "score": 53
     },
     {
-      "id": "2553416a89b1ab13",
-      "title": "[롯데온] 바리스타룰스 무라벨 커피 블랙 등 20개 (15,890원/무료... (4)",
+      "id": "df26e9ebdc4a4f74",
+      "title": "[롯데온] 바리스타룰스 무라벨 커피 블랙 등 20개 (15,890원/무료... (5)",
       "source": "루리웹",
       "source_url": "https://bbs.ruliweb.com/market/board/1020/read/106203",
       "url": "https://bbs.ruliweb.com/market/board/1020/read/106203",
@@ -651,14 +672,14 @@
       "category": "식품·간식",
       "price_text": "15,890원",
       "price_value": 15890,
-      "comments": 4,
+      "comments": 5,
       "likes": 0,
       "views": 0,
       "flags": [
         "인기"
       ],
-      "created_at": "2026-08-07T07:52:15.995321+00:00",
-      "score": 51
+      "created_at": "2026-08-07T08:59:19.021880+00:00",
+      "score": 52
     },
     {
       "id": "304d85f60d8cdb3a",
@@ -678,7 +699,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-08-07T07:52:15.995932+00:00",
+      "created_at": "2026-08-07T08:59:19.022412+00:00",
       "score": 51
     },
     {
@@ -699,7 +720,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-08-07T07:52:15.996102+00:00",
+      "created_at": "2026-08-07T08:59:19.022543+00:00",
       "score": 51
     },
     {
@@ -720,21 +741,21 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-08-07T07:52:15.996517+00:00",
+      "created_at": "2026-08-07T08:59:19.022892+00:00",
       "score": 51
     },
     {
-      "id": "9b2f4dbcff3f8818",
-      "title": "[네이버] 뉴트리션메이트 비타민c 1000mg 100정 (4,290원/네멤무배)",
+      "id": "918fbcf315e7e838",
+      "title": "[카카오] 짱돌떡볶이 기본맛 4팩 (6,900원 / 무배)",
       "source": "뽐뿌",
-      "source_url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725515",
-      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725515",
-      "purchase_url": "https://smartstore.naver.com/nutritionmate/products/7120901712",
-      "purchase_domain": "smartstore.naver.com",
-      "shop": "네이버",
+      "source_url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725541",
+      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725541",
+      "purchase_url": "https://st.kakaocdn.net/thumb/C375x375.fjpg/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fproduct%2F20260213165311_3c92364e365544b0af32686363bc3fd3.jpg",
+      "purchase_domain": "st.kakaocdn.net",
+      "shop": "카카오",
       "category": "생필품",
-      "price_text": "4,290원",
-      "price_value": 4290,
+      "price_text": "6,900원",
+      "price_value": 6900,
       "comments": 0,
       "likes": 0,
       "views": 0,
@@ -742,7 +763,7 @@
         "무료배송",
         "만원 이하"
       ],
-      "created_at": "2026-08-07T07:53:09.203828+00:00",
+      "created_at": "2026-08-07T09:00:20.328106+00:00",
       "score": 50
     },
     {
@@ -763,7 +784,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-08-07T07:52:15.986270+00:00",
+      "created_at": "2026-08-07T08:59:19.013346+00:00",
       "score": 49
     },
     {
@@ -784,7 +805,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-08-07T07:52:15.986994+00:00",
+      "created_at": "2026-08-07T08:59:19.013992+00:00",
       "score": 49
     },
     {
@@ -805,7 +826,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-08-07T07:52:15.988225+00:00",
+      "created_at": "2026-08-07T08:59:19.015196+00:00",
       "score": 49
     },
     {
@@ -826,7 +847,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-08-07T07:52:15.988349+00:00",
+      "created_at": "2026-08-07T08:59:19.015312+00:00",
       "score": 49
     },
     {
@@ -847,7 +868,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-08-07T07:52:15.988615+00:00",
+      "created_at": "2026-08-07T08:59:19.015557+00:00",
       "score": 49
     },
     {
@@ -868,7 +889,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-08-07T07:52:15.999320+00:00",
+      "created_at": "2026-08-07T08:59:19.025370+00:00",
       "score": 49
     },
     {
@@ -889,280 +910,217 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-08-07T07:53:09.200323+00:00",
+      "created_at": "2026-08-07T09:00:20.324535+00:00",
       "score": 49
     },
     {
-      "id": "dedb43629089baa7",
-      "title": "[SSG] 미쓰비시 유니 쿠루토가 KURUTOGA DIVE 다이브 수능 샤프 M5-5000 (76,900원/무료)",
+      "id": "966fb65bc7ffabc4",
+      "title": "[롯데온] 츄파춥스 팝아트틴 150입 + 한정판 블루투스 스피커 (18,900원/무료)",
       "source": "뽐뿌",
-      "source_url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725314",
-      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725314",
-      "purchase_url": "https://www.ssg.com/item/itemView.ssg?itemId=1000626533077&siteNo=6004&salestrNo=6005",
-      "purchase_domain": "ssg.com",
-      "shop": "SSG",
+      "source_url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725546",
+      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725546",
+      "purchase_url": "https://www.lotteon.com/p/product/LO2668042600",
+      "purchase_domain": "lotteon.com",
+      "shop": "롯데온",
       "category": "생필품",
-      "price_text": "76,900원",
-      "price_value": 76900,
+      "price_text": "18,900원",
+      "price_value": 18900,
       "comments": 0,
       "likes": 0,
       "views": 0,
       "flags": [
         "인기"
       ],
-      "created_at": "2026-08-07T07:53:09.203197+00:00",
+      "created_at": "2026-08-07T09:00:20.327480+00:00",
       "score": 49
     },
     {
-      "id": "d671ae72944d7790",
-      "title": "[지마켓] 오리온 포카칩 스윗치즈(60g) 10개 + 어니언(66g) 10개 카할가 (20,900원/무료)",
+      "id": "32b079a8ed1d5721",
+      "title": "[11번가] 아싸컴 반본체 AMD 반본체_7700X3D+32GB+1TB (1,690,030원/ 무료)",
       "source": "뽐뿌",
-      "source_url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725518",
-      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725518",
-      "purchase_url": "https://item.gmarket.co.kr/Item?goodscode=4823208545",
+      "source_url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725545",
+      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725545",
+      "purchase_url": "https://www.11st.co.kr/products/8847096814",
+      "purchase_domain": "11st.co.kr",
+      "shop": "11번가",
+      "category": "생필품",
+      "price_text": "1,690,030원",
+      "price_value": 1690030,
+      "comments": 0,
+      "likes": 0,
+      "views": 0,
+      "flags": [
+        "인기"
+      ],
+      "created_at": "2026-08-07T09:00:20.327636+00:00",
+      "score": 49
+    },
+    {
+      "id": "fdcae7ce21812805",
+      "title": "[지마켓] 농심 새우깡 10봉 + 와사비새우깡 10봉 (17,880원/무료)",
+      "source": "뽐뿌",
+      "source_url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725544",
+      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725544",
+      "purchase_url": "https://item.gmarket.co.kr/Item?goodscode=4537493251",
       "purchase_domain": "item.gmarket.co.kr",
       "shop": "지마켓",
       "category": "생필품",
-      "price_text": "20,900원",
-      "price_value": 20900,
+      "price_text": "17,880원",
+      "price_value": 17880,
       "comments": 0,
       "likes": 0,
       "views": 0,
       "flags": [
         "인기"
       ],
-      "created_at": "2026-08-07T07:53:09.203362+00:00",
+      "created_at": "2026-08-07T09:00:20.327758+00:00",
       "score": 49
     },
     {
-      "id": "a2c4f11ae15b8252",
-      "title": "[롯데온] 농심 새우깡4봉+자갈치4봉+양파링4봉+포테토칩4봉 (15,890원/무료)",
+      "id": "d0f6932d8e03d77e",
+      "title": "[카카오톡] 농심 신신너너짜짜 30입 (신라면10+너구리10+짜파게티10) (20,650원/무료)",
       "source": "뽐뿌",
-      "source_url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725513",
-      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725513",
-      "purchase_url": "https://www.lotteon.com/p/product/LO2739246809",
-      "purchase_domain": "lotteon.com",
-      "shop": "롯데온",
-      "category": "생필품",
-      "price_text": "15,890원",
-      "price_value": 15890,
-      "comments": 0,
-      "likes": 0,
-      "views": 0,
-      "flags": [
-        "인기"
-      ],
-      "created_at": "2026-08-07T07:53:09.204074+00:00",
-      "score": 49
-    },
-    {
-      "id": "dd946b18c0343a4c",
-      "title": "[롯데온] 롯데 설레임/모나카/콘 12개 + 바 아이스크림 12개 (19,990원/무료)",
-      "source": "뽐뿌",
-      "source_url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725511",
-      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725511",
-      "purchase_url": "https://www.lotteon.com/p/product/LO2740198623",
-      "purchase_domain": "lotteon.com",
-      "shop": "롯데온",
-      "category": "생필품",
-      "price_text": "19,990원",
-      "price_value": 19990,
-      "comments": 0,
-      "likes": 0,
-      "views": 0,
-      "flags": [
-        "인기"
-      ],
-      "created_at": "2026-08-07T07:53:09.204227+00:00",
-      "score": 49
-    },
-    {
-      "id": "4903970fdf590941",
-      "title": "[오늘의집] 베베앙 클래스 물티슈 73gsm 고평량물티슈 70매 20팩 (16,119원/무료)",
-      "source": "뽐뿌",
-      "source_url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725508",
-      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725508",
-      "purchase_url": "https://store.ohou.se/goods/2180249",
-      "purchase_domain": "store.ohou.se",
-      "shop": "오늘의집",
-      "category": "생필품",
-      "price_text": "16,119원",
-      "price_value": 16119,
-      "comments": 0,
-      "likes": 0,
-      "views": 0,
-      "flags": [
-        "인기"
-      ],
-      "created_at": "2026-08-07T07:53:09.204655+00:00",
-      "score": 49
-    },
-    {
-      "id": "58f1eda8a2e1e7bb",
-      "title": "[G마켓] 쌀로별 오리지널 62g 16개 (13,230/무료)",
-      "source": "뽐뿌",
-      "source_url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725506",
-      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725506",
-      "purchase_url": "https://item.gmarket.co.kr/Item?goodscode=2941517691",
-      "purchase_domain": "item.gmarket.co.kr",
-      "shop": "G마켓",
+      "source_url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725543",
+      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725543",
+      "purchase_url": "https://st.kakaocdn.net/thumb/C375x375.fjpg/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fproduct%2F20260326143430_5cdaf50d2a844adbaeb988104dbb677b.jpg",
+      "purchase_domain": "st.kakaocdn.net",
+      "shop": "카카오톡",
       "category": "식품·간식",
-      "price_text": "가격 확인",
-      "price_value": 0,
+      "price_text": "20,650원",
+      "price_value": 20650,
       "comments": 0,
       "likes": 0,
       "views": 0,
       "flags": [
         "인기"
       ],
-      "created_at": "2026-08-07T07:53:09.204960+00:00",
+      "created_at": "2026-08-07T09:00:20.327871+00:00",
       "score": 49
     },
     {
-      "id": "19c5b5bf2cd56ddd",
-      "title": "[하이마트몰] 캐리어 냉방 벽걸이 EARB-0063QAWSD (431,100원/무료)",
+      "id": "01a44a09f2310e33",
+      "title": "[롯데온] 멕시카나 양념치킨+콜라1.25L (17,860원/무료)",
       "source": "뽐뿌",
-      "source_url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725503",
-      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725503",
-      "purchase_url": "https://www.e-himart.co.kr/app/goods/goodsDetail?goodsNo=0041278360",
+      "source_url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725539",
+      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725539",
+      "purchase_url": "https://www.lotteon.com/p/product/bundle/LO2683486085",
+      "purchase_domain": "lotteon.com",
+      "shop": "롯데온",
+      "category": "생필품",
+      "price_text": "17,860원",
+      "price_value": 17860,
+      "comments": 0,
+      "likes": 0,
+      "views": 0,
+      "flags": [
+        "인기"
+      ],
+      "created_at": "2026-08-07T09:00:20.328361+00:00",
+      "score": 49
+    },
+    {
+      "id": "6667cda5ae1dbf1a",
+      "title": "[11번가] 제철 생 블루베리 1팩 125g 총 6팩 (16,920원/무료)",
+      "source": "뽐뿌",
+      "source_url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725536",
+      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725536",
+      "purchase_url": "https://www.11st.co.kr/products/9054865797",
+      "purchase_domain": "11st.co.kr",
+      "shop": "11번가",
+      "category": "생필품",
+      "price_text": "16,920원",
+      "price_value": 16920,
+      "comments": 0,
+      "likes": 0,
+      "views": 0,
+      "flags": [
+        "인기"
+      ],
+      "created_at": "2026-08-07T09:00:20.328733+00:00",
+      "score": 49
+    },
+    {
+      "id": "1133fad8053ecd10",
+      "title": "[더현대] 블랙야크 워킹화 이지 워크(카드 34,120원/무료)",
+      "source": "뽐뿌",
+      "source_url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725534",
+      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725534",
+      "purchase_url": "https://hi.thehyundai.com/product/40B1342747",
+      "purchase_domain": "hi.thehyundai.com",
+      "shop": "더현대",
+      "category": "생필품",
+      "price_text": "34,120원",
+      "price_value": 34120,
+      "comments": 0,
+      "likes": 0,
+      "views": 0,
+      "flags": [
+        "인기"
+      ],
+      "created_at": "2026-08-07T09:00:20.328979+00:00",
+      "score": 49
+    },
+    {
+      "id": "fb1dd9b0cc8d432e",
+      "title": "[롯데온] 티아시아 커리 전자레인지용 170g 6종 10개+1개증정 (14,400원/무료)",
+      "source": "뽐뿌",
+      "source_url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725532",
+      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725532",
+      "purchase_url": "https://www.lotteon.com/p/product/LO2363150148",
+      "purchase_domain": "lotteon.com",
+      "shop": "롯데온",
+      "category": "생필품",
+      "price_text": "14,400원",
+      "price_value": 14400,
+      "comments": 0,
+      "likes": 0,
+      "views": 0,
+      "flags": [
+        "인기"
+      ],
+      "created_at": "2026-08-07T09:00:20.329222+00:00",
+      "score": 49
+    },
+    {
+      "id": "e5a530fad56d00c8",
+      "title": "[톡딜] 역전회관 바싹불고기 200g 5팩 (19,900원/무료)",
+      "source": "뽐뿌",
+      "source_url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725531",
+      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725531",
+      "purchase_url": "https://st.kakaocdn.net/thumb/C375x375.fjpg/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fproduct%2F20260418144558_e47767753db14339bd8effeab7d591a1.jpg",
+      "purchase_domain": "st.kakaocdn.net",
+      "shop": "톡딜",
+      "category": "식품·간식",
+      "price_text": "19,900원",
+      "price_value": 19900,
+      "comments": 0,
+      "likes": 0,
+      "views": 0,
+      "flags": [
+        "인기"
+      ],
+      "created_at": "2026-08-07T09:00:20.329325+00:00",
+      "score": 49
+    },
+    {
+      "id": "b325c48f27258abf",
+      "title": "[하이마트몰] 테팔 슬림핏 초고속 유리 믹서기 저소음 이유식 블렌더 블렌드 업 BL-19G4KO (125,100원/무료)",
+      "source": "뽐뿌",
+      "source_url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725529",
+      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725529",
+      "purchase_url": "https://www.e-himart.co.kr/app/goods/goodsDetail?goodsNo=0044846525",
       "purchase_domain": "e-himart.co.kr",
       "shop": "이마트",
-      "category": "생필품",
-      "price_text": "431,100원",
-      "price_value": 431100,
+      "category": "육아",
+      "price_text": "125,100원",
+      "price_value": 125100,
       "comments": 0,
       "likes": 0,
       "views": 0,
       "flags": [
         "인기"
       ],
-      "created_at": "2026-08-07T07:53:09.205260+00:00",
-      "score": 49
-    },
-    {
-      "id": "fb92cecba5a9f62d",
-      "title": "[롯데온] 원적외선 구운계란 60구 (15280원 /무료)",
-      "source": "뽐뿌",
-      "source_url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725502",
-      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725502",
-      "purchase_url": "https://www.lotteon.com/p/product/LO2521927304",
-      "purchase_domain": "lotteon.com",
-      "shop": "롯데온",
-      "category": "생필품",
-      "price_text": "15,280원",
-      "price_value": 15280,
-      "comments": 0,
-      "likes": 0,
-      "views": 0,
-      "flags": [
-        "인기"
-      ],
-      "created_at": "2026-08-07T07:53:09.205399+00:00",
-      "score": 49
-    },
-    {
-      "id": "79b2ce8c40339021",
-      "title": "[네이버] 업소용선풍기 30cm (27,810원 / 무료)",
-      "source": "뽐뿌",
-      "source_url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725501",
-      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725501",
-      "purchase_url": "https://brand.naver.com/liway/products/11735063351",
-      "purchase_domain": "brand.naver.com",
-      "shop": "네이버",
-      "category": "생필품",
-      "price_text": "27,810원",
-      "price_value": 27810,
-      "comments": 0,
-      "likes": 0,
-      "views": 0,
-      "flags": [
-        "인기"
-      ],
-      "created_at": "2026-08-07T07:53:09.205538+00:00",
-      "score": 49
-    },
-    {
-      "id": "8c392fd49ab52adb",
-      "title": "[G마켓] 빙그레 인기아이스크림 바 40개 혼합 세트 (19,380원/무료)",
-      "source": "뽐뿌",
-      "source_url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725500",
-      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725500",
-      "purchase_url": "https://item.gmarket.co.kr/Item?goodscode=3902228793",
-      "purchase_domain": "item.gmarket.co.kr",
-      "shop": "G마켓",
-      "category": "생필품",
-      "price_text": "19,380원",
-      "price_value": 19380,
-      "comments": 0,
-      "likes": 0,
-      "views": 0,
-      "flags": [
-        "인기"
-      ],
-      "created_at": "2026-08-07T07:53:09.205682+00:00",
-      "score": 49
-    },
-    {
-      "id": "efc789315c7ab498",
-      "title": "[떠리몰] 종근당 벤포뮨F 육체피로+체력저하에 효과 90정 3개월분(18,880원/무료)",
-      "source": "뽐뿌",
-      "source_url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725498",
-      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725498",
-      "purchase_url": "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd",
-      "purchase_domain": "w3.org",
-      "shop": "떠리몰",
-      "category": "생필품",
-      "price_text": "18,880원",
-      "price_value": 18880,
-      "comments": 0,
-      "likes": 0,
-      "views": 0,
-      "flags": [
-        "인기"
-      ],
-      "created_at": "2026-08-07T07:53:09.206007+00:00",
-      "score": 49
-    },
-    {
-      "id": "52ec8f3e2ea4016d",
-      "title": "[오늘의집] 임박 피코크 너비아니 550g 4팩 (17,424원/무료)",
-      "source": "뽐뿌",
-      "source_url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725497",
-      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725497",
-      "purchase_url": "https://store.ohou.se/goods/3522165",
-      "purchase_domain": "store.ohou.se",
-      "shop": "오늘의집",
-      "category": "생필품",
-      "price_text": "17,424원",
-      "price_value": 17424,
-      "comments": 0,
-      "likes": 0,
-      "views": 0,
-      "flags": [
-        "인기"
-      ],
-      "created_at": "2026-08-07T07:53:09.206171+00:00",
-      "score": 49
-    },
-    {
-      "id": "ca6b73882cde15bd",
-      "title": "[청소기특가] JONR P20 Pro 올인원 로봇청소기 ($119)",
-      "source": "뽐뿌_해외",
-      "source_url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu4&page=1&divpage=23&no=95267",
-      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu4&page=1&divpage=23&no=95267",
-      "purchase_url": "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd",
-      "purchase_domain": "w3.org",
-      "shop": "청소기특가",
-      "category": "생필품",
-      "price_text": "가격 확인",
-      "price_value": 0,
-      "comments": 0,
-      "likes": 0,
-      "views": 0,
-      "flags": [
-        "인기"
-      ],
-      "created_at": "2026-08-07T07:54:05.498460+00:00",
+      "created_at": "2026-08-07T09:00:20.329582+00:00",
       "score": 49
     },
     {
@@ -1183,7 +1141,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-08-07T07:54:05.498838+00:00",
+      "created_at": "2026-08-07T09:01:24.253888+00:00",
       "score": 49
     },
     {
@@ -1204,7 +1162,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-08-07T07:54:05.499435+00:00",
+      "created_at": "2026-08-07T09:01:24.254399+00:00",
       "score": 49
     },
     {
@@ -1225,7 +1183,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-08-07T07:54:05.500708+00:00",
+      "created_at": "2026-08-07T09:01:24.255515+00:00",
       "score": 49
     },
     {
@@ -1246,17 +1204,17 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-08-07T07:54:05.501039+00:00",
+      "created_at": "2026-08-07T09:01:24.255794+00:00",
       "score": 49
     },
     {
-      "id": "6cfae2067e65cd41",
-      "title": "[알리익스프레스] 할인에 파도타기 정보 안내 (클리앙 전용 할인코드)",
+      "id": "4d1c994c37d0c2a1",
+      "title": "[알리익스프레스] 알리's Pick 정보 안내 (클리앙 전용 할인코드,결제할인)",
       "source": "클리앙_알뜰구매",
-      "source_url": "https://www.clien.net/service/board/jirum/19237990",
-      "url": "https://www.clien.net/service/board/jirum/19237990",
-      "purchase_url": "https://www.aliexpress.com/ssr/300003326/kr-mainvenue-y7j1b1?disableNav=YES&pha_manifest=ssr&_immersiveMode=true&businessCode=guideAliExpress",
-      "purchase_domain": "aliexpress.com",
+      "source_url": "https://www.clien.net/service/board/jirum/19243216",
+      "url": "https://www.clien.net/service/board/jirum/19243216",
+      "purchase_url": "https://s.click.aliexpress.com/e/_c3cz9619",
+      "purchase_domain": "s.click.aliexpress.com",
       "shop": "알리",
       "category": "해외직구",
       "price_text": "가격 확인",
@@ -1267,7 +1225,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-08-07T07:54:40.921274+00:00",
+      "created_at": "2026-08-07T09:02:02.079707+00:00",
       "score": 49
     },
     {
@@ -1288,7 +1246,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-08-07T07:54:40.921642+00:00",
+      "created_at": "2026-08-07T09:02:02.080081+00:00",
       "score": 49
     },
     {
@@ -1309,7 +1267,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-08-07T07:54:40.921823+00:00",
+      "created_at": "2026-08-07T09:02:02.080239+00:00",
       "score": 49
     },
     {
@@ -1330,7 +1288,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-08-07T07:54:40.922025+00:00",
+      "created_at": "2026-08-07T09:02:02.080393+00:00",
       "score": 49
     },
     {
@@ -1351,7 +1309,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-08-07T07:54:40.922216+00:00",
+      "created_at": "2026-08-07T09:02:02.080570+00:00",
       "score": 49
     },
     {
@@ -1372,7 +1330,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-08-07T07:54:40.922392+00:00",
+      "created_at": "2026-08-07T09:02:02.080729+00:00",
       "score": 49
     },
     {
@@ -1393,7 +1351,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-08-07T07:54:40.922563+00:00",
+      "created_at": "2026-08-07T09:02:02.080878+00:00",
       "score": 49
     },
     {
@@ -1414,7 +1372,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-08-07T07:54:40.923112+00:00",
+      "created_at": "2026-08-07T09:02:02.081337+00:00",
       "score": 49
     },
     {
@@ -1435,7 +1393,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-08-07T07:54:40.923296+00:00",
+      "created_at": "2026-08-07T09:02:02.081494+00:00",
       "score": 49
     },
     {
@@ -1456,7 +1414,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-08-07T07:54:40.923478+00:00",
+      "created_at": "2026-08-07T09:02:02.081662+00:00",
       "score": 49
     },
     {
@@ -1477,7 +1435,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-08-07T07:54:40.923820+00:00",
+      "created_at": "2026-08-07T09:02:02.081956+00:00",
       "score": 49
     },
     {
@@ -1498,7 +1456,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-08-07T07:54:40.924030+00:00",
+      "created_at": "2026-08-07T09:02:02.082115+00:00",
       "score": 49
     },
     {
@@ -1519,7 +1477,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-08-07T07:54:40.924783+00:00",
+      "created_at": "2026-08-07T09:02:02.082783+00:00",
       "score": 49
     },
     {
@@ -1540,7 +1498,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-08-07T07:54:40.924975+00:00",
+      "created_at": "2026-08-07T09:02:02.082934+00:00",
       "score": 49
     },
     {
@@ -1561,7 +1519,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-08-07T07:54:40.925161+00:00",
+      "created_at": "2026-08-07T09:02:02.083094+00:00",
       "score": 49
     },
     {
@@ -1582,7 +1540,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-08-07T07:54:40.925550+00:00",
+      "created_at": "2026-08-07T09:02:02.083421+00:00",
       "score": 49
     },
     {
@@ -1591,7 +1549,7 @@
       "source": "딜바다",
       "source_url": "https://www.dealbada.com/bbs/board_hotdeal.php",
       "url": "https://www.dealbada.com/bbs/board_hotdeal.php",
-      "purchase_url": "https://nid.naver.com/oauth2.0/authorize?client_id=Lwj2yX91T75T3qxEfEjn&response_type=code&redirect_uri=http://www.dealbada.com&state=92970cd1a4d9aff4c5d953fbfd7b4fff",
+      "purchase_url": "https://nid.naver.com/oauth2.0/authorize?client_id=Lwj2yX91T75T3qxEfEjn&response_type=code&redirect_uri=http://www.dealbada.com&state=44e721b900580d5e4a384f4767ad785f",
       "purchase_domain": "nid.naver.com",
       "shop": "",
       "category": "생필품",
@@ -1603,33 +1561,12 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-08-07T07:55:29.827290+00:00",
+      "created_at": "2026-08-07T09:02:55.496592+00:00",
       "score": 49
     },
     {
-      "id": "5228875338a2c5c9",
-      "title": "골프포럼 > 도민할인 가격이겠지요? 5만원이면 얼음으로 중무장하고서라도 반드시 나가겠습니다 !",
-      "source": "딜바다",
-      "source_url": "https://www.dealbada.com/bbs/board.php?bo_table=forum_golf&wr_id=1334050",
-      "url": "https://www.dealbada.com/bbs/board.php?bo_table=forum_golf&wr_id=1334050",
-      "purchase_url": "https://nid.naver.com/oauth2.0/authorize?client_id=Lwj2yX91T75T3qxEfEjn&response_type=code&redirect_uri=http://www.dealbada.com&state=26cb4a3bc0cb0d7921f2889338c589b8",
-      "purchase_domain": "nid.naver.com",
-      "shop": "",
-      "category": "생필품",
-      "price_text": "50,000원",
-      "price_value": 50000,
-      "comments": 0,
-      "likes": 0,
-      "views": 0,
-      "flags": [
-        "인기"
-      ],
-      "created_at": "2026-08-07T07:55:29.829122+00:00",
-      "score": 49
-    },
-    {
-      "id": "49c72c9ca911a6ea",
-      "title": "[네이버페이] 연금확인적립 (10)",
+      "id": "3339365af5a9bd79",
+      "title": "[네이버페이] 연금확인적립 (11)",
       "source": "루리웹",
       "source_url": "https://bbs.ruliweb.com/market/board/1020/read/106202",
       "url": "https://bbs.ruliweb.com/market/board/1020/read/106202",
@@ -1639,36 +1576,14 @@
       "category": "상품권·포인트",
       "price_text": "가격 확인",
       "price_value": 0,
-      "comments": 10,
+      "comments": 11,
       "likes": 0,
       "views": 0,
       "flags": [
         "신규"
       ],
-      "created_at": "2026-08-07T07:52:15.992851+00:00",
-      "score": 47
-    },
-    {
-      "id": "fa75749de54d64e5",
-      "title": "[SOTD]SOTD 패밀리세일(푸마, 엘르, 락포트 등) - (6900원/무료)",
-      "source": "뽐뿌",
-      "source_url": "https://www.ppomppu.co.kr/zboard/view.php?id=social&no=49720",
-      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=social&no=49720",
-      "purchase_url": "",
-      "purchase_domain": "",
-      "shop": "SOTD",
-      "category": "생필품",
-      "price_text": "6,900원",
-      "price_value": 6900,
-      "comments": 0,
-      "likes": 0,
-      "views": 0,
-      "flags": [
-        "인기",
-        "만원 이하"
-      ],
-      "created_at": "2026-08-07T07:53:09.206645+00:00",
-      "score": 47
+      "created_at": "2026-08-07T08:59:19.019571+00:00",
+      "score": 48
     },
     {
       "id": "4db9d198e92bd05b",
@@ -1688,91 +1603,133 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-08-07T07:52:15.997307+00:00",
+      "created_at": "2026-08-07T08:59:19.023558+00:00",
       "score": 46
     },
     {
-      "id": "a7fc3d7fdd538e76",
-      "title": "[지마켓] 에스콰이어 A~C형 세트 2026년9월 임영웅 표지 9/9 예약판매(35,910원/무배)",
+      "id": "27e9b5af7d73759e",
+      "title": "[인더마켓] 국내산 거봉 1.5kg (16,450원/무배)",
       "source": "뽐뿌",
-      "source_url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725516",
-      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725516",
-      "purchase_url": "https://item.gmarket.co.kr/Item?goodscode=4822917972",
+      "source_url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725548",
+      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725548",
+      "purchase_url": "https://inthemarket.co.kr/?pn=product.view&pcode=I8868-Q9395-R8681&src=text&kw=000025",
+      "purchase_domain": "inthemarket.co.kr",
+      "shop": "인더마켓",
+      "category": "생필품",
+      "price_text": "16,450원",
+      "price_value": 16450,
+      "comments": 0,
+      "likes": 0,
+      "views": 0,
+      "flags": [
+        "무료배송"
+      ],
+      "created_at": "2026-08-07T09:00:20.327225+00:00",
+      "score": 46
+    },
+    {
+      "id": "d0e6abd8601481cc",
+      "title": "[무신사] 뉴케어 올프로틴 아몬드맛 245ml 16팩 (25,920원/무배)",
+      "source": "뽐뿌",
+      "source_url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725547",
+      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725547",
+      "purchase_url": "https://www.musinsa.com/products/6813256",
+      "purchase_domain": "musinsa.com",
+      "shop": "무신사",
+      "category": "패션",
+      "price_text": "25,920원",
+      "price_value": 25920,
+      "comments": 0,
+      "likes": 0,
+      "views": 0,
+      "flags": [
+        "무료배송"
+      ],
+      "created_at": "2026-08-07T09:00:20.327348+00:00",
+      "score": 46
+    },
+    {
+      "id": "8189e233e8736ad4",
+      "title": "[지마켓] 크리스토퍼 놀란 감독 오디세이 메이킹북 한국어 공식판(75,600원/무배)",
+      "source": "뽐뿌",
+      "source_url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725542",
+      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725542",
+      "purchase_url": "https://item.gmarket.co.kr/Item?goodscode=4822416648",
       "purchase_domain": "item.gmarket.co.kr",
       "shop": "지마켓",
       "category": "생필품",
-      "price_text": "35,910원",
-      "price_value": 35910,
+      "price_text": "75,600원",
+      "price_value": 75600,
       "comments": 0,
       "likes": 0,
       "views": 0,
       "flags": [
         "무료배송"
       ],
-      "created_at": "2026-08-07T07:53:09.203673+00:00",
+      "created_at": "2026-08-07T09:00:20.327990+00:00",
       "score": 46
     },
     {
-      "id": "5f9ea5967b262438",
-      "title": "[G마켓] 제주 미니 밤호박 보우짱 단호박 5kg (12,810원/무배)",
+      "id": "7497db12787dc0c8",
+      "title": "[지마켓] 크라운 빅파이 324g 6개 (최종15,580원/무배)",
       "source": "뽐뿌",
-      "source_url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725510",
-      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725510",
-      "purchase_url": "https://item.gmarket.co.kr/Item?spm=gmktpc.minishop.0.0.46623ffdRlaMCm&goodsCode=4775546609",
-      "purchase_domain": "item.gmarket.co.kr",
-      "shop": "G마켓",
+      "source_url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725538",
+      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725538",
+      "purchase_url": "https://link.gmarket.co.kr/QuCGCbMqu",
+      "purchase_domain": "link.gmarket.co.kr",
+      "shop": "지마켓",
       "category": "생필품",
-      "price_text": "12,810원",
-      "price_value": 12810,
+      "price_text": "15,580원",
+      "price_value": 15580,
       "comments": 0,
       "likes": 0,
       "views": 0,
       "flags": [
         "무료배송"
       ],
-      "created_at": "2026-08-07T07:53:09.204372+00:00",
+      "created_at": "2026-08-07T09:00:20.328478+00:00",
       "score": 46
     },
     {
-      "id": "bbb8a58010fea4c6",
-      "title": "[네이버] 강릉엄지네 꼬막비빕밥 밀키트 (18,900원/무배)",
+      "id": "1a91b96b8540d744",
+      "title": "[카카오] 도가니탕 630g4팩 (20,900원/무배)",
       "source": "뽐뿌",
-      "source_url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725509",
-      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725509",
-      "purchase_url": "https://brand.naver.com/local/products/9928148539",
-      "purchase_domain": "brand.naver.com",
-      "shop": "네이버",
-      "category": "식품·간식",
-      "price_text": "18,900원",
-      "price_value": 18900,
-      "comments": 0,
-      "likes": 0,
-      "views": 0,
-      "flags": [
-        "무료배송"
-      ],
-      "created_at": "2026-08-07T07:53:09.204501+00:00",
-      "score": 46
-    },
-    {
-      "id": "bc10c064b78a0d54",
-      "title": "[GS샵] 알로그랑 70gsm 프리미엄 물티슈 70매x20팩 (14,900/무배)",
-      "source": "뽐뿌",
-      "source_url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725504",
-      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725504",
-      "purchase_url": "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd",
-      "purchase_domain": "w3.org",
-      "shop": "GS샵",
+      "source_url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725535",
+      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725535",
+      "purchase_url": "https://st.kakaocdn.net/thumb/C375x375.fjpg/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fproduct%2F20260114182353_94b41a609a3d47c29273846c25cd2d35.jpg",
+      "purchase_domain": "st.kakaocdn.net",
+      "shop": "카카오",
       "category": "생필품",
-      "price_text": "가격 확인",
-      "price_value": 0,
+      "price_text": "20,900원",
+      "price_value": 20900,
       "comments": 0,
       "likes": 0,
       "views": 0,
       "flags": [
         "무료배송"
       ],
-      "created_at": "2026-08-07T07:53:09.205109+00:00",
+      "created_at": "2026-08-07T09:00:20.328859+00:00",
+      "score": 46
+    },
+    {
+      "id": "06692eb214c4e2d6",
+      "title": "[오늘의집] 30초빔 무선 미니빔 프로젝터 (169,670원/무배)",
+      "source": "뽐뿌",
+      "source_url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725530",
+      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725530",
+      "purchase_url": "https://store.ohou.se/goods/2978846",
+      "purchase_domain": "store.ohou.se",
+      "shop": "오늘의집",
+      "category": "생필품",
+      "price_text": "169,670원",
+      "price_value": 169670,
+      "comments": 0,
+      "likes": 0,
+      "views": 0,
+      "flags": [
+        "무료배송"
+      ],
+      "created_at": "2026-08-07T09:00:20.329450+00:00",
       "score": 46
     },
     {
@@ -1793,7 +1750,7 @@
       "flags": [
         "무료배송"
       ],
-      "created_at": "2026-08-07T07:54:05.498644+00:00",
+      "created_at": "2026-08-07T09:01:24.253709+00:00",
       "score": 46
     },
     {
@@ -1814,7 +1771,7 @@
       "flags": [
         "무료배송"
       ],
-      "created_at": "2026-08-07T07:54:05.499673+00:00",
+      "created_at": "2026-08-07T09:01:24.254642+00:00",
       "score": 46
     },
     {
@@ -1835,7 +1792,7 @@
       "flags": [
         "무료배송"
       ],
-      "created_at": "2026-08-07T07:54:05.500155+00:00",
+      "created_at": "2026-08-07T09:01:24.255047+00:00",
       "score": 46
     },
     {
@@ -1856,7 +1813,7 @@
       "flags": [
         "무료배송"
       ],
-      "created_at": "2026-08-07T07:54:05.500869+00:00",
+      "created_at": "2026-08-07T09:01:24.255668+00:00",
       "score": 46
     },
     {
@@ -1877,7 +1834,7 @@
       "flags": [
         "무료배송"
       ],
-      "created_at": "2026-08-07T07:54:40.923655+00:00",
+      "created_at": "2026-08-07T09:02:02.081816+00:00",
       "score": 46
     },
     {
@@ -1898,8 +1855,50 @@
       "flags": [
         "무료배송"
       ],
-      "created_at": "2026-08-07T07:54:40.924596+00:00",
+      "created_at": "2026-08-07T09:02:02.082617+00:00",
       "score": 46
+    },
+    {
+      "id": "f59f2e3dce6d1720",
+      "title": "[카카오] 데일리김치 여수 돌산 갓김치 1kg (7,900원)",
+      "source": "뽐뿌",
+      "source_url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725540",
+      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725540",
+      "purchase_url": "https://st.kakaocdn.net/thumb/C375x375.fjpg/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fproduct%2F20260713200455_273906f8eb174159acfe4024767de285.jpg",
+      "purchase_domain": "st.kakaocdn.net",
+      "shop": "카카오",
+      "category": "생필품",
+      "price_text": "7,900원",
+      "price_value": 7900,
+      "comments": 0,
+      "likes": 0,
+      "views": 0,
+      "flags": [
+        "만원 이하"
+      ],
+      "created_at": "2026-08-07T09:00:20.328234+00:00",
+      "score": 45
+    },
+    {
+      "id": "88b13d89341f18c9",
+      "title": "[톡딜] 닭갈비 제육볶음 불고기 외 500g (5900원~)",
+      "source": "뽐뿌",
+      "source_url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725537",
+      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725537",
+      "purchase_url": "https://st.kakaocdn.net/thumb/C375x375.fjpg/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fproduct%2F20260605171736_f8287c0b167d4cbca0b6422b56915451.jpg",
+      "purchase_domain": "st.kakaocdn.net",
+      "shop": "톡딜",
+      "category": "식품·간식",
+      "price_text": "5,900원",
+      "price_value": 5900,
+      "comments": 0,
+      "likes": 0,
+      "views": 0,
+      "flags": [
+        "만원 이하"
+      ],
+      "created_at": "2026-08-07T09:00:20.328600+00:00",
+      "score": 45
     },
     {
       "id": "cce8fffe277540a8",
@@ -1919,7 +1918,7 @@
       "flags": [
         "만원 이하"
       ],
-      "created_at": "2026-08-07T07:54:05.500378+00:00",
+      "created_at": "2026-08-07T09:01:24.255234+00:00",
       "score": 45
     },
     {
@@ -1940,7 +1939,7 @@
       "flags": [
         "만원 이하"
       ],
-      "created_at": "2026-08-07T07:54:40.921445+00:00",
+      "created_at": "2026-08-07T09:02:02.079908+00:00",
       "score": 45
     },
     {
@@ -1961,7 +1960,7 @@
       "flags": [
         "만원 이하"
       ],
-      "created_at": "2026-08-07T07:54:40.922746+00:00",
+      "created_at": "2026-08-07T09:02:02.081037+00:00",
       "score": 45
     },
     {
@@ -1982,7 +1981,7 @@
       "flags": [
         "만원 이하"
       ],
-      "created_at": "2026-08-07T07:54:40.924221+00:00",
+      "created_at": "2026-08-07T09:02:02.082275+00:00",
       "score": 45
     },
     {
@@ -2003,12 +2002,12 @@
       "flags": [
         "만원 이하"
       ],
-      "created_at": "2026-08-07T07:54:40.924423+00:00",
+      "created_at": "2026-08-07T09:02:02.082452+00:00",
       "score": 45
     },
     {
-      "id": "f6b724352fe36d72",
-      "title": "[반다이몰] 30MP 이지치 니지카 재입고 / 64,800원 (4)",
+      "id": "2082d732ad4f65e6",
+      "title": "[반다이몰] 30MP 이지치 니지카 재입고 / 64,800원 (5)",
       "source": "루리웹",
       "source_url": "https://bbs.ruliweb.com/market/board/1020/read/106208",
       "url": "https://bbs.ruliweb.com/market/board/1020/read/106208",
@@ -2018,14 +2017,14 @@
       "category": "생필품",
       "price_text": "64,800원",
       "price_value": 64800,
-      "comments": 4,
+      "comments": 5,
       "likes": 0,
       "views": 0,
       "flags": [
         "신규"
       ],
-      "created_at": "2026-08-07T07:52:15.995022+00:00",
-      "score": 43
+      "created_at": "2026-08-07T08:59:19.021623+00:00",
+      "score": 44
     },
     {
       "id": "af75184fbbba2d7d",
@@ -2045,7 +2044,7 @@
       "flags": [
         "신규"
       ],
-      "created_at": "2026-08-07T07:52:15.997600+00:00",
+      "created_at": "2026-08-07T08:59:19.023819+00:00",
       "score": 43
     },
     {
@@ -2066,7 +2065,28 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-08-07T07:52:15.998765+00:00",
+      "created_at": "2026-08-07T08:59:19.024913+00:00",
+      "score": 43
+    },
+    {
+      "id": "ba39b9345e4454b5",
+      "title": "[알리익스프레스] 할인에 파도타기 정보 안내 (클리앙 전용 할인코드)",
+      "source": "클리앙_알뜰구매",
+      "source_url": "https://www.clien.net/service/board/jirum/19237990?od=T31&po=0&category=0&groupCd=",
+      "url": "https://www.clien.net/service/board/jirum/19237990?od=T31&po=0&category=0&groupCd=",
+      "purchase_url": "",
+      "purchase_domain": "",
+      "shop": "알리",
+      "category": "해외직구",
+      "price_text": "가격 확인",
+      "price_value": 0,
+      "comments": 0,
+      "likes": 0,
+      "views": 0,
+      "flags": [
+        "인기"
+      ],
+      "created_at": "2026-08-07T09:02:02.083585+00:00",
       "score": 43
     },
     {
@@ -2087,7 +2107,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-08-07T07:54:40.925805+00:00",
+      "created_at": "2026-08-07T09:02:02.083735+00:00",
       "score": 43
     },
     {
@@ -2108,7 +2128,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-08-07T07:54:40.926003+00:00",
+      "created_at": "2026-08-07T09:02:02.083886+00:00",
       "score": 43
     },
     {
@@ -2129,7 +2149,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-08-07T07:54:40.926379+00:00",
+      "created_at": "2026-08-07T09:02:02.084198+00:00",
       "score": 43
     },
     {
@@ -2150,33 +2170,12 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-08-07T07:54:40.926561+00:00",
+      "created_at": "2026-08-07T09:02:02.084354+00:00",
       "score": 43
     },
     {
-      "id": "c16e142ed9fac0e6",
-      "title": "[iOS] Bluetooth Mic to Speaker App 일시 무료",
-      "source": "클리앙_알뜰구매",
-      "source_url": "https://www.clien.net/service/board/jirum/19236154?od=T31&po=0&category=0&groupCd=",
-      "url": "https://www.clien.net/service/board/jirum/19236154?od=T31&po=0&category=0&groupCd=",
-      "purchase_url": "",
-      "purchase_domain": "",
-      "shop": "iOS",
-      "category": "생필품",
-      "price_text": "가격 확인",
-      "price_value": 0,
-      "comments": 0,
-      "likes": 0,
-      "views": 0,
-      "flags": [
-        "인기"
-      ],
-      "created_at": "2026-08-07T07:54:40.926741+00:00",
-      "score": 43
-    },
-    {
-      "id": "de92ecd357d4be07",
-      "title": "[네이버페이] 라방 5원 (1)",
+      "id": "326dda8a14c4371d",
+      "title": "[네이버페이] 라방 5원 (2)",
       "source": "루리웹",
       "source_url": "https://bbs.ruliweb.com/market/board/1020/read/106201",
       "url": "https://bbs.ruliweb.com/market/board/1020/read/106201",
@@ -2186,13 +2185,13 @@
       "category": "상품권·포인트",
       "price_text": "가격 확인",
       "price_value": 0,
-      "comments": 1,
+      "comments": 2,
       "likes": 0,
       "views": 0,
       "flags": [
         "신규"
       ],
-      "created_at": "2026-08-07T07:52:15.993538+00:00",
+      "created_at": "2026-08-07T08:59:19.020208+00:00",
       "score": 42
     },
     {
@@ -2213,7 +2212,7 @@
       "flags": [
         "신규"
       ],
-      "created_at": "2026-08-07T07:52:15.996243+00:00",
+      "created_at": "2026-08-07T08:59:19.022666+00:00",
       "score": 41
     },
     {
@@ -2234,7 +2233,7 @@
       "flags": [
         "신규"
       ],
-      "created_at": "2026-08-07T07:52:15.999450+00:00",
+      "created_at": "2026-08-07T08:59:19.025485+00:00",
       "score": 41
     },
     {
@@ -2255,7 +2254,7 @@
       "flags": [
         "신규"
       ],
-      "created_at": "2026-08-07T07:53:09.202084+00:00",
+      "created_at": "2026-08-07T09:00:20.326136+00:00",
       "score": 41
     },
     {
@@ -2276,49 +2275,7 @@
       "flags": [
         "신규"
       ],
-      "created_at": "2026-08-07T07:53:09.202726+00:00",
-      "score": 41
-    },
-    {
-      "id": "c48a8a7486acd2a9",
-      "title": "[네이버] 풀무원 지구식단 병아리콩 곤약면 (150g) (1390/무)",
-      "source": "뽐뿌",
-      "source_url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725517",
-      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725517",
-      "purchase_url": "https://brand.naver.com/pulmuone01/products/13630407990?NaPm=ct%3Dmsin9qf4%7Cci%3D6dfcb7bc042cf0828ac1a5238b23269d05e15182%7Ctr%3Dsnxhk%7Csn%3D307599%7Cic%3D%7Chk%3Dab257ba05d47d8be2a9115b219b042c2c7d5a5e5",
-      "purchase_domain": "brand.naver.com",
-      "shop": "네이버",
-      "category": "생필품",
-      "price_text": "가격 확인",
-      "price_value": 0,
-      "comments": 0,
-      "likes": 0,
-      "views": 0,
-      "flags": [
-        "신규"
-      ],
-      "created_at": "2026-08-07T07:53:09.203512+00:00",
-      "score": 41
-    },
-    {
-      "id": "a346470109a6876c",
-      "title": "[하이마트몰] 파테크 헤어드라이어 PD-M3600 (14,900원/유료)",
-      "source": "뽐뿌",
-      "source_url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725507",
-      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725507",
-      "purchase_url": "https://www.e-himart.co.kr/app/goods/goodsDetail?goodsNo=0068359368&#160;&#160;",
-      "purchase_domain": "e-himart.co.kr",
-      "shop": "이마트",
-      "category": "생필품",
-      "price_text": "14,900원",
-      "price_value": 14900,
-      "comments": 0,
-      "likes": 0,
-      "views": 0,
-      "flags": [
-        "신규"
-      ],
-      "created_at": "2026-08-07T07:53:09.204803+00:00",
+      "created_at": "2026-08-07T09:00:20.326718+00:00",
       "score": 41
     },
     {
@@ -2339,28 +2296,7 @@
       "flags": [
         "신규"
       ],
-      "created_at": "2026-08-07T07:53:09.206305+00:00",
-      "score": 41
-    },
-    {
-      "id": "c75f47bbddcd63dc",
-      "title": "[네이버] 몬스터크랩 72g 12개 / 수제 찹쌀약과 30개 / 난각번호 1번 무항생제 유정란 20구",
-      "source": "뽐뿌",
-      "source_url": "https://www.ppomppu.co.kr/zboard/view.php?id=pmarket&&no=303487",
-      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=pmarket&&no=303487",
-      "purchase_url": "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd",
-      "purchase_domain": "w3.org",
-      "shop": "네이버",
-      "category": "식품·간식",
-      "price_text": "가격 확인",
-      "price_value": 0,
-      "comments": 0,
-      "likes": 0,
-      "views": 0,
-      "flags": [
-        "신규"
-      ],
-      "created_at": "2026-08-07T07:53:09.206485+00:00",
+      "created_at": "2026-08-07T09:00:20.329740+00:00",
       "score": 41
     },
     {
@@ -2381,7 +2317,7 @@
       "flags": [
         "신규"
       ],
-      "created_at": "2026-08-07T07:54:05.499272+00:00",
+      "created_at": "2026-08-07T09:01:24.254256+00:00",
       "score": 41
     },
     {
@@ -2402,7 +2338,7 @@
       "flags": [
         "신규"
       ],
-      "created_at": "2026-08-07T07:54:05.499830+00:00",
+      "created_at": "2026-08-07T09:01:24.254784+00:00",
       "score": 41
     },
     {
@@ -2423,7 +2359,7 @@
       "flags": [
         "신규"
       ],
-      "created_at": "2026-08-07T07:54:05.501190+00:00",
+      "created_at": "2026-08-07T09:01:24.255919+00:00",
       "score": 41
     },
     {
@@ -2444,7 +2380,7 @@
       "flags": [
         "신규"
       ],
-      "created_at": "2026-08-07T07:54:40.921058+00:00",
+      "created_at": "2026-08-07T09:02:02.079483+00:00",
       "score": 41
     },
     {
@@ -2465,7 +2401,7 @@
       "flags": [
         "신규"
       ],
-      "created_at": "2026-08-07T07:54:40.922901+00:00",
+      "created_at": "2026-08-07T09:02:02.081174+00:00",
       "score": 41
     },
     {
@@ -2486,28 +2422,28 @@
       "flags": [
         "신규"
       ],
-      "created_at": "2026-08-07T07:54:40.925363+00:00",
+      "created_at": "2026-08-07T09:02:02.083262+00:00",
       "score": 41
     },
     {
-      "id": "e5bcb65c9edb3102",
-      "title": "골프포럼 > 그카 5만원요? 하루 두탕도 가능합니다.",
+      "id": "9b70b8a062cff7aa",
+      "title": "골프포럼 > 샵에서 신형 팬텀 9R 카드 65만원에 6월에 구입했고, 사은품으로 풋조이 장갑주더군요.",
       "source": "딜바다",
-      "source_url": "https://www.dealbada.com/bbs/board.php?bo_table=forum_golf&wr_id=1334047",
-      "url": "https://www.dealbada.com/bbs/board.php?bo_table=forum_golf&wr_id=1334047",
-      "purchase_url": "https://nid.naver.com/oauth2.0/authorize?client_id=Lwj2yX91T75T3qxEfEjn&response_type=code&redirect_uri=http://www.dealbada.com&state=db5184d7dec16e65a002fa3062d9f938",
+      "source_url": "https://www.dealbada.com/bbs/board.php?bo_table=forum_golf&wr_id=1334091",
+      "url": "https://www.dealbada.com/bbs/board.php?bo_table=forum_golf&wr_id=1334091",
+      "purchase_url": "https://nid.naver.com/oauth2.0/authorize?client_id=Lwj2yX91T75T3qxEfEjn&response_type=code&redirect_uri=http://www.dealbada.com&state=352eb0d968074d7ea22ba2d914faa5c4",
       "purchase_domain": "nid.naver.com",
       "shop": "",
       "category": "생필품",
-      "price_text": "50,000원",
-      "price_value": 50000,
+      "price_text": "650,000원",
+      "price_value": 650000,
       "comments": 0,
       "likes": 0,
       "views": 0,
       "flags": [
         "신규"
       ],
-      "created_at": "2026-08-07T07:55:29.828928+00:00",
+      "created_at": "2026-08-07T09:02:55.498244+00:00",
       "score": 41
     },
     {
@@ -2528,29 +2464,50 @@
       "flags": [
         "신규"
       ],
-      "created_at": "2026-08-07T07:52:15.997023+00:00",
+      "created_at": "2026-08-07T08:59:19.023313+00:00",
       "score": 39
     },
     {
-      "id": "d4cb8c7d858be758",
-      "title": "하이마트 요금제 KT망 5G 30GB + 1Mbps 7,900원",
+      "id": "d50418cb3ef3f360",
+      "title": "홈플러스 다녀옴",
       "source": "뽐뿌",
-      "source_url": "https://www.ppomppu.co.kr/zboard/view.php?id=social&no=49718",
-      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=social&no=49718",
+      "source_url": "https://www.ppomppu.co.kr/zboard/view.php?id=social&no=49723",
+      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=social&no=49723",
       "purchase_url": "",
       "purchase_domain": "",
-      "shop": "이마트",
+      "shop": "홈플러스",
       "category": "생필품",
-      "price_text": "7,900원",
-      "price_value": 7900,
+      "price_text": "가격 확인",
+      "price_value": 0,
       "comments": 0,
       "likes": 0,
       "views": 0,
       "flags": [
-        "만원 이하"
+        "신규"
       ],
-      "created_at": "2026-08-07T07:53:09.206851+00:00",
-      "score": 39
+      "created_at": "2026-08-07T09:00:20.329850+00:00",
+      "score": 35
+    },
+    {
+      "id": "325d13d79b18684e",
+      "title": "발터치 리모컨 가정용 7엽 수면풍선풍기 43,900원",
+      "source": "뽐뿌",
+      "source_url": "https://www.ppomppu.co.kr/zboard/view.php?id=social&no=49721",
+      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=social&no=49721",
+      "purchase_url": "",
+      "purchase_domain": "",
+      "shop": "",
+      "category": "생필품",
+      "price_text": "43,900원",
+      "price_value": 43900,
+      "comments": 0,
+      "likes": 0,
+      "views": 0,
+      "flags": [
+        "신규"
+      ],
+      "created_at": "2026-08-07T09:00:20.330078+00:00",
+      "score": 35
     },
     {
       "id": "5fbeeffe89c0e57e",
@@ -2570,12 +2527,12 @@
       "flags": [
         "신규"
       ],
-      "created_at": "2026-08-07T07:54:40.926188+00:00",
+      "created_at": "2026-08-07T09:02:02.084034+00:00",
       "score": 35
     },
     {
-      "id": "f613f778ca839696",
-      "title": "[하이마트]LG창호형에어컨 마감키트 미포함 [자가설치](61.6만) (3)",
+      "id": "c718baf14bb33d20",
+      "title": "[하이마트]LG창호형에어컨 마감키트 미포함 [자가설치](61.6만) (12)",
       "source": "루리웹",
       "source_url": "https://bbs.ruliweb.com/market/board/1020/read/106210",
       "url": "https://bbs.ruliweb.com/market/board/1020/read/106210",
@@ -2585,14 +2542,35 @@
       "category": "IT·가전",
       "price_text": "616,000원",
       "price_value": 616000,
-      "comments": 3,
+      "comments": 12,
       "likes": 0,
       "views": 0,
       "flags": [
         "종료"
       ],
-      "created_at": "2026-08-07T07:52:15.994707+00:00",
-      "score": 15
+      "created_at": "2026-08-07T08:59:19.021359+00:00",
+      "score": 20
+    },
+    {
+      "id": "652c74dd778da0a8",
+      "title": "아삭복숭아 3kg 21,900원 사전예약 품절임박",
+      "source": "뽐뿌",
+      "source_url": "https://www.ppomppu.co.kr/zboard/view.php?id=social&no=49722",
+      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=social&no=49722",
+      "purchase_url": "",
+      "purchase_domain": "",
+      "shop": "",
+      "category": "생필품",
+      "price_text": "21,900원",
+      "price_value": 21900,
+      "comments": 0,
+      "likes": 0,
+      "views": 0,
+      "flags": [
+        "품절"
+      ],
+      "created_at": "2026-08-07T09:00:20.329964+00:00",
+      "score": 7
     }
   ]
 }
