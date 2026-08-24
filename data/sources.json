@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T20:34:46.188170+00:00",
+  "generated_at": "2026-08-24T21:03:28.040461+00:00",
   "sources": [
     {
       "name": "루리웹",
@@ -8,7 +8,7 @@
       "count": 35,
       "purchase_count": 25,
       "message": "수집 완료",
-      "checked_at": "2026-08-24T20:31:18.021865+00:00"
+      "checked_at": "2026-08-24T20:59:58.181368+00:00"
     },
     {
       "name": "뽐뿌",
@@ -17,7 +17,7 @@
       "count": 27,
       "purchase_count": 25,
       "message": "수집 완료",
-      "checked_at": "2026-08-24T20:32:19.258831+00:00"
+      "checked_at": "2026-08-24T21:00:58.217470+00:00"
     },
     {
       "name": "뽐뿌_해외",
@@ -26,7 +26,7 @@
       "count": 14,
       "purchase_count": 14,
       "message": "수집 완료",
-      "checked_at": "2026-08-24T20:32:53.782300+00:00"
+      "checked_at": "2026-08-24T21:01:32.826388+00:00"
     },
     {
       "name": "퀘이사존",
@@ -35,7 +35,7 @@
       "count": 0,
       "purchase_count": 0,
       "message": "HTTPError: 403 Client Error: Forbidden for url: https://quasarzone.com/bbs/qb_saleinfo",
-      "checked_at": "2026-08-24T20:32:55.072137+00:00"
+      "checked_at": "2026-08-24T21:01:34.385818+00:00"
     },
     {
       "name": "에펨코리아",
@@ -44,7 +44,7 @@
       "count": 0,
       "purchase_count": 0,
       "message": "HTTPError: 430 Client Error: Unknown for url: https://www.fmkorea.com/hotdeal",
-      "checked_at": "2026-08-24T20:32:56.694645+00:00"
+      "checked_at": "2026-08-24T21:01:35.839367+00:00"
     },
     {
       "name": "클리앙_알뜰구매",
@@ -53,7 +53,7 @@
       "count": 30,
       "purchase_count": 25,
       "message": "수집 완료",
-      "checked_at": "2026-08-24T20:33:44.106599+00:00"
+      "checked_at": "2026-08-24T21:02:25.399770+00:00"
     },
     {
       "name": "딜바다",
@@ -62,7 +62,7 @@
       "count": 16,
       "purchase_count": 16,
       "message": "수집 완료",
-      "checked_at": "2026-08-24T20:34:44.639820+00:00"
+      "checked_at": "2026-08-24T21:03:26.578155+00:00"
     },
     {
       "name": "맘스홀릭",
@@ -71,7 +71,7 @@
       "count": 0,
       "purchase_count": 0,
       "message": "기본 비활성화",
-      "checked_at": "2026-08-24T20:34:46.187044+00:00"
+      "checked_at": "2026-08-24T21:03:28.038976+00:00"
     }
   ]
 }
