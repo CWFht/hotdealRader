@@ -1,27 +1,49 @@
 {
-  "generated_at": "2026-10-22T18:10:26.164526+00:00",
+  "generated_at": "2026-10-22T21:54:19.290669+00:00",
   "count": 104,
   "deals": [
     {
-      "id": "ba462c2ed734bdba",
-      "title": "[네이버] 네이버 멤버십 3개월 무료 (36)",
+      "id": "e6c16839e9788562",
+      "title": "[네이버쇼핑] 웰컴 쿠폰 1만원 배포중 (18)",
+      "source": "루리웹",
+      "source_url": "https://bbs.ruliweb.com/market/board/1020/read/108257",
+      "url": "https://bbs.ruliweb.com/market/board/1020/read/108257",
+      "purchase_url": "https://shopping.naver.com/ns/home",
+      "purchase_domain": "shopping.naver.com",
+      "shop": "네이버",
+      "category": "상품권·포인트",
+      "price_text": "10,000원",
+      "price_value": 10000,
+      "comments": 18,
+      "likes": 0,
+      "views": 0,
+      "flags": [
+        "인기",
+        "만원 이하"
+      ],
+      "created_at": "2026-10-22T21:50:24.703067+00:00",
+      "score": 64
+    },
+    {
+      "id": "77d0fbad65595780",
+      "title": "[네이버] 네이버 멤버십 3개월 무료 (37)",
       "source": "루리웹",
       "source_url": "https://bbs.ruliweb.com/market/board/1020/read/108246",
       "url": "https://bbs.ruliweb.com/market/board/1020/read/108246",
-      "purchase_url": "https://shopping.naver.com/event/6aa11beac7bdbd78c0cb8c2a",
-      "purchase_domain": "shopping.naver.com",
+      "purchase_url": "",
+      "purchase_domain": "",
       "shop": "네이버",
       "category": "생필품",
       "price_text": "가격 확인",
       "price_value": 0,
-      "comments": 36,
+      "comments": 37,
       "likes": 0,
       "views": 0,
       "flags": [
         "인기"
       ],
-      "created_at": "2026-10-22T18:06:30.427886+00:00",
-      "score": 67
+      "created_at": "2026-10-22T21:50:24.704010+00:00",
+      "score": 61
     },
     {
       "id": "1f994cb8452c3eac",
@@ -29,8 +51,8 @@
       "source": "루리웹",
       "source_url": "https://bbs.ruliweb.com/market/board/1020/read/108244",
       "url": "https://bbs.ruliweb.com/market/board/1020/read/108244",
-      "purchase_url": "https://m.gmarket.co.kr/vi/product/4857614523",
-      "purchase_domain": "m.gmarket.co.kr",
+      "purchase_url": "",
+      "purchase_domain": "",
       "shop": "지마켓",
       "category": "IT·가전",
       "price_text": "35,720원",
@@ -41,30 +63,8 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-10-22T18:06:30.428012+00:00",
-      "score": 67
-    },
-    {
-      "id": "1f19cd1b4f919218",
-      "title": "[네이버쇼핑] 웰컴 쿠폰 1만원 배포중 (17)",
-      "source": "루리웹",
-      "source_url": "https://bbs.ruliweb.com/market/board/1020/read/108257",
-      "url": "https://bbs.ruliweb.com/market/board/1020/read/108257",
-      "purchase_url": "https://shopping.naver.com/ns/home",
-      "purchase_domain": "shopping.naver.com",
-      "shop": "네이버",
-      "category": "상품권·포인트",
-      "price_text": "10,000원",
-      "price_value": 10000,
-      "comments": 17,
-      "likes": 0,
-      "views": 0,
-      "flags": [
-        "인기",
-        "만원 이하"
-      ],
-      "created_at": "2026-10-22T18:06:30.427074+00:00",
-      "score": 63
+      "created_at": "2026-10-22T21:50:24.704149+00:00",
+      "score": 61
     },
     {
       "id": "a6a41f8bf958aeb7",
@@ -84,7 +84,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-10-22T18:06:30.427566+00:00",
+      "created_at": "2026-10-22T21:50:24.703640+00:00",
       "score": 60
     },
     {
@@ -107,7 +107,7 @@
         "인기",
         "만원 이하"
       ],
-      "created_at": "2026-10-22T18:07:26.898149+00:00",
+      "created_at": "2026-10-22T21:51:22.219259+00:00",
       "score": 58
     },
     {
@@ -130,7 +130,7 @@
         "인기",
         "만원 이하"
       ],
-      "created_at": "2026-10-22T18:07:26.898229+00:00",
+      "created_at": "2026-10-22T21:51:22.219349+00:00",
       "score": 58
     },
     {
@@ -152,7 +152,7 @@
         "인기",
         "만원 이하"
       ],
-      "created_at": "2026-10-22T18:06:30.427806+00:00",
+      "created_at": "2026-10-22T21:50:24.703926+00:00",
       "score": 57
     },
     {
@@ -174,7 +174,7 @@
         "무료배송",
         "인기"
       ],
-      "created_at": "2026-10-22T18:07:26.897098+00:00",
+      "created_at": "2026-10-22T21:51:22.218034+00:00",
       "score": 54
     },
     {
@@ -196,7 +196,7 @@
         "무료배송",
         "인기"
       ],
-      "created_at": "2026-10-22T18:08:32.120235+00:00",
+      "created_at": "2026-10-22T21:52:26.729160+00:00",
       "score": 54
     },
     {
@@ -218,7 +218,7 @@
         "무료배송",
         "인기"
       ],
-      "created_at": "2026-10-22T18:08:32.121139+00:00",
+      "created_at": "2026-10-22T21:52:26.730113+00:00",
       "score": 54
     },
     {
@@ -239,7 +239,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-10-22T18:06:30.427729+00:00",
+      "created_at": "2026-10-22T21:50:24.703833+00:00",
       "score": 53
     },
     {
@@ -261,7 +261,7 @@
         "인기",
         "만원 이하"
       ],
-      "created_at": "2026-10-22T18:07:26.898311+00:00",
+      "created_at": "2026-10-22T21:51:22.219449+00:00",
       "score": 53
     },
     {
@@ -283,7 +283,7 @@
         "인기",
         "만원 이하"
       ],
-      "created_at": "2026-10-22T18:07:26.898400+00:00",
+      "created_at": "2026-10-22T21:51:22.219546+00:00",
       "score": 53
     },
     {
@@ -304,50 +304,8 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-10-22T18:06:30.427248+00:00",
+      "created_at": "2026-10-22T21:50:24.703262+00:00",
       "score": 52
-    },
-    {
-      "id": "d57187df64225d15",
-      "title": "핫딜/ 중고장터",
-      "source": "루리웹",
-      "source_url": "https://bbs.ruliweb.com/market",
-      "url": "https://bbs.ruliweb.com/market",
-      "purchase_url": "https://thecheat.co.kr/",
-      "purchase_domain": "thecheat.co.kr",
-      "shop": "",
-      "category": "생필품",
-      "price_text": "가격 확인",
-      "price_value": 0,
-      "comments": 3,
-      "likes": 0,
-      "views": 0,
-      "flags": [
-        "인기"
-      ],
-      "created_at": "2026-10-22T18:06:30.423459+00:00",
-      "score": 51
-    },
-    {
-      "id": "4eb8e7c581b41c4a",
-      "title": "루리웹 핫딜/예판 유저게시판 통합 공지",
-      "source": "루리웹",
-      "source_url": "https://bbs.ruliweb.com/market/board/1020/read/38542",
-      "url": "https://bbs.ruliweb.com/market/board/1020/read/38542",
-      "purchase_url": "https://dajooda.com/s/MbS7q1e",
-      "purchase_domain": "dajooda.com",
-      "shop": "",
-      "category": "생필품",
-      "price_text": "가격 확인",
-      "price_value": 0,
-      "comments": 3,
-      "likes": 0,
-      "views": 0,
-      "flags": [
-        "인기"
-      ],
-      "created_at": "2026-10-22T18:06:30.425040+00:00",
-      "score": 51
     },
     {
       "id": "e5ba8740e815f5fa",
@@ -367,12 +325,75 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-10-22T18:06:30.425442+00:00",
+      "created_at": "2026-10-22T21:50:24.701347+00:00",
       "score": 51
     },
     {
-      "id": "e3574ba009f969da",
-      "title": "[itch.io] The Black Within 무료",
+      "id": "19c83137845452e5",
+      "title": "[에픽게임즈] 홈: 어 유니크 호러 어드벤처 (무료) (3)",
+      "source": "루리웹",
+      "source_url": "https://bbs.ruliweb.com/market/board/1020/read/108258",
+      "url": "https://bbs.ruliweb.com/market/board/1020/read/108258",
+      "purchase_url": "https://store.epicgames.com/p/home-19212a",
+      "purchase_domain": "store.epicgames.com",
+      "shop": "에픽게임즈",
+      "category": "IT·가전",
+      "price_text": "가격 확인",
+      "price_value": 0,
+      "comments": 3,
+      "likes": 0,
+      "views": 0,
+      "flags": [
+        "인기"
+      ],
+      "created_at": "2026-10-22T21:50:24.702980+00:00",
+      "score": 51
+    },
+    {
+      "id": "d57187df64225d15",
+      "title": "핫딜/ 중고장터",
+      "source": "루리웹",
+      "source_url": "https://bbs.ruliweb.com/market",
+      "url": "https://bbs.ruliweb.com/market",
+      "purchase_url": "https://thecheat.co.kr/",
+      "purchase_domain": "thecheat.co.kr",
+      "shop": "",
+      "category": "생필품",
+      "price_text": "가격 확인",
+      "price_value": 0,
+      "comments": 1,
+      "likes": 0,
+      "views": 0,
+      "flags": [
+        "인기"
+      ],
+      "created_at": "2026-10-22T21:50:24.698322+00:00",
+      "score": 50
+    },
+    {
+      "id": "4eb8e7c581b41c4a",
+      "title": "루리웹 핫딜/예판 유저게시판 통합 공지",
+      "source": "루리웹",
+      "source_url": "https://bbs.ruliweb.com/market/board/1020/read/38542",
+      "url": "https://bbs.ruliweb.com/market/board/1020/read/38542",
+      "purchase_url": "https://dajooda.com/s/MbS7q1e",
+      "purchase_domain": "dajooda.com",
+      "shop": "",
+      "category": "생필품",
+      "price_text": "가격 확인",
+      "price_value": 0,
+      "comments": 1,
+      "likes": 0,
+      "views": 0,
+      "flags": [
+        "인기"
+      ],
+      "created_at": "2026-10-22T21:50:24.700308+00:00",
+      "score": 50
+    },
+    {
+      "id": "b23349541f393817",
+      "title": "[itch.io] The Black Within 무료 (1)",
       "source": "루리웹",
       "source_url": "https://bbs.ruliweb.com/market/board/1020/read/108263",
       "url": "https://bbs.ruliweb.com/market/board/1020/read/108263",
@@ -382,14 +403,14 @@
       "category": "생필품",
       "price_text": "가격 확인",
       "price_value": 0,
-      "comments": 3,
+      "comments": 1,
       "likes": 0,
       "views": 0,
       "flags": [
         "인기"
       ],
-      "created_at": "2026-10-22T18:06:30.425832+00:00",
-      "score": 51
+      "created_at": "2026-10-22T21:50:24.701870+00:00",
+      "score": 50
     },
     {
       "id": "55546b0984eb58c9",
@@ -403,14 +424,35 @@
       "category": "생필품",
       "price_text": "가격 확인",
       "price_value": 0,
-      "comments": 3,
+      "comments": 1,
       "likes": 0,
       "views": 0,
       "flags": [
         "인기"
       ],
-      "created_at": "2026-10-22T18:06:30.426227+00:00",
-      "score": 51
+      "created_at": "2026-10-22T21:50:24.702372+00:00",
+      "score": 50
+    },
+    {
+      "id": "cd127c7154217fed",
+      "title": "[엑박스토어/Android/iOS] Brave Squad 무료 (1)",
+      "source": "루리웹",
+      "source_url": "https://bbs.ruliweb.com/market/board/1020/read/108260",
+      "url": "https://bbs.ruliweb.com/market/board/1020/read/108260",
+      "purchase_url": "https://play.google.com/store/apps/details?id=com.orionarcade.OA.bravesquad&hl=ko",
+      "purchase_domain": "play.google.com",
+      "shop": "엑박스토어/Android/iOS",
+      "category": "생필품",
+      "price_text": "가격 확인",
+      "price_value": 0,
+      "comments": 1,
+      "likes": 0,
+      "views": 0,
+      "flags": [
+        "인기"
+      ],
+      "created_at": "2026-10-22T21:50:24.702798+00:00",
+      "score": 50
     },
     {
       "id": "c3d2171ccbc04e96",
@@ -430,28 +472,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-10-22T18:06:30.426910+00:00",
-      "score": 50
-    },
-    {
-      "id": "27c64a27f7178c95",
-      "title": "[에픽게임즈] 홈: 어 유니크 호러 어드벤처 (무료) (2)",
-      "source": "루리웹",
-      "source_url": "https://bbs.ruliweb.com/market/board/1020/read/108258",
-      "url": "https://bbs.ruliweb.com/market/board/1020/read/108258",
-      "purchase_url": "https://store.epicgames.com/p/home-19212a",
-      "purchase_domain": "store.epicgames.com",
-      "shop": "에픽게임즈",
-      "category": "IT·가전",
-      "price_text": "가격 확인",
-      "price_value": 0,
-      "comments": 2,
-      "likes": 0,
-      "views": 0,
-      "flags": [
-        "인기"
-      ],
-      "created_at": "2026-10-22T18:06:30.426989+00:00",
+      "created_at": "2026-10-22T21:50:24.702890+00:00",
       "score": 50
     },
     {
@@ -472,7 +493,7 @@
       "flags": [
         "신규"
       ],
-      "created_at": "2026-10-22T18:06:30.427160+00:00",
+      "created_at": "2026-10-22T21:50:24.703164+00:00",
       "score": 50
     },
     {
@@ -494,7 +515,7 @@
         "무료배송",
         "만원 이하"
       ],
-      "created_at": "2026-10-22T18:07:26.897192+00:00",
+      "created_at": "2026-10-22T21:51:22.218154+00:00",
       "score": 50
     },
     {
@@ -516,7 +537,7 @@
         "무료배송",
         "만원 이하"
       ],
-      "created_at": "2026-10-22T18:07:26.897373+00:00",
+      "created_at": "2026-10-22T21:51:22.218366+00:00",
       "score": 50
     },
     {
@@ -537,7 +558,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-10-22T18:06:30.422363+00:00",
+      "created_at": "2026-10-22T21:50:24.697046+00:00",
       "score": 49
     },
     {
@@ -558,7 +579,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-10-22T18:06:30.423534+00:00",
+      "created_at": "2026-10-22T21:50:24.698411+00:00",
       "score": 49
     },
     {
@@ -579,7 +600,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-10-22T18:06:30.423605+00:00",
+      "created_at": "2026-10-22T21:50:24.698501+00:00",
       "score": 49
     },
     {
@@ -600,7 +621,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-10-22T18:06:30.423750+00:00",
+      "created_at": "2026-10-22T21:50:24.698693+00:00",
       "score": 49
     },
     {
@@ -621,50 +642,28 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-10-22T18:06:30.424110+00:00",
+      "created_at": "2026-10-22T21:50:24.699130+00:00",
       "score": 49
     },
     {
-      "id": "bc6b1cba806c3fc8",
-      "title": "[엑박스토어/Android/iOS] Brave Squad 무료",
+      "id": "9ce745df310308f3",
+      "title": "[네이버페이] 일일적립, 클릭 43원, 라이브예고 9원 (14)",
       "source": "루리웹",
-      "source_url": "https://bbs.ruliweb.com/market/board/1020/read/108260",
-      "url": "https://bbs.ruliweb.com/market/board/1020/read/108260",
-      "purchase_url": "https://play.google.com/store/apps/details?id=com.orionarcade.OA.bravesquad&hl=ko",
-      "purchase_domain": "play.google.com",
-      "shop": "엑박스토어/Android/iOS",
-      "category": "생필품",
-      "price_text": "가격 확인",
-      "price_value": 0,
-      "comments": 0,
-      "likes": 0,
-      "views": 0,
-      "flags": [
-        "인기"
-      ],
-      "created_at": "2026-10-22T18:06:30.426818+00:00",
-      "score": 49
-    },
-    {
-      "id": "1fd4158ff5bc3211",
-      "title": "[네이버쇼핑] 웰컴 쿠폰 1만원 배포중",
-      "source": "루리웹",
-      "source_url": "https://bbs.ruliweb.com/market/board/1020/read/108257",
-      "url": "https://bbs.ruliweb.com/market/board/1020/read/108257",
-      "purchase_url": "",
-      "purchase_domain": "",
+      "source_url": "https://bbs.ruliweb.com/market/board/1020/read/108261",
+      "url": "https://bbs.ruliweb.com/market/board/1020/read/108261",
+      "purchase_url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_2026100115_2610_1023",
+      "purchase_domain": "campaign2.naver.com",
       "shop": "네이버",
       "category": "상품권·포인트",
-      "price_text": "10,000원",
-      "price_value": 10000,
-      "comments": 3,
+      "price_text": "가격 확인",
+      "price_value": 0,
+      "comments": 14,
       "likes": 0,
       "views": 0,
       "flags": [
-        "인기",
-        "만원 이하"
+        "신규"
       ],
-      "created_at": "2026-10-22T18:06:30.429613+00:00",
+      "created_at": "2026-10-22T21:50:24.702705+00:00",
       "score": 49
     },
     {
@@ -685,7 +684,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-10-22T18:07:26.896919+00:00",
+      "created_at": "2026-10-22T21:51:22.217833+00:00",
       "score": 49
     },
     {
@@ -706,7 +705,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-10-22T18:07:26.897010+00:00",
+      "created_at": "2026-10-22T21:51:22.217936+00:00",
       "score": 49
     },
     {
@@ -727,7 +726,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-10-22T18:07:26.897281+00:00",
+      "created_at": "2026-10-22T21:51:22.218260+00:00",
       "score": 49
     },
     {
@@ -748,7 +747,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-10-22T18:07:26.897456+00:00",
+      "created_at": "2026-10-22T21:51:22.218464+00:00",
       "score": 49
     },
     {
@@ -769,7 +768,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-10-22T18:07:26.897540+00:00",
+      "created_at": "2026-10-22T21:51:22.218574+00:00",
       "score": 49
     },
     {
@@ -790,7 +789,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-10-22T18:07:26.897631+00:00",
+      "created_at": "2026-10-22T21:51:22.218686+00:00",
       "score": 49
     },
     {
@@ -811,7 +810,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-10-22T18:07:26.897714+00:00",
+      "created_at": "2026-10-22T21:51:22.218786+00:00",
       "score": 49
     },
     {
@@ -832,7 +831,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-10-22T18:07:26.897790+00:00",
+      "created_at": "2026-10-22T21:51:22.218872+00:00",
       "score": 49
     },
     {
@@ -853,7 +852,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-10-22T18:07:26.897890+00:00",
+      "created_at": "2026-10-22T21:51:22.218975+00:00",
       "score": 49
     },
     {
@@ -874,7 +873,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-10-22T18:07:26.898069+00:00",
+      "created_at": "2026-10-22T21:51:22.219170+00:00",
       "score": 49
     },
     {
@@ -895,7 +894,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-10-22T18:07:26.898489+00:00",
+      "created_at": "2026-10-22T21:51:22.219662+00:00",
       "score": 49
     },
     {
@@ -916,7 +915,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-10-22T18:07:26.898722+00:00",
+      "created_at": "2026-10-22T21:51:22.219929+00:00",
       "score": 49
     },
     {
@@ -937,7 +936,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-10-22T18:07:26.898797+00:00",
+      "created_at": "2026-10-22T21:51:22.220016+00:00",
       "score": 49
     },
     {
@@ -958,28 +957,28 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-10-22T18:07:26.898933+00:00",
+      "created_at": "2026-10-22T21:51:22.220162+00:00",
       "score": 49
     },
     {
-      "id": "f410f894bc3dd740",
-      "title": "[특가] 대형 두꺼운 겨울 이불 극세사(1.3만)사계절 매트리스패드(2만)/무료",
+      "id": "a555f51dae638bae",
+      "title": "올인홈 서울대의자 메쉬 컴퓨터 책상 의자(3.9만) 책상 쿠션 발받침대(2.3만) /무료",
       "source": "뽐뿌_해외",
-      "source_url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu8&page=1&divpage=23&no=102455",
-      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu8&page=1&divpage=23&no=102455",
-      "purchase_url": "https://ko.aliexpress.com/item/1005005656851759.html",
+      "source_url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu8&page=1&divpage=23&no=102451",
+      "url": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu8&page=1&divpage=23&no=102451",
+      "purchase_url": "https://ko.aliexpress.com/item/1005010216288046.html",
       "purchase_domain": "ko.aliexpress.com",
-      "shop": "특가",
+      "shop": "",
       "category": "생필품",
-      "price_text": "13,000원",
-      "price_value": 13000,
+      "price_text": "39,000원",
+      "price_value": 39000,
       "comments": 0,
       "likes": 0,
       "views": 0,
       "flags": [
         "인기"
       ],
-      "created_at": "2026-10-22T18:08:32.119946+00:00",
+      "created_at": "2026-10-22T21:52:26.728845+00:00",
       "score": 49
     },
     {
@@ -1000,7 +999,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-10-22T18:08:32.120674+00:00",
+      "created_at": "2026-10-22T21:52:26.729642+00:00",
       "score": 49
     },
     {
@@ -1021,7 +1020,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-10-22T18:08:32.120847+00:00",
+      "created_at": "2026-10-22T21:52:26.729819+00:00",
       "score": 49
     },
     {
@@ -1042,7 +1041,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-10-22T18:08:32.120950+00:00",
+      "created_at": "2026-10-22T21:52:26.729922+00:00",
       "score": 49
     },
     {
@@ -1063,7 +1062,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-10-22T18:08:32.121042+00:00",
+      "created_at": "2026-10-22T21:52:26.730017+00:00",
       "score": 49
     },
     {
@@ -1084,7 +1083,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-10-22T18:08:32.121344+00:00",
+      "created_at": "2026-10-22T21:52:26.730340+00:00",
       "score": 49
     },
     {
@@ -1105,7 +1104,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-10-22T18:09:12.340064+00:00",
+      "created_at": "2026-10-22T21:53:06.987535+00:00",
       "score": 49
     },
     {
@@ -1126,7 +1125,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-10-22T18:09:12.340158+00:00",
+      "created_at": "2026-10-22T21:53:06.987660+00:00",
       "score": 49
     },
     {
@@ -1147,7 +1146,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-10-22T18:09:12.340267+00:00",
+      "created_at": "2026-10-22T21:53:06.987795+00:00",
       "score": 49
     },
     {
@@ -1168,7 +1167,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-10-22T18:09:12.340362+00:00",
+      "created_at": "2026-10-22T21:53:06.987915+00:00",
       "score": 49
     },
     {
@@ -1189,7 +1188,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-10-22T18:09:12.340465+00:00",
+      "created_at": "2026-10-22T21:53:06.988043+00:00",
       "score": 49
     },
     {
@@ -1210,7 +1209,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-10-22T18:09:12.340567+00:00",
+      "created_at": "2026-10-22T21:53:06.988171+00:00",
       "score": 49
     },
     {
@@ -1231,7 +1230,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-10-22T18:09:12.340668+00:00",
+      "created_at": "2026-10-22T21:53:06.988298+00:00",
       "score": 49
     },
     {
@@ -1252,7 +1251,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-10-22T18:09:12.340762+00:00",
+      "created_at": "2026-10-22T21:53:06.988410+00:00",
       "score": 49
     },
     {
@@ -1273,7 +1272,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-10-22T18:09:12.340980+00:00",
+      "created_at": "2026-10-22T21:53:06.988667+00:00",
       "score": 49
     },
     {
@@ -1294,7 +1293,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-10-22T18:09:12.341075+00:00",
+      "created_at": "2026-10-22T21:53:06.988780+00:00",
       "score": 49
     },
     {
@@ -1315,7 +1314,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-10-22T18:09:12.341378+00:00",
+      "created_at": "2026-10-22T21:53:06.989145+00:00",
       "score": 49
     },
     {
@@ -1336,7 +1335,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-10-22T18:09:12.341592+00:00",
+      "created_at": "2026-10-22T21:53:06.989398+00:00",
       "score": 49
     },
     {
@@ -1357,7 +1356,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-10-22T18:09:12.341906+00:00",
+      "created_at": "2026-10-22T21:53:06.989773+00:00",
       "score": 49
     },
     {
@@ -1378,7 +1377,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-10-22T18:09:12.342048+00:00",
+      "created_at": "2026-10-22T21:53:06.989943+00:00",
       "score": 49
     },
     {
@@ -1399,7 +1398,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-10-22T18:09:12.342181+00:00",
+      "created_at": "2026-10-22T21:53:06.990108+00:00",
       "score": 49
     },
     {
@@ -1420,7 +1419,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-10-22T18:09:12.342276+00:00",
+      "created_at": "2026-10-22T21:53:06.990226+00:00",
       "score": 49
     },
     {
@@ -1441,29 +1440,8 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-10-22T18:09:12.342415+00:00",
+      "created_at": "2026-10-22T21:53:06.990394+00:00",
       "score": 49
-    },
-    {
-      "id": "b7a04aa2827af248",
-      "title": "[네이버페이] 일일적립, 클릭 43원, 라이브예고 9원 (11)",
-      "source": "루리웹",
-      "source_url": "https://bbs.ruliweb.com/market/board/1020/read/108261",
-      "url": "https://bbs.ruliweb.com/market/board/1020/read/108261",
-      "purchase_url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_2026100115_2610_1023",
-      "purchase_domain": "campaign2.naver.com",
-      "shop": "네이버",
-      "category": "상품권·포인트",
-      "price_text": "가격 확인",
-      "price_value": 0,
-      "comments": 11,
-      "likes": 0,
-      "views": 0,
-      "flags": [
-        "신규"
-      ],
-      "created_at": "2026-10-22T18:06:30.426614+00:00",
-      "score": 48
     },
     {
       "id": "be72f0e71257ee37",
@@ -1483,28 +1461,7 @@
       "flags": [
         "신규"
       ],
-      "created_at": "2026-10-22T18:06:30.427402+00:00",
-      "score": 48
-    },
-    {
-      "id": "84c799f5b02aea4b",
-      "title": "[롯데온] 농심 생생우동 16봉 (23,990원/무료) (8)",
-      "source": "루리웹",
-      "source_url": "https://bbs.ruliweb.com/market/board/1020/read/108237",
-      "url": "https://bbs.ruliweb.com/market/board/1020/read/108237",
-      "purchase_url": "",
-      "purchase_domain": "",
-      "shop": "롯데온",
-      "category": "생필품",
-      "price_text": "23,990원",
-      "price_value": 23990,
-      "comments": 8,
-      "likes": 0,
-      "views": 0,
-      "flags": [
-        "인기"
-      ],
-      "created_at": "2026-10-22T18:06:30.428401+00:00",
+      "created_at": "2026-10-22T21:50:24.703441+00:00",
       "score": 48
     },
     {
@@ -1525,7 +1482,7 @@
       "flags": [
         "신규"
       ],
-      "created_at": "2026-10-22T18:06:30.427652+00:00",
+      "created_at": "2026-10-22T21:50:24.703741+00:00",
       "score": 47
     },
     {
@@ -1546,7 +1503,7 @@
       "flags": [
         "신규"
       ],
-      "created_at": "2026-10-22T18:06:30.427487+00:00",
+      "created_at": "2026-10-22T21:50:24.703539+00:00",
       "score": 46
     },
     {
@@ -1567,7 +1524,7 @@
       "flags": [
         "만원 이하"
       ],
-      "created_at": "2026-10-22T18:06:30.428175+00:00",
+      "created_at": "2026-10-22T21:50:24.704347+00:00",
       "score": 46
     },
     {
@@ -1588,7 +1545,7 @@
       "flags": [
         "무료배송"
       ],
-      "created_at": "2026-10-22T18:07:26.896801+00:00",
+      "created_at": "2026-10-22T21:51:22.217711+00:00",
       "score": 46
     },
     {
@@ -1609,7 +1566,7 @@
       "flags": [
         "무료배송"
       ],
-      "created_at": "2026-10-22T18:08:32.120131+00:00",
+      "created_at": "2026-10-22T21:52:26.729048+00:00",
       "score": 46
     },
     {
@@ -1630,7 +1587,7 @@
       "flags": [
         "무료배송"
       ],
-      "created_at": "2026-10-22T18:08:32.120446+00:00",
+      "created_at": "2026-10-22T21:52:26.729375+00:00",
       "score": 46
     },
     {
@@ -1651,7 +1608,7 @@
       "flags": [
         "무료배송"
       ],
-      "created_at": "2026-10-22T18:08:32.120563+00:00",
+      "created_at": "2026-10-22T21:52:26.729507+00:00",
       "score": 46
     },
     {
@@ -1672,71 +1629,8 @@
       "flags": [
         "무료배송"
       ],
-      "created_at": "2026-10-22T18:08:32.121446+00:00",
+      "created_at": "2026-10-22T21:52:26.730457+00:00",
       "score": 46
-    },
-    {
-      "id": "f76aaea70f0454cc",
-      "title": "[에셋스토어] (무료) Fantasy Villagers – Sidekick",
-      "source": "루리웹",
-      "source_url": "https://bbs.ruliweb.com/market/board/1020/read/108264",
-      "url": "https://bbs.ruliweb.com/market/board/1020/read/108264",
-      "purchase_url": "",
-      "purchase_domain": "",
-      "shop": "에셋스토어",
-      "category": "생필품",
-      "price_text": "가격 확인",
-      "price_value": 0,
-      "comments": 3,
-      "likes": 0,
-      "views": 0,
-      "flags": [
-        "인기"
-      ],
-      "created_at": "2026-10-22T18:06:30.429236+00:00",
-      "score": 45
-    },
-    {
-      "id": "f27bfa276cebdf89",
-      "title": "[에픽모바일] 홈: 어 유니크 호러 어드벤처 (무료)",
-      "source": "루리웹",
-      "source_url": "https://bbs.ruliweb.com/market/board/1020/read/108259",
-      "url": "https://bbs.ruliweb.com/market/board/1020/read/108259",
-      "purchase_url": "",
-      "purchase_domain": "",
-      "shop": "에픽모바일",
-      "category": "생필품",
-      "price_text": "가격 확인",
-      "price_value": 0,
-      "comments": 3,
-      "likes": 0,
-      "views": 0,
-      "flags": [
-        "인기"
-      ],
-      "created_at": "2026-10-22T18:06:30.429458+00:00",
-      "score": 45
-    },
-    {
-      "id": "3923a91ed4219743",
-      "title": "[에픽게임즈] 홈: 어 유니크 호러 어드벤처 (무료)",
-      "source": "루리웹",
-      "source_url": "https://bbs.ruliweb.com/market/board/1020/read/108258",
-      "url": "https://bbs.ruliweb.com/market/board/1020/read/108258",
-      "purchase_url": "",
-      "purchase_domain": "",
-      "shop": "에픽게임즈",
-      "category": "IT·가전",
-      "price_text": "가격 확인",
-      "price_value": 0,
-      "comments": 3,
-      "likes": 0,
-      "views": 0,
-      "flags": [
-        "인기"
-      ],
-      "created_at": "2026-10-22T18:06:30.429538+00:00",
-      "score": 45
     },
     {
       "id": "91db356cd94a1d86",
@@ -1756,7 +1650,7 @@
       "flags": [
         "만원 이하"
       ],
-      "created_at": "2026-10-22T18:07:26.897980+00:00",
+      "created_at": "2026-10-22T21:51:22.219072+00:00",
       "score": 45
     },
     {
@@ -1777,7 +1671,7 @@
       "flags": [
         "만원 이하"
       ],
-      "created_at": "2026-10-22T18:07:26.898569+00:00",
+      "created_at": "2026-10-22T21:51:22.219751+00:00",
       "score": 45
     },
     {
@@ -1798,8 +1692,92 @@
       "flags": [
         "만원 이하"
       ],
-      "created_at": "2026-10-22T18:09:12.341171+00:00",
+      "created_at": "2026-10-22T21:53:06.988898+00:00",
       "score": 45
+    },
+    {
+      "id": "f76aaea70f0454cc",
+      "title": "[에셋스토어] (무료) Fantasy Villagers – Sidekick",
+      "source": "루리웹",
+      "source_url": "https://bbs.ruliweb.com/market/board/1020/read/108264",
+      "url": "https://bbs.ruliweb.com/market/board/1020/read/108264",
+      "purchase_url": "",
+      "purchase_domain": "",
+      "shop": "에셋스토어",
+      "category": "생필품",
+      "price_text": "가격 확인",
+      "price_value": 0,
+      "comments": 1,
+      "likes": 0,
+      "views": 0,
+      "flags": [
+        "인기"
+      ],
+      "created_at": "2026-10-22T21:50:24.705594+00:00",
+      "score": 44
+    },
+    {
+      "id": "e3574ba009f969da",
+      "title": "[itch.io] The Black Within 무료",
+      "source": "루리웹",
+      "source_url": "https://bbs.ruliweb.com/market/board/1020/read/108263",
+      "url": "https://bbs.ruliweb.com/market/board/1020/read/108263",
+      "purchase_url": "",
+      "purchase_domain": "",
+      "shop": "itch.io",
+      "category": "생필품",
+      "price_text": "가격 확인",
+      "price_value": 0,
+      "comments": 1,
+      "likes": 0,
+      "views": 0,
+      "flags": [
+        "인기"
+      ],
+      "created_at": "2026-10-22T21:50:24.705695+00:00",
+      "score": 44
+    },
+    {
+      "id": "bc6b1cba806c3fc8",
+      "title": "[엑박스토어/Android/iOS] Brave Squad 무료",
+      "source": "루리웹",
+      "source_url": "https://bbs.ruliweb.com/market/board/1020/read/108260",
+      "url": "https://bbs.ruliweb.com/market/board/1020/read/108260",
+      "purchase_url": "",
+      "purchase_domain": "",
+      "shop": "엑박스토어/Android/iOS",
+      "category": "생필품",
+      "price_text": "가격 확인",
+      "price_value": 0,
+      "comments": 1,
+      "likes": 0,
+      "views": 0,
+      "flags": [
+        "인기"
+      ],
+      "created_at": "2026-10-22T21:50:24.705910+00:00",
+      "score": 44
+    },
+    {
+      "id": "f27bfa276cebdf89",
+      "title": "[에픽모바일] 홈: 어 유니크 호러 어드벤처 (무료)",
+      "source": "루리웹",
+      "source_url": "https://bbs.ruliweb.com/market/board/1020/read/108259",
+      "url": "https://bbs.ruliweb.com/market/board/1020/read/108259",
+      "purchase_url": "",
+      "purchase_domain": "",
+      "shop": "에픽모바일",
+      "category": "생필품",
+      "price_text": "가격 확인",
+      "price_value": 0,
+      "comments": 1,
+      "likes": 0,
+      "views": 0,
+      "flags": [
+        "인기"
+      ],
+      "created_at": "2026-10-22T21:50:24.706007+00:00",
+      "score": 44
     },
     {
       "id": "5b0d65c580f50c34",
@@ -1819,7 +1797,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-10-22T18:06:30.428256+00:00",
+      "created_at": "2026-10-22T21:50:24.704441+00:00",
       "score": 43
     },
     {
@@ -1840,7 +1818,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-10-22T18:07:26.899007+00:00",
+      "created_at": "2026-10-22T21:51:22.220245+00:00",
       "score": 43
     },
     {
@@ -1861,7 +1839,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-10-22T18:07:26.899081+00:00",
+      "created_at": "2026-10-22T21:51:22.220328+00:00",
       "score": 43
     },
     {
@@ -1882,7 +1860,7 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-10-22T18:09:12.342598+00:00",
+      "created_at": "2026-10-22T21:53:06.990631+00:00",
       "score": 43
     },
     {
@@ -1903,8 +1881,50 @@
       "flags": [
         "인기"
       ],
-      "created_at": "2026-10-22T18:09:12.342830+00:00",
+      "created_at": "2026-10-22T21:53:06.990921+00:00",
       "score": 43
+    },
+    {
+      "id": "b3ba2a8ebc0b0689",
+      "title": "[네이버페이] 라방 랜덤 5원 (1)",
+      "source": "루리웹",
+      "source_url": "https://bbs.ruliweb.com/market/board/1020/read/108265",
+      "url": "https://bbs.ruliweb.com/market/board/1020/read/108265",
+      "purchase_url": "https://external-token.pay.naver.com/entry/pincrux?gd=ab8e18ef4ebebeddc0b3152ce9c9006e14fc05242e3fc9ce32246ea6a9543074",
+      "purchase_domain": "external-token.pay.naver.com",
+      "shop": "네이버",
+      "category": "상품권·포인트",
+      "price_text": "가격 확인",
+      "price_value": 0,
+      "comments": 1,
+      "likes": 0,
+      "views": 0,
+      "flags": [
+        "신규"
+      ],
+      "created_at": "2026-10-22T21:50:24.700827+00:00",
+      "score": 42
+    },
+    {
+      "id": "da3a7bddaeb4c23a",
+      "title": "[네이버] 스위치2 하늘의 궤적 the 2nd (87,300/2,500)",
+      "source": "루리웹",
+      "source_url": "https://bbs.ruliweb.com/market/board/1020/read/108266",
+      "url": "https://bbs.ruliweb.com/market/board/1020/read/108266",
+      "purchase_url": "https://naver.me/FQueD0Ni",
+      "purchase_domain": "naver.me",
+      "shop": "네이버",
+      "category": "생필품",
+      "price_text": "가격 확인",
+      "price_value": 0,
+      "comments": 0,
+      "likes": 0,
+      "views": 0,
+      "flags": [
+        "신규"
+      ],
+      "created_at": "2026-10-22T21:50:24.702471+00:00",
+      "score": 41
     },
     {
       "id": "9d9bbb8c9c3261a9",
@@ -1924,7 +1944,7 @@
       "flags": [
         "신규"
       ],
-      "created_at": "2026-10-22T18:07:26.898647+00:00",
+      "created_at": "2026-10-22T21:51:22.219840+00:00",
       "score": 41
     },
     {
@@ -1945,7 +1965,7 @@
       "flags": [
         "신규"
       ],
-      "created_at": "2026-10-22T18:08:32.121680+00:00",
+      "created_at": "2026-10-22T21:52:26.730712+00:00",
       "score": 41
     },
     {
@@ -1966,7 +1986,7 @@
       "flags": [
         "신규"
       ],
-      "created_at": "2026-10-22T18:08:32.121780+00:00",
+      "created_at": "2026-10-22T21:52:26.730831+00:00",
       "score": 41
     },
     {
@@ -1987,7 +2007,7 @@
       "flags": [
         "신규"
       ],
-      "created_at": "2026-10-22T18:09:12.339921+00:00",
+      "created_at": "2026-10-22T21:53:06.987375+00:00",
       "score": 41
     },
     {
@@ -2008,7 +2028,7 @@
       "flags": [
         "신규"
       ],
-      "created_at": "2026-10-22T18:09:12.340860+00:00",
+      "created_at": "2026-10-22T21:53:06.988525+00:00",
       "score": 41
     },
     {
@@ -2029,7 +2049,7 @@
       "flags": [
         "신규"
       ],
-      "created_at": "2026-10-22T18:09:12.341271+00:00",
+      "created_at": "2026-10-22T21:53:06.989019+00:00",
       "score": 41
     },
     {
@@ -2050,7 +2070,7 @@
       "flags": [
         "신규"
       ],
-      "created_at": "2026-10-22T18:09:12.341486+00:00",
+      "created_at": "2026-10-22T21:53:06.989268+00:00",
       "score": 41
     },
     {
@@ -2071,7 +2091,7 @@
       "flags": [
         "신규"
       ],
-      "created_at": "2026-10-22T18:09:12.341696+00:00",
+      "created_at": "2026-10-22T21:53:06.989523+00:00",
       "score": 41
     },
     {
@@ -2092,7 +2112,7 @@
       "flags": [
         "신규"
       ],
-      "created_at": "2026-10-22T18:09:12.341797+00:00",
+      "created_at": "2026-10-22T21:53:06.989656+00:00",
       "score": 41
     },
     {
@@ -2113,29 +2133,29 @@
       "flags": [
         "신규"
       ],
-      "created_at": "2026-10-22T18:09:12.342506+00:00",
+      "created_at": "2026-10-22T21:53:06.990508+00:00",
       "score": 41
     },
     {
-      "id": "5faa108928fc272a",
-      "title": "[네이버페이]마이카방문 3종 추가 (6)",
+      "id": "682f90bfc539f98f",
+      "title": "[네이버페이] 라방 랜덤 5원",
       "source": "루리웹",
-      "source_url": "https://bbs.ruliweb.com/market/board/1020/read/108238",
-      "url": "https://bbs.ruliweb.com/market/board/1020/read/108238",
+      "source_url": "https://bbs.ruliweb.com/market/board/1020/read/108265",
+      "url": "https://bbs.ruliweb.com/market/board/1020/read/108265",
       "purchase_url": "",
       "purchase_domain": "",
       "shop": "네이버",
       "category": "상품권·포인트",
       "price_text": "가격 확인",
       "price_value": 0,
-      "comments": 6,
+      "comments": 1,
       "likes": 0,
       "views": 0,
       "flags": [
         "신규"
       ],
-      "created_at": "2026-10-22T18:06:30.428325+00:00",
-      "score": 39
+      "created_at": "2026-10-22T21:50:24.705476+00:00",
+      "score": 36
     },
     {
       "id": "1921d4c8dd62e2aa",
@@ -2149,35 +2169,14 @@
       "category": "상품권·포인트",
       "price_text": "가격 확인",
       "price_value": 0,
-      "comments": 3,
+      "comments": 1,
       "likes": 0,
       "views": 0,
       "flags": [
         "신규"
       ],
-      "created_at": "2026-10-22T18:06:30.429357+00:00",
-      "score": 37
-    },
-    {
-      "id": "27693eca59be0f2c",
-      "title": "[네이버] 역전재판 25주년 기념 번들 (44000원)",
-      "source": "루리웹",
-      "source_url": "https://bbs.ruliweb.com/market/board/1020/read/108256",
-      "url": "https://bbs.ruliweb.com/market/board/1020/read/108256",
-      "purchase_url": "",
-      "purchase_domain": "",
-      "shop": "네이버",
-      "category": "생필품",
-      "price_text": "44,000원",
-      "price_value": 44000,
-      "comments": 3,
-      "likes": 0,
-      "views": 0,
-      "flags": [
-        "신규"
-      ],
-      "created_at": "2026-10-22T18:06:30.429695+00:00",
-      "score": 37
+      "created_at": "2026-10-22T21:50:24.705811+00:00",
+      "score": 36
     },
     {
       "id": "47ef4a402ad16ab8",
@@ -2197,7 +2196,7 @@
       "flags": [
         "신규"
       ],
-      "created_at": "2026-10-22T18:09:12.342731+00:00",
+      "created_at": "2026-10-22T21:53:06.990796+00:00",
       "score": 35
     }
   ]
