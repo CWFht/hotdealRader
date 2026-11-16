@@ -41,10 +41,16 @@ def inline(text):
 
 
 def table_html(rows):
-    out = ['<table style="border-collapse:collapse;width:100%;">']
+    """본문 표는 항상 본문 폭 100%, 열 너비 균등(2026-11-16 사용자 확정).
+    글자 길이에 따라 표마다 열 너비가 달라지지 않도록 칸마다 너비를 직접 적는다."""
+    cols = max((len(r) for r in rows), default=1)
+    w = f"width:{100 / cols:.2f}%;"
+    out = ['<table style="border-collapse:collapse;width:100%;table-layout:fixed;">',
+           "<colgroup>" + f'<col style="{w}">' * cols + "</colgroup>"]
     for i, r in enumerate(rows):
         cell = "th" if i == 0 else "td"
-        style = TH if i == 0 else TD
+        style = (TH if i == 0 else TD)[:-1] + w + "text-align:center;word-break:keep-all;\""
+        r = list(r) + [""] * (cols - len(r))
         out.append("<tr>" + "".join(f"<{cell} {style}>{inline(c)}</{cell}>" for c in r) + "</tr>")
     out.append("</table>")
     return "\n".join(out)
