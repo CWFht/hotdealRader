@@ -61,6 +61,7 @@ description: 네이버 블로그 글을 주제 하나만 받아 키워드 설계
 python scripts/check_post.py posts/<폴더>/원고.md            # 분량·키워드·AI 표현·대가성 문구 등 검수
 python scripts/render_cards.py posts/<폴더>/cards.json        # 디자인 카드 PNG
 python scripts/gpt_images.py posts/<폴더>/gpt_images.json     # GPT 프롬프트 파일(+키 있으면 생성)
+python scripts/apply_frame.py posts/<폴더>/images --frame profiles/<블로그>.frame.json   # 프레임·도장 (프레임 있는 프로필)
 python scripts/build_paste_html.py posts/<폴더>/원고.md       # 스마트에디터 붙여넣기용 HTML
 ```
 `check_post.py`가 `FAIL`을 내면 원고를 고치고 다시 돌린다. `WARN`은 읽고 판단하되, 남겨 두는 것은 이유를 검수 포인트에 적는다. 글자 수와 키워드 횟수는 눈대중이 아니라 이 스크립트의 계산값만 쓴다.

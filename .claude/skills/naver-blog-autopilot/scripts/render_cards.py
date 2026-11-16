@@ -62,7 +62,7 @@ def data_uri(path):
     return f"data:{mime};base64," + base64.b64encode(Path(path).read_bytes()).decode()
 
 
-def build(card, brand, base):
+def build(card, brand, base, frame=None):
     ctype = card.get("type", "list")
     if ctype not in SIZES:
         raise ValueError(f"알 수 없는 type: {ctype}")
@@ -107,9 +107,14 @@ def build(card, brand, base):
         note = f'<div class="note">{esc(card["note"])}</div>' if card.get("note") else ""
         body = (f'<div class="card"><div class="top"></div><div class="main"><div class="fit"><h1>{esc(title)}</h1>{inner}{note}</div></div>'
                 f'<div class="bottom"><b>{esc(name)}</b><span>{esc(card.get("footer", ""))}</span></div></div>')
+    extra = ""
+    if frame and ctype != "thumbnail":
+        pt = round(h * frame["top"]["height_ratio"])
+        pb = round(h * frame["bottom"]["height_ratio"])
+        extra = f".card{{padding:{pt}px 0 {pb}px}}.top{{display:none}}"
     page = (f'<!doctype html><html lang="ko"><head><meta charset="utf-8">'
             f'<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">'
-            f"<style>{CSS % v}</style></head><body>{body}<script>{FIT_JS}</script></body></html>")
+            f"<style>{CSS % v}{extra}</style></head><body>{body}<script>{FIT_JS}</script></body></html>")
     return page, w, h
 
 
@@ -175,9 +180,14 @@ def main():
     out_dir = base / spec.get("out_dir", "images")
     html_dir = out_dir / "_html"
     html_dir.mkdir(parents=True, exist_ok=True)
+    skill_dir = Path(__file__).resolve().parent.parent
+    frame, frame_path = None, spec.get("brand", {}).get("frame")
+    if frame_path:
+        fp = Path(frame_path) if Path(frame_path).is_absolute() else skill_dir / frame_path
+        frame = json.loads(fp.read_text(encoding="utf-8"))
     jobs = []
     for card in spec.get("cards", []):
-        page, w, h = build(card, spec.get("brand", {}), base)
+        page, w, h = build(card, spec.get("brand", {}), base, frame)
         name = Path(card["file"]).stem
         hp = html_dir / f"{name}.html"
         hp.write_text(page, encoding="utf-8")
@@ -186,6 +196,9 @@ def main():
         print("cards가 비어 있음")
         return
     if shoot(jobs):
+        if frame:
+            subprocess.run([sys.executable, str(Path(__file__).parent / "apply_frame.py"), str(out_dir),
+                            "--frame", str(fp)], check=False)
         print(f"카드 {len(jobs)}장 완료. OVERFLOW로 표시된 카드는 문구를 줄이거나 나눠서 다시 렌더링하세요.")
     else:
         print(f"브라우저를 찾지 못해 HTML만 만들었습니다: {html_dir}\n"

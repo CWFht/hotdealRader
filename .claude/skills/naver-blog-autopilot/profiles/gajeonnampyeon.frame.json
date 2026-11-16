@@ -1,0 +1,13 @@
+{
+  "_comment": "가전적인남편 본문 이미지 프레임. 2026-11-16 사용자가 준 참고 이미지 5장에서 측정한 값.",
+  "top": {"height_ratio": 0.042, "from": "#68d5c3", "to": "#dad988"},
+  "bottom": {"height_ratio": 0.035, "from": "#7a9add", "to": "#8fd8f9"},
+  "stamp": {
+    "text": ["T6", "F4"],
+    "color": "#d9261c",
+    "height_ratio_of_top": 0.76,
+    "right_margin_ratio": 0.016,
+    "image": "assets/stamp_T6F4.png"
+  },
+  "skip_prefixes": ["00_"]
+}

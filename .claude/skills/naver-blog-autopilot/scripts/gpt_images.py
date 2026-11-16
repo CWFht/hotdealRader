@@ -82,6 +82,13 @@ def main():
             failed += 1
             detail = e.read().decode()[:200] if isinstance(e, urllib.error.HTTPError) else str(e)
             print(f"실패: {target.name} — {detail}", file=sys.stderr)
+    if spec.get("frame"):
+        import subprocess
+        skill_dir = Path(__file__).resolve().parent.parent
+        fp = Path(spec["frame"]) if Path(spec["frame"]).is_absolute() else skill_dir / spec["frame"]
+        made = [str(out_dir / i["file"]) for i in images if (out_dir / i["file"]).exists()]
+        if made:
+            subprocess.run([sys.executable, str(Path(__file__).parent / "apply_frame.py"), *made, "--frame", str(fp)], check=False)
     if failed:
         print(f"{failed}장 실패. 프롬프트 파일로 직접 만들도록 검수 포인트에 적으세요.")
         sys.exit(1)
