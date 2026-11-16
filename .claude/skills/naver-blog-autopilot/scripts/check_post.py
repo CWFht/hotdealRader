@@ -40,7 +40,7 @@ ENDING_RE = re.compile(r"(습니다|입니다|해요|예요|이에요|어요|아
 def count_chars(blocks):
     text = ""
     for b in blocks:
-        if b["kind"] in ("p", "h2"):
+        if b["kind"] in ("p", "h2", "aside"):
             text += plain(b["text"]) + "\n"
         elif b["kind"] == "list":
             text += "\n".join(plain(i["text"]) for i in b["items"]) + "\n"
@@ -242,6 +242,16 @@ def main():
             add("WARN", "정보 글 링크", "type: info인데 🔗 링크가 있음 — 제휴 링크면 type을 brandconnect로")
         if disclosure:
             add("WARN", "대가성 문구", "type: info인데 disclosure가 있음")
+
+    asides = [b for b in blocks if b["kind"] == "aside"]
+    sites = [b for b in blocks if b["kind"] == "site"]
+    if len(asides) > 3:
+        add("WARN", "곁들임 박스", f"{len(asides)}개 — 3개를 넘으면 강조가 흐려짐")
+    else:
+        add("PASS" if asides else "INFO", "곁들임 박스", f"{len(asides)}개 (팁·주의·참고·요약, 글당 1~3개 권장)")
+    add("PASS" if sites else "INFO", "공식 바로가기", f"{len(sites)}곳 (신청·확인할 공식 페이지가 있으면 1~2곳)")
+    if len(sites) > 3:
+        add("WARN", "공식 바로가기", "외부 링크 4곳 이상 — 꼭 필요한 곳만")
 
     tags = as_list(meta.get("tags"))
     add("PASS" if 5 <= len(tags) <= 10 else "WARN", "태그", f"{len(tags)}개 (5~10개)")

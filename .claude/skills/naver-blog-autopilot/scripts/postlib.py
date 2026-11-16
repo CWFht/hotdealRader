@@ -5,6 +5,8 @@ from pathlib import Path
 
 IMG_RE = re.compile(r"^(📷|🎞|🎬)\s*(이미지|GIF|MP4)\s*(\d+)\s*[│|]\s*(.+)$")
 LINK_RE = re.compile(r"^🔗\s*링크\s*[│|]\s*(.+?)\s*[│|]\s*(.+?)\s*$")
+SITE_RE = re.compile(r"^🌐\s*바로가기\s*[│|]\s*(.+?)\s*[│|]\s*(https?://\S+)\s*$")
+ASIDE_RE = re.compile(r"^>\s*\[(팁|주의|참고|요약)\]\s*(.+)$")
 HR_RE = re.compile(r"^(-{3,}|\*{3,}|_{3,})$")
 SENT_END_RE = re.compile(r"(?<=[.?!…])\s+|(?<=[다요죠까네])\.\s*")
 
@@ -57,7 +59,7 @@ def parse_front_matter(text):
 
 def parse_blocks(body):
     """본문을 블록 목록으로 나눈다.
-    kind: h2 | p | img | link | hr | table | toc | list
+    kind: h2 | p | img | link | site | aside | hr | table | toc | list
     """
     blocks, para, table, items = [], [], [], []
 
@@ -112,6 +114,14 @@ def parse_blocks(body):
             m = IMG_RE.match(line)
             blocks.append({"kind": "img", "media": m.group(2), "no": int(m.group(3)),
                            "desc": m.group(4).strip(), "raw": line})
+        elif SITE_RE.match(line):
+            flush()
+            m = SITE_RE.match(line)
+            blocks.append({"kind": "site", "label": m.group(1), "url": m.group(2)})
+        elif ASIDE_RE.match(line):
+            flush()
+            m = ASIDE_RE.match(line)
+            blocks.append({"kind": "aside", "label": m.group(1), "text": m.group(2).strip()})
         elif LINK_RE.match(line):
             flush()
             m = LINK_RE.match(line)

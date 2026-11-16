@@ -22,6 +22,15 @@ TD = 'style="border:1px solid #c9c9c9;padding:8px 10px;font-size:15px;line-heigh
 TH = 'style="border:1px solid #c9c9c9;padding:8px 10px;font-size:15px;line-height:1.6;background-color:#f3f5f7;"'
 EM = '<b><u><span style="background-color:#fff3a3">{}</span></u></b>'
 GAP = f"<p {P}>&nbsp;</p>"
+# 곁들임 박스: 스마트에디터가 div·배경을 버려도 표는 남으므로 1칸짜리 표로 만든다
+ASIDE = {"팁": ("💡 팁", "#fff8e1", "#f0c040"), "주의": ("⚠️ 주의", "#ffecec", "#e57373"),
+         "참고": ("📌 참고", "#eef4ff", "#7aa7e8"), "요약": ("✅ 요약", "#edf8ef", "#74c285")}
+
+
+def box(inner, bg, line):
+    return (f'<table style="border-collapse:collapse;width:100%;"><tr><td style="border:1px solid {line};'
+            f'border-left:5px solid {line};background-color:{bg};padding:12px 14px;font-size:16px;line-height:1.8;">'
+            f"{inner}</td></tr></table>")
 
 
 def inline(text):
@@ -63,6 +72,12 @@ def render(meta, blocks):
             out.append(GAP)
         elif k == "img":
             out += [f"<p {MARK}>{html.escape(b['raw'])}</p>", GAP]
+        elif k == "aside":
+            head, bg, line = ASIDE[b["label"]]
+            out += [box(f"<b>{head}</b><br>{inline(b['text'])}", bg, line), GAP]
+        elif k == "site":
+            out += [box(f'🌐 <b>{html.escape(b["label"])}</b><br><a href="{html.escape(b["url"])}">{html.escape(b["url"])}</a>',
+                        "#f6f7f9", "#b8bec8"), GAP]
         elif k == "link":
             url, label = b["url"], html.escape(b["label"])
             if url.startswith("http"):
