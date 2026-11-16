@@ -65,6 +65,7 @@ python scripts/render_cards.py posts/<폴더>/cards.json        # 디자인 카�
 python scripts/gpt_images.py posts/<폴더>/gpt_images.json     # GPT 프롬프트 파일(+키 있으면 생성)
 python scripts/apply_frame.py posts/<폴더>/images --frame profiles/<블로그>.frame.json   # 프레임·도장 (프레임 있는 프로필)
 python scripts/build_paste_html.py posts/<폴더>/원고.md       # 스마트에디터 붙여넣기용 HTML
+python scripts/image_plan.py posts/<폴더>/원고.md             # 이미지 구성 표 + 한 장 미리보기
 ```
 `check_post.py`가 `FAIL`을 내면 원고를 고치고 다시 돌린다. `WARN`은 읽고 판단하되, 남겨 두는 것은 이유를 검수 포인트에 적는다. 글자 수와 키워드 횟수는 눈대중이 아니라 이 스크립트의 계산값만 쓴다.
 
@@ -79,10 +80,13 @@ python scripts/build_paste_html.py posts/<폴더>/원고.md       # 스마트에
 키워드: 메인 / 연결 / 보조
 이 글의 역할: 유입 글 | 비교·결정 글 | 구매 글, 다음에 이어 쓸 글 1~2개
 검수 결과: 글자 수, 메인 키워드 횟수, 이미지 수 (스크립트 값)
+이미지 구성: image_plan.py가 출력한 표 전체 (번호, 넣을 자리, 장면, 제작 방식, 상태, 파일)
 사람이 확인할 것 (최대 5개): 확인 필요 사실, 넣어야 할 실물 사진, 제휴 링크 등
 발행 순서: ① 제목 복사 → ② 본문 복사·붙여넣기 → ③ 이미지 마커 자리에 파일 삽입 → ④ 태그 입력
 출처: 자료명 + 링크
 ```
+
+**이미지 구성은 매번 보여 준다.** 글만 고쳤거나 이미지를 일부만 만든 경우에도 납품할 때마다 이미지 구성 표를 채팅에 넣고 `이미지구성_미리보기.png`를 함께 보낸다. 사용자는 이 표로 어떤 이미지가 어디에 들어가고 무엇을 직접 준비해야 하는지 판단하기 때문에, "이미지 7장" 같은 요약으로 줄이지 않는다.
 
 ## 원고 파일 형식
 
