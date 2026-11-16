@@ -132,7 +132,7 @@ def main():
         add("PASS" if n >= 1 else "WARN", "보조 키워드", f"'{s}' {n}회")
     for w in re.findall(r"[가-힣A-Za-z0-9]{2,}", title):
         # 조사를 떼고 비교하고, 서술어(…요/…다/…까)는 약속이 아니므로 건너뛴다
-        if re.search(r"(요|다|까|죠)$", w):
+        if re.search(r"(요|다|까|죠)$", w) or w in ("정리", "총정리", "가이드", "완벽", "한눈에"):
             continue
         w = re.sub(r"(으로|에서|까지|부터|이나|은|는|이|가|을|를|에|의|도|로|과|와|만)$", "", w) if len(w) > 2 else w
         if len(w) >= 2 and kw_count(body_text, w) == 0:
