@@ -79,7 +79,7 @@ def build(card, brand, base, frame=None):
     v["tfs"] = 52 if n_rows <= 3 else (46 if n_rows == 4 else 40)
     widest = max((sum(len(str(c)) for c in r) for r in card.get("rows", [])), default=0)
     if widest > 20:
-        v["tfs"] = min(v["tfs"], 44 if widest <= 26 else 38)
+        v["tfs"] = min(v["tfs"], 46 if widest <= 30 else 40)
     title = str(card.get("title", ""))
     if ctype == "thumbnail":
         longest = max((len(x) for x in title.split("\n")), default=1)
