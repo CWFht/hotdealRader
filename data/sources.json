@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T11:40:12.799155+00:00",
+  "generated_at": "2026-11-21T18:51:12.092358+00:00",
   "sources": [
     {
       "name": "루리웹",
@@ -7,8 +7,8 @@
       "status": "failed",
       "count": 0,
       "purchase_count": 0,
-      "message": "ConnectTimeout: HTTPSConnectionPool(host='bbs.ruliweb.com', port=443): Max retries exceeded with url: /market/board/1020 (Caused by ConnectTimeoutError(<HTTPSConnecti",
-      "checked_at": "2026-11-21T11:35:42.081162+00:00"
+      "message": "ValueError: '알리' does not appear to be an IPv4 or IPv6 address",
+      "checked_at": "2026-11-21T18:47:05.910533+00:00"
     },
     {
       "name": "뽐뿌",
@@ -17,16 +17,16 @@
       "count": 22,
       "purchase_count": 22,
       "message": "수집 완료",
-      "checked_at": "2026-11-21T11:36:41.646020+00:00"
+      "checked_at": "2026-11-21T18:47:59.468941+00:00"
     },
     {
       "name": "뽐뿌_해외",
       "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=ppomppu4",
       "status": "ok",
-      "count": 18,
-      "purchase_count": 18,
+      "count": 17,
+      "purchase_count": 17,
       "message": "수집 완료",
-      "checked_at": "2026-11-21T11:37:31.569503+00:00"
+      "checked_at": "2026-11-21T18:48:40.243459+00:00"
     },
     {
       "name": "퀘이사존",
@@ -35,7 +35,7 @@
       "count": 0,
       "purchase_count": 0,
       "message": "HTTPError: 403 Client Error: Forbidden for url: https://quasarzone.com/bbs/qb_saleinfo",
-      "checked_at": "2026-11-21T11:37:33.080572+00:00"
+      "checked_at": "2026-11-21T18:48:41.886358+00:00"
     },
     {
       "name": "에펨코리아",
@@ -44,25 +44,25 @@
       "count": 0,
       "purchase_count": 0,
       "message": "HTTPError: 430 Client Error: Unknown for url: https://www.fmkorea.com/hotdeal",
-      "checked_at": "2026-11-21T11:37:34.773878+00:00"
+      "checked_at": "2026-11-21T18:48:43.845792+00:00"
     },
     {
       "name": "클리앙_알뜰구매",
       "url": "https://www.clien.net/service/board/jirum",
       "status": "ok",
-      "count": 25,
+      "count": 26,
       "purchase_count": 25,
       "message": "수집 완료",
-      "checked_at": "2026-11-21T11:38:28.290731+00:00"
+      "checked_at": "2026-11-21T18:49:32.952688+00:00"
     },
     {
       "name": "딜바다",
       "url": "https://www.dealbada.com/bbs/board.php?bo_table=deal_domestic",
       "status": "ok",
-      "count": 23,
-      "purchase_count": 22,
+      "count": 21,
+      "purchase_count": 21,
       "message": "수집 완료",
-      "checked_at": "2026-11-21T11:40:11.564780+00:00"
+      "checked_at": "2026-11-21T18:51:10.833223+00:00"
     },
     {
       "name": "맘스홀릭",
@@ -71,7 +71,7 @@
       "count": 0,
       "purchase_count": 0,
       "message": "기본 비활성화",
-      "checked_at": "2026-11-21T11:40:12.798333+00:00"
+      "checked_at": "2026-11-21T18:51:12.091097+00:00"
     }
   ]
 }
